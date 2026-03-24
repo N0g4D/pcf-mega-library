@@ -38,7 +38,7 @@ export class GlassPanelSlideOut
     const rawZones = context.parameters.contentZones?.raw;
     if (rawZones && typeof rawZones === "string" && rawZones.trim()) {
       try {
-        contentZones = JSON.parse(rawZones);
+        contentZones = JSON.parse(rawZones) as IContentZone[];
       } catch {
         contentZones = [];
       }

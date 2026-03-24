@@ -134,7 +134,7 @@ const useStyles = makeStyles({
   success: {
     backgroundColor: tokens.colorPaletteGreenBackground3,
     color: tokens.colorNeutralForegroundOnBrand,
-    borderColor: tokens.colorPaletteGreenBorder2,
+    ...shorthands.borderColor(tokens.colorPaletteGreenBorder2),
     ":hover": {
       backgroundColor: tokens.colorPaletteGreenBackground3,
     },
@@ -144,7 +144,7 @@ const useStyles = makeStyles({
   error: {
     backgroundColor: tokens.colorPaletteRedBackground3,
     color: tokens.colorNeutralForegroundOnBrand,
-    borderColor: tokens.colorPaletteRedBorder2,
+    ...shorthands.borderColor(tokens.colorPaletteRedBorder2),
     ":hover": {
       backgroundColor: tokens.colorPaletteRedBackground3,
     },
@@ -218,12 +218,8 @@ export const MegaActionButtonComponent: React.FC<IMegaActionButtonProps> = (prop
   }, [buttonState]);
 
   // Validate state
-  const state: ButtonState =
-    (["idle", "loading", "progress", "success", "error"] as ButtonState[]).includes(
-      buttonState as ButtonState
-    )
-      ? (buttonState as ButtonState)
-      : "idle";
+  const validStates: ButtonState[] = ["idle", "loading", "progress", "success", "error"];
+  const state: ButtonState = validStates.includes(buttonState) ? buttonState : "idle";
 
   // Resolve appearance
   const btnAppearance = (
