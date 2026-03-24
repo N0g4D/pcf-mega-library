@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="MegaPCF" constructor="ScatterPlot" version="1.0.0" display-name-key="ScatterPlot" description-key="Scatter plot with bubble size dimension" control-type="standard">
+    <external-service-usage enabled="false">
+    </external-service-usage>
+
+    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for ScatterPlot." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+
+    <feature-usage>
+      <uses-feature name="WebAPI" required="false" />
+    </feature-usage>
+  </control>
+</manifest>

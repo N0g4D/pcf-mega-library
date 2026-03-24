@@ -19,9 +19,13 @@
     "component-framework",
     "dynamics-365"
   ],
+  "workspaces": [
+    "components/*/*"
+  ],
   "scripts": {
     "generate:catalog": "node scripts/generate-catalog.js",
     "generate:scaffold": "node scripts/generate-pcf-scaffold.js",
+    "mass:generate": "node scripts/mass-generate.js",
     "build:all": "node scripts/build-all.js",
     "build:component": "node scripts/build-component.js",
     "lint": "eslint components/**/*.ts components/**/*.tsx",

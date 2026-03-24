@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="MegaPCF" constructor="AIDataCleaner" version="1.0.0" display-name-key="AIDataCleaner" description-key="AI data cleaning suggestion panel with accept/reject" control-type="standard">
+    <external-service-usage enabled="false">
+    </external-service-usage>
+
+    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for AIDataCleaner." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+
+    <feature-usage>
+      <uses-feature name="WebAPI" required="false" />
+    </feature-usage>
+  </control>
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="MegaPCF" constructor="BentoGrid" version="1.0.0" display-name-key="BentoGrid" description-key="Bento-box style grid layout with mixed sizes" control-type="standard">
+    <external-service-usage enabled="false">
+    </external-service-usage>
+
+    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for BentoGrid." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+
+    <feature-usage>
+      <uses-feature name="WebAPI" required="false" />
+    </feature-usage>
+  </control>
+</manifest>

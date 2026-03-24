@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="MegaPCF" constructor="SecurityQuestions" version="1.0.0" display-name-key="SecurityQuestions" description-key="Security questions setup/verify form" control-type="standard">
+    <external-service-usage enabled="false">
+    </external-service-usage>
+
+    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for SecurityQuestions." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+
+    <feature-usage>
+      <uses-feature name="WebAPI" required="false" />
+    </feature-usage>
+  </control>
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="MegaPCF" constructor="FeatureSection" version="1.0.0" display-name-key="FeatureSection" description-key="Feature showcase section with icons and descriptions" control-type="standard">
+    <external-service-usage enabled="false">
+    </external-service-usage>
+
+    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for FeatureSection." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+
+    <feature-usage>
+      <uses-feature name="WebAPI" required="false" />
+    </feature-usage>
+  </control>
+</manifest>
