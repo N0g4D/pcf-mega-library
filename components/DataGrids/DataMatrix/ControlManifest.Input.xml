@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="PcfMega" constructor="DataMatrix" version="1.0.0" display-name-key="DataMatrix" description-key="Dynamic data matrix that accepts a PCF dataset and renders a fully sortable, filterable, paginated grid with column resize, selection, and export — powered by Fluent UI v9." control-type="standard">
+    <external-service-usage enabled="false">
+    </external-service-usage>
+
+    <!-- Primary data-set binding -->
+    <data-set name="dataSet" display-name-key="Data Set" description-key="The dataset to display in the data matrix." />
+
+    <!-- Configuration -->
+    <property name="pageSize" display-name-key="Page Size" description-key="Number of rows per page (default: 25)." of-type="Whole.None" usage="input" required="false" />
+
+    <property name="enableSorting" display-name-key="Enable Sorting" description-key="Allow column sorting." of-type="TwoOptions" usage="input" required="false" />
+
+    <property name="enableFiltering" display-name-key="Enable Filtering" description-key="Allow column filtering." of-type="TwoOptions" usage="input" required="false" />
+
+    <property name="enableSelection" display-name-key="Enable Selection" description-key="Show row selection checkboxes." of-type="TwoOptions" usage="input" required="false" />
+
+    <property name="enableExport" display-name-key="Enable Export" description-key="Show CSV export button." of-type="TwoOptions" usage="input" required="false" />
+
+    <property name="compactMode" display-name-key="Compact Mode" description-key="Use compact/dense row height." of-type="TwoOptions" usage="input" required="false" />
+
+    <property name="selectedCount" display-name-key="Selected Count" description-key="Number of currently selected rows (output)." of-type="Whole.None" usage="output" required="false" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+  </control>
+</manifest>

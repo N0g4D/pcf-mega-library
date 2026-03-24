@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="PcfMega" constructor="MegaActionButton" version="1.0.0" display-name-key="MegaActionButton" description-key="Multi-state action button with loading spinner, multi-step progress ring, customizable SVG icons, and Fluent UI v9 theming." control-type="standard">
+    <external-service-usage enabled="false">
+    </external-service-usage>
+
+    <!-- Button label -->
+    <property name="label" display-name-key="Label" description-key="Primary button label text." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <!-- Button state: idle | loading | progress | success | error -->
+    <property name="buttonState" display-name-key="Button State" description-key="Current state of the button: idle, loading, progress, success, error." of-type="SingleLine.Text" usage="bound" required="false" />
+
+    <!-- Progress value (0-100) for progress state -->
+    <property name="progressValue" display-name-key="Progress Value" description-key="Progress percentage (0-100) when buttonState is 'progress'." of-type="Whole.None" usage="bound" required="false" />
+
+    <!-- Total steps for multi-step progress -->
+    <property name="totalSteps" display-name-key="Total Steps" description-key="Total number of steps for multi-step progress display." of-type="Whole.None" usage="input" required="false" />
+
+    <!-- Current step -->
+    <property name="currentStep" display-name-key="Current Step" description-key="Current step number (1-based)." of-type="Whole.None" usage="input" required="false" />
+
+    <!-- Icon name from Fluent UI -->
+    <property name="iconName" display-name-key="Icon Name" description-key="Fluent UI icon name: send, save, delete, add, check, rocket, arrow." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <!-- Appearance: primary, outline, subtle, transparent -->
+    <property name="appearance" display-name-key="Appearance" description-key="Button appearance: primary, outline, subtle, transparent." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <!-- Size: small, medium, large -->
+    <property name="size" display-name-key="Size" description-key="Button size: small, medium, large." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <!-- Disabled -->
+    <property name="disabled" display-name-key="Disabled" description-key="Whether the button is disabled." of-type="TwoOptions" usage="input" required="false" />
+
+    <!-- Output: click event trigger -->
+    <property name="clickCount" display-name-key="Click Count" description-key="Increments on each click — bind to trigger Power Fx actions." of-type="Whole.None" usage="output" required="false" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+  </control>
+</manifest>

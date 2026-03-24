@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="PcfMega" constructor="GlassPanelSlideOut" version="1.0.0" display-name-key="GlassPanelSlideOut" description-key="Advanced slide-out glassmorphism panel with fluid CSS animations, dynamic content zones, and configurable blur/tint/direction." control-type="standard">
+    <external-service-usage enabled="false">
+    </external-service-usage>
+
+    <!-- Trigger: bind to any text field; a non-empty value opens the panel -->
+    <property name="isOpen" display-name-key="Is Open" description-key="Bind to a Two Options field to control panel open/close state." of-type="TwoOptions" usage="bound" required="true" />
+
+    <!-- Panel title -->
+    <property name="panelTitle" display-name-key="Panel Title" description-key="Title displayed at the top of the slide-out panel." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <!-- Slide direction -->
+    <property name="slideDirection" display-name-key="Slide Direction" description-key="Direction the panel slides from: left, right, top, bottom." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <!-- Blur intensity (px) -->
+    <property name="blurIntensity" display-name-key="Blur Intensity" description-key="Backdrop blur in pixels (default: 20)." of-type="Whole.None" usage="input" required="false" />
+
+    <!-- Tint color -->
+    <property name="tintColor" display-name-key="Tint Color" description-key="Background tint color in rgba format (default: rgba(255,255,255,0.15))." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <!-- Panel width/height -->
+    <property name="panelSize" display-name-key="Panel Size" description-key="Panel width (for left/right) or height (for top/bottom) in px or % (default: 400px)." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <!-- Content zones (JSON) -->
+    <property name="contentZones" display-name-key="Content Zones" description-key="JSON array defining dynamic content zones: [{title, body, icon}]." of-type="Multiple" usage="input" required="false" />
+
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+  </control>
+</manifest>
