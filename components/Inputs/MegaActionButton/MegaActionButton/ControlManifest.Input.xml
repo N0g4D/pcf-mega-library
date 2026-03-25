@@ -1,41 +1,50 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="PcfMega" constructor="MegaActionButton" version="1.0.0" display-name-key="MegaActionButton" description-key="Multi-state action button with loading spinner, multi-step progress ring, customizable SVG icons, and Fluent UI v9 theming." control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+  <control namespace="MegaPCF" constructor="MegaActionButton" version="1.0.0" display-name-key="MegaActionButton" description-key="Multi-state action button with loading spinner, progress ring, SVG icons, and Fluent UI v9 theming" control-type="standard">
+    <external-service-usage enabled="false" />
 
-    <!-- Button label -->
-    <property name="label" display-name-key="Label" description-key="Primary button label text." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="label" display-name-key="Label" description-key="Button label text — visible across all states." of-type="SingleLine.Text" usage="bound" required="true" />
 
-    <!-- Button state: idle | loading | progress | success | error -->
-    <property name="buttonState" display-name-key="Button State" description-key="Current state of the button: idle, loading, progress, success, error." of-type="SingleLine.Text" usage="bound" required="false" />
+    <property name="buttonState" display-name-key="Button State" description-key="Current visual state of the button." of-type="Enum" usage="bound" required="false">
+      <value name="idle" display-name-key="Idle" default="true">idle</value>
+      <value name="loading" display-name-key="Loading">loading</value>
+      <value name="success" display-name-key="Success">success</value>
+      <value name="error" display-name-key="Error">error</value>
+    </property>
 
-    <!-- Progress value (0-100) for progress state -->
-    <property name="progressValue" display-name-key="Progress Value" description-key="Progress percentage (0-100) when buttonState is 'progress'." of-type="Whole.None" usage="bound" required="false" />
+    <property name="iconName" display-name-key="Icon Name" description-key="Fluent UI icon to display." of-type="Enum" usage="input" required="false">
+      <value name="send" display-name-key="Send" default="true">send</value>
+      <value name="save" display-name-key="Save">save</value>
+      <value name="delete" display-name-key="Delete">delete</value>
+      <value name="add" display-name-key="Add">add</value>
+      <value name="check" display-name-key="Check">check</value>
+      <value name="rocket" display-name-key="Rocket">rocket</value>
+      <value name="arrow" display-name-key="Arrow">arrow</value>
+    </property>
 
-    <!-- Total steps for multi-step progress -->
-    <property name="totalSteps" display-name-key="Total Steps" description-key="Total number of steps for multi-step progress display." of-type="Whole.None" usage="input" required="false" />
+    <property name="appearance" display-name-key="Appearance" description-key="Button visual appearance." of-type="Enum" usage="input" required="false">
+      <value name="primary" display-name-key="Primary" default="true">primary</value>
+      <value name="outline" display-name-key="Outline">outline</value>
+      <value name="subtle" display-name-key="Subtle">subtle</value>
+      <value name="transparent" display-name-key="Transparent">transparent</value>
+    </property>
 
-    <!-- Current step -->
-    <property name="currentStep" display-name-key="Current Step" description-key="Current step number (1-based)." of-type="Whole.None" usage="input" required="false" />
+    <property name="size" display-name-key="Size" description-key="Button size." of-type="Enum" usage="input" required="false">
+      <value name="small" display-name-key="Small">small</value>
+      <value name="medium" display-name-key="Medium" default="true">medium</value>
+      <value name="large" display-name-key="Large">large</value>
+    </property>
 
-    <!-- Icon name from Fluent UI -->
-    <property name="iconName" display-name-key="Icon Name" description-key="Fluent UI icon name: send, save, delete, add, check, rocket, arrow." of-type="SingleLine.Text" usage="input" required="false" />
-
-    <!-- Appearance: primary, outline, subtle, transparent -->
-    <property name="appearance" display-name-key="Appearance" description-key="Button appearance: primary, outline, subtle, transparent." of-type="SingleLine.Text" usage="input" required="false" />
-
-    <!-- Size: small, medium, large -->
-    <property name="size" display-name-key="Size" description-key="Button size: small, medium, large." of-type="SingleLine.Text" usage="input" required="false" />
-
-    <!-- Disabled -->
     <property name="disabled" display-name-key="Disabled" description-key="Whether the button is disabled." of-type="TwoOptions" usage="input" required="false" />
 
-    <!-- Output: click event trigger -->
     <property name="clickCount" display-name-key="Click Count" description-key="Increments on each click — bind to trigger Power Fx actions." of-type="Whole.None" usage="output" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />
     </resources>
+
+    <feature-usage>
+      <uses-feature name="WebAPI" required="false" />
+    </feature-usage>
   </control>
 </manifest>

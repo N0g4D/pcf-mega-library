@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="MegaPCF" constructor="TextArea" version="1.0.0" display-name-key="TextArea" description-key="Multi-line textarea with auto-grow and character counter" control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+    <external-service-usage enabled="false" />
 
-    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for TextArea." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="value" display-name-key="Value" description-key="Current text value." of-type="Multiple" usage="bound" required="true" />
+
+    <property name="placeholder" display-name-key="Placeholder" description-key="Placeholder text." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="rows" display-name-key="Rows" description-key="Number of visible rows." of-type="Whole.None" usage="input" required="false" />
+
+    <property name="resize" display-name-key="Resize" description-key="Resize behavior." of-type="Enum" usage="input" required="false">
+      <value name="none" display-name-key="None">none</value>
+      <value name="vertical" display-name-key="Vertical" default="true">vertical</value>
+      <value name="horizontal" display-name-key="Horizontal">horizontal</value>
+      <value name="both" display-name-key="Both">both</value>
+    </property>
+
+    <property name="disabled" display-name-key="Disabled" description-key="Disable the input." of-type="TwoOptions" usage="input" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />

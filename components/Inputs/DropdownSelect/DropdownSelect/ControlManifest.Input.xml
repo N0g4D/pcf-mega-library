@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="MegaPCF" constructor="DropdownSelect" version="1.0.0" display-name-key="DropdownSelect" description-key="Single-select dropdown with search and grouping" control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+    <external-service-usage enabled="false" />
 
-    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for DropdownSelect." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="selectedValue" display-name-key="Selected Value" description-key="Currently selected option value." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <property name="options" display-name-key="Options" description-key="JSON array of options: [{value, label}]." of-type="Multiple" usage="input" required="true" />
+
+    <property name="placeholder" display-name-key="Placeholder" description-key="Placeholder text." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="appearance" display-name-key="Appearance" description-key="Visual style." of-type="Enum" usage="input" required="false">
+      <value name="outline" display-name-key="Outline" default="true">outline</value>
+      <value name="underline" display-name-key="Underline">underline</value>
+      <value name="filledDarker" display-name-key="Filled Darker">filledDarker</value>
+      <value name="filledLighter" display-name-key="Filled Lighter">filledLighter</value>
+    </property>
+
+    <property name="size" display-name-key="Size" description-key="Dropdown size." of-type="Enum" usage="input" required="false">
+      <value name="small" display-name-key="Small">small</value>
+      <value name="medium" display-name-key="Medium" default="true">medium</value>
+      <value name="large" display-name-key="Large">large</value>
+    </property>
+
+    <property name="disabled" display-name-key="Disabled" description-key="Disable the dropdown." of-type="TwoOptions" usage="input" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />

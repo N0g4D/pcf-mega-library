@@ -26,11 +26,21 @@ export class PasswordInput
   }
 
   public updateView(context: ComponentFramework.Context<IInputs>): void {
-    const rawValue = context.parameters.sampleProperty?.raw ?? "";
+    const value = context.parameters.value?.raw ?? "";
+    const placeholder = context.parameters.placeholder?.raw ?? "";
+    const showReveal = context.parameters.showReveal?.raw ?? false;
+    const strengthMeter = context.parameters.strengthMeter?.raw ?? "none";
+    const size = context.parameters.size?.raw ?? "medium";
+    const disabled = context.parameters.disabled?.raw ?? false;
 
     this._root.render(
       React.createElement(PasswordInputComponent, {
-        value: typeof rawValue === "string" ? rawValue : "",
+        value,
+        placeholder,
+        showReveal,
+        strengthMeter,
+        size,
+        disabled,
       })
     );
   }

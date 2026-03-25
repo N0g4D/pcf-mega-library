@@ -19,6 +19,11 @@ import {
 
 export interface ITextInputProps {
   value: string;
+  placeholder: string;
+  maxLength: number;
+  appearance: "outline" | "underline" | "filledDarker" | "filledLighter";
+  size: "small" | "medium" | "large";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +35,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +56,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const TextInputComponent: React.FC<ITextInputProps> = ({ value }) => {
+export const TextInputComponent: React.FC<ITextInputProps> = ({ value, placeholder, maxLength, appearance, size, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +75,6 @@ export const TextInputComponent: React.FC<ITextInputProps> = ({ value }) => {
             }
             description={<Caption1>Enhanced text input with prefix, suffix, and clear button</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

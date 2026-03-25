@@ -19,6 +19,11 @@ import {
 
 export interface IPasswordInputProps {
   value: string;
+  placeholder: string;
+  showReveal: boolean;
+  strengthMeter: "none" | "bar" | "text";
+  size: "small" | "medium" | "large";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +35,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +56,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const PasswordInputComponent: React.FC<IPasswordInputProps> = ({ value }) => {
+export const PasswordInputComponent: React.FC<IPasswordInputProps> = ({ value, placeholder, showReveal, strengthMeter, size, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +75,6 @@ export const PasswordInputComponent: React.FC<IPasswordInputProps> = ({ value })
             }
             description={<Caption1>Password input with show/hide toggle and strength meter</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

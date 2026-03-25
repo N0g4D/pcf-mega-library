@@ -26,11 +26,21 @@ export class TagInput
   }
 
   public updateView(context: ComponentFramework.Context<IInputs>): void {
-    const rawValue = context.parameters.sampleProperty?.raw ?? "";
+    const tags = context.parameters.tags?.raw ?? "";
+    const placeholder = context.parameters.placeholder?.raw ?? "";
+    const maxTags = context.parameters.maxTags?.raw ?? 0;
+    const appearance = context.parameters.appearance?.raw ?? "brand";
+    const size = context.parameters.size?.raw ?? "medium";
+    const disabled = context.parameters.disabled?.raw ?? false;
 
     this._root.render(
       React.createElement(TagInputComponent, {
-        value: typeof rawValue === "string" ? rawValue : "",
+        tags,
+        placeholder,
+        maxTags,
+        appearance,
+        size,
+        disabled,
       })
     );
   }

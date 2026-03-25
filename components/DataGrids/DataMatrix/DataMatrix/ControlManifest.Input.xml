@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="PcfMega" constructor="DataMatrix" version="1.0.0" display-name-key="DataMatrix" description-key="Dynamic data matrix that accepts a PCF dataset and renders a fully sortable, filterable, paginated grid with column resize, selection, and export — powered by Fluent UI v9." control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+  <control namespace="MegaPCF" constructor="DataMatrix" version="1.0.0" display-name-key="DataMatrix" description-key="Dynamic data matrix with sortable and filterable columns via Fluent UI v9" control-type="standard">
+    <external-service-usage enabled="false" />
 
-    <!-- Primary data-set binding -->
-    <data-set name="dataSet" display-name-key="Data Set" description-key="The dataset to display in the data matrix." />
+    <data-set name="dataSet" display-name-key="Data Set" description-key="The dataset to display." />
 
-    <!-- Configuration -->
-    <property name="pageSize" display-name-key="Page Size" description-key="Number of rows per page (default: 25)." of-type="Whole.None" usage="input" required="false" />
+    <property name="pageSize" display-name-key="Page Size" description-key="Number of rows per page." of-type="Enum" usage="input" required="false">
+      <value name="10" display-name-key="10 rows">10</value>
+      <value name="25" display-name-key="25 rows" default="true">25</value>
+      <value name="50" display-name-key="50 rows">50</value>
+      <value name="100" display-name-key="100 rows">100</value>
+    </property>
 
     <property name="enableSorting" display-name-key="Enable Sorting" description-key="Allow column sorting." of-type="TwoOptions" usage="input" required="false" />
 
@@ -18,12 +20,20 @@
 
     <property name="enableExport" display-name-key="Enable Export" description-key="Show CSV export button." of-type="TwoOptions" usage="input" required="false" />
 
-    <property name="compactMode" display-name-key="Compact Mode" description-key="Use compact/dense row height." of-type="TwoOptions" usage="input" required="false" />
+    <property name="density" display-name-key="Density" description-key="Row density / spacing." of-type="Enum" usage="input" required="false">
+      <value name="compact" display-name-key="Compact">compact</value>
+      <value name="comfortable" display-name-key="Comfortable" default="true">comfortable</value>
+      <value name="spacious" display-name-key="Spacious">spacious</value>
+    </property>
 
-    <property name="selectedCount" display-name-key="Selected Count" description-key="Number of currently selected rows (output)." of-type="Whole.None" usage="output" required="false" />
+    <property name="selectedCount" display-name-key="Selected Count" description-key="Number of currently selected rows." of-type="Whole.None" usage="output" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />
     </resources>
+
+    <feature-usage>
+      <uses-feature name="WebAPI" required="false" />
+    </feature-usage>
   </control>
 </manifest>

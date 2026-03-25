@@ -19,6 +19,10 @@ import {
 
 export interface IPinInputProps {
   value: string;
+  length: "4" | "6" | "8";
+  masked: boolean;
+  size: "small" | "medium" | "large";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +34,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +55,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const PinInputComponent: React.FC<IPinInputProps> = ({ value }) => {
+export const PinInputComponent: React.FC<IPinInputProps> = ({ value, length, masked, size, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +74,6 @@ export const PinInputComponent: React.FC<IPinInputProps> = ({ value }) => {
             }
             description={<Caption1>PIN/OTP code input with auto-advance between digits</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

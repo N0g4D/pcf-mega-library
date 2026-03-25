@@ -18,7 +18,12 @@ import {
 // ---------------------------------------------------------------------------
 
 export interface IComboBoxProps {
-  value: string;
+  selectedValue: string;
+  options: string;
+  placeholder: string;
+  freeform: boolean;
+  appearance: "outline" | "underline" | "filledDarker" | "filledLighter";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +35,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +56,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const ComboBoxComponent: React.FC<IComboBoxProps> = ({ value }) => {
+export const ComboBoxComponent: React.FC<IComboBoxProps> = ({ selectedValue, options, placeholder, freeform, appearance, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +75,6 @@ export const ComboBoxComponent: React.FC<IComboBoxProps> = ({ value }) => {
             }
             description={<Caption1>Editable combobox with autocomplete suggestions</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

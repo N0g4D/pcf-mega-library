@@ -26,11 +26,19 @@ export class SignaturePad
   }
 
   public updateView(context: ComponentFramework.Context<IInputs>): void {
-    const rawValue = context.parameters.sampleProperty?.raw ?? "";
+    const signatureData = context.parameters.signatureData?.raw ?? "";
+    const penColor = context.parameters.penColor?.raw ?? "black";
+    const penWidth = context.parameters.penWidth?.raw ?? "medium";
+    const outputFormat = context.parameters.outputFormat?.raw ?? "png";
+    const disabled = context.parameters.disabled?.raw ?? false;
 
     this._root.render(
       React.createElement(SignaturePadComponent, {
-        value: typeof rawValue === "string" ? rawValue : "",
+        signatureData,
+        penColor,
+        penWidth,
+        outputFormat,
+        disabled,
       })
     );
   }

@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="MegaPCF" constructor="PinInput" version="1.0.0" display-name-key="PinInput" description-key="PIN/OTP code input with auto-advance between digits" control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+    <external-service-usage enabled="false" />
 
-    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for PinInput." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="value" display-name-key="Value" description-key="Current PIN value." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <property name="length" display-name-key="Length" description-key="Number of PIN digits." of-type="Enum" usage="input" required="false">
+      <value name="4" display-name-key="4 digits" default="true">4</value>
+      <value name="6" display-name-key="6 digits">6</value>
+      <value name="8" display-name-key="8 digits">8</value>
+    </property>
+
+    <property name="masked" display-name-key="Masked" description-key="Hide digits (password-style)." of-type="TwoOptions" usage="input" required="false" />
+
+    <property name="size" display-name-key="Size" description-key="Input size." of-type="Enum" usage="input" required="false">
+      <value name="small" display-name-key="Small">small</value>
+      <value name="medium" display-name-key="Medium" default="true">medium</value>
+      <value name="large" display-name-key="Large">large</value>
+    </property>
+
+    <property name="disabled" display-name-key="Disabled" description-key="Disable the PIN input." of-type="TwoOptions" usage="input" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />

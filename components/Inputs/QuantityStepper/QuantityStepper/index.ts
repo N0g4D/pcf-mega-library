@@ -26,11 +26,21 @@ export class QuantityStepper
   }
 
   public updateView(context: ComponentFramework.Context<IInputs>): void {
-    const rawValue = context.parameters.sampleProperty?.raw ?? "";
+    const value = context.parameters.value?.raw ?? 0;
+    const min = context.parameters.min?.raw ?? 0;
+    const max = context.parameters.max?.raw ?? 0;
+    const step = context.parameters.step?.raw ?? 0;
+    const size = context.parameters.size?.raw ?? "medium";
+    const disabled = context.parameters.disabled?.raw ?? false;
 
     this._root.render(
       React.createElement(QuantityStepperComponent, {
-        value: typeof rawValue === "string" ? rawValue : "",
+        value,
+        min,
+        max,
+        step,
+        size,
+        disabled,
       })
     );
   }

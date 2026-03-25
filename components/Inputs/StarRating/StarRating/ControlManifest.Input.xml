@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="MegaPCF" constructor="StarRating" version="1.0.0" display-name-key="StarRating" description-key="Star rating input with half-star precision" control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+    <external-service-usage enabled="false" />
 
-    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for StarRating." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="value" display-name-key="Value" description-key="Current rating value." of-type="Decimal" usage="bound" required="true" />
+
+    <property name="maxStars" display-name-key="Max Stars" description-key="Total number of stars." of-type="Enum" usage="input" required="false">
+      <value name="3" display-name-key="3 stars">3</value>
+      <value name="5" display-name-key="5 stars" default="true">5</value>
+      <value name="10" display-name-key="10 stars">10</value>
+    </property>
+
+    <property name="allowHalf" display-name-key="Allow Half" description-key="Allow half-star ratings." of-type="TwoOptions" usage="input" required="false" />
+
+    <property name="size" display-name-key="Size" description-key="Star size." of-type="Enum" usage="input" required="false">
+      <value name="small" display-name-key="Small">small</value>
+      <value name="medium" display-name-key="Medium" default="true">medium</value>
+      <value name="large" display-name-key="Large">large</value>
+    </property>
+
+    <property name="disabled" display-name-key="Disabled" description-key="Disable rating interaction." of-type="TwoOptions" usage="input" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />

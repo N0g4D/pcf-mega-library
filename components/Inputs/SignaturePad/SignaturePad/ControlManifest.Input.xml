@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="MegaPCF" constructor="SignaturePad" version="1.0.0" display-name-key="SignaturePad" description-key="Canvas-based signature capture with undo/redo" control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+    <external-service-usage enabled="false" />
 
-    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for SignaturePad." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="signatureData" display-name-key="Signature Data" description-key="Base64-encoded signature image data." of-type="Multiple" usage="bound" required="true" />
+
+    <property name="penColor" display-name-key="Pen Color" description-key="Pen stroke color." of-type="Enum" usage="input" required="false">
+      <value name="black" display-name-key="Black" default="true">black</value>
+      <value name="blue" display-name-key="Blue">blue</value>
+      <value name="red" display-name-key="Red">red</value>
+    </property>
+
+    <property name="penWidth" display-name-key="Pen Width" description-key="Pen stroke width." of-type="Enum" usage="input" required="false">
+      <value name="thin" display-name-key="Thin (1px)">thin</value>
+      <value name="medium" display-name-key="Medium (2px)" default="true">medium</value>
+      <value name="thick" display-name-key="Thick (4px)">thick</value>
+    </property>
+
+    <property name="outputFormat" display-name-key="Output Format" description-key="Signature output image format." of-type="Enum" usage="input" required="false">
+      <value name="png" display-name-key="PNG" default="true">png</value>
+      <value name="svg" display-name-key="SVG">svg</value>
+      <value name="jpeg" display-name-key="JPEG">jpeg</value>
+    </property>
+
+    <property name="disabled" display-name-key="Disabled" description-key="Disable the signature pad." of-type="TwoOptions" usage="input" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />

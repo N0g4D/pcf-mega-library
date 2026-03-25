@@ -19,6 +19,9 @@ import {
 
 export interface ITextInputMaskedProps {
   value: string;
+  mask: string;
+  maskChar: "_" | "#" | "*";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +33,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +54,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const TextInputMaskedComponent: React.FC<ITextInputMaskedProps> = ({ value }) => {
+export const TextInputMaskedComponent: React.FC<ITextInputMaskedProps> = ({ value, mask, maskChar, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +73,6 @@ export const TextInputMaskedComponent: React.FC<ITextInputMaskedProps> = ({ valu
             }
             description={<Caption1>Text input with configurable mask patterns (phone, SSN, etc.)</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

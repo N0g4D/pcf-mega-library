@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="MegaPCF" constructor="RadioGroup" version="1.0.0" display-name-key="RadioGroup" description-key="Radio button group with horizontal/vertical layout" control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+    <external-service-usage enabled="false" />
 
-    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for RadioGroup." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="selectedValue" display-name-key="Selected Value" description-key="Currently selected option value." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <property name="options" display-name-key="Options" description-key="JSON array of options: [{value, label}]." of-type="Multiple" usage="input" required="true" />
+
+    <property name="layout" display-name-key="Layout" description-key="Arrangement of radio items." of-type="Enum" usage="input" required="false">
+      <value name="vertical" display-name-key="Vertical" default="true">vertical</value>
+      <value name="horizontal" display-name-key="Horizontal">horizontal</value>
+      <value name="horizontalStacked" display-name-key="Horizontal Stacked">horizontalStacked</value>
+    </property>
+
+    <property name="disabled" display-name-key="Disabled" description-key="Disable the radio group." of-type="TwoOptions" usage="input" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />

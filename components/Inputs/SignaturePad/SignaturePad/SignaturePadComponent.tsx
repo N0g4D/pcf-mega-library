@@ -18,7 +18,11 @@ import {
 // ---------------------------------------------------------------------------
 
 export interface ISignaturePadProps {
-  value: string;
+  signatureData: string;
+  penColor: "black" | "blue" | "red";
+  penWidth: "thin" | "medium" | "thick";
+  outputFormat: "png" | "svg" | "jpeg";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +34,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +55,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const SignaturePadComponent: React.FC<ISignaturePadProps> = ({ value }) => {
+export const SignaturePadComponent: React.FC<ISignaturePadProps> = ({ signatureData, penColor, penWidth, outputFormat, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +74,6 @@ export const SignaturePadComponent: React.FC<ISignaturePadProps> = ({ value }) =
             }
             description={<Caption1>Canvas-based signature capture with undo/redo</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

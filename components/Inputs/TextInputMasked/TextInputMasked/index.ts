@@ -26,11 +26,17 @@ export class TextInputMasked
   }
 
   public updateView(context: ComponentFramework.Context<IInputs>): void {
-    const rawValue = context.parameters.sampleProperty?.raw ?? "";
+    const value = context.parameters.value?.raw ?? "";
+    const mask = context.parameters.mask?.raw ?? "";
+    const maskChar = context.parameters.maskChar?.raw ?? "_";
+    const disabled = context.parameters.disabled?.raw ?? false;
 
     this._root.render(
       React.createElement(TextInputMaskedComponent, {
-        value: typeof rawValue === "string" ? rawValue : "",
+        value,
+        mask,
+        maskChar,
+        disabled,
       })
     );
   }

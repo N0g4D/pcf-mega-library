@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="MegaPCF" constructor="TagInput" version="1.0.0" display-name-key="TagInput" description-key="Tag/chip input with autocomplete and validation" control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+    <external-service-usage enabled="false" />
 
-    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for TagInput." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="tags" display-name-key="Tags" description-key="Comma-separated list of current tags." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <property name="placeholder" display-name-key="Placeholder" description-key="Placeholder text." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="maxTags" display-name-key="Max Tags" description-key="Maximum number of tags (0 = unlimited)." of-type="Whole.None" usage="input" required="false" />
+
+    <property name="appearance" display-name-key="Appearance" description-key="Tag visual style." of-type="Enum" usage="input" required="false">
+      <value name="brand" display-name-key="Brand" default="true">brand</value>
+      <value name="outline" display-name-key="Outline">outline</value>
+      <value name="subtle" display-name-key="Subtle">subtle</value>
+    </property>
+
+    <property name="size" display-name-key="Size" description-key="Tag size." of-type="Enum" usage="input" required="false">
+      <value name="small" display-name-key="Small">small</value>
+      <value name="medium" display-name-key="Medium" default="true">medium</value>
+      <value name="large" display-name-key="Large">large</value>
+    </property>
+
+    <property name="disabled" display-name-key="Disabled" description-key="Disable the tag input." of-type="TwoOptions" usage="input" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />

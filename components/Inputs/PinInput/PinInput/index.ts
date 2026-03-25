@@ -26,11 +26,19 @@ export class PinInput
   }
 
   public updateView(context: ComponentFramework.Context<IInputs>): void {
-    const rawValue = context.parameters.sampleProperty?.raw ?? "";
+    const value = context.parameters.value?.raw ?? "";
+    const length = context.parameters.length?.raw ?? "4";
+    const masked = context.parameters.masked?.raw ?? false;
+    const size = context.parameters.size?.raw ?? "medium";
+    const disabled = context.parameters.disabled?.raw ?? false;
 
     this._root.render(
       React.createElement(PinInputComponent, {
-        value: typeof rawValue === "string" ? rawValue : "",
+        value,
+        length,
+        masked,
+        size,
+        disabled,
       })
     );
   }

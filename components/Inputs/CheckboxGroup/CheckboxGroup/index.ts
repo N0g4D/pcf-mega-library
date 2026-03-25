@@ -26,11 +26,17 @@ export class CheckboxGroup
   }
 
   public updateView(context: ComponentFramework.Context<IInputs>): void {
-    const rawValue = context.parameters.sampleProperty?.raw ?? "";
+    const selectedValues = context.parameters.selectedValues?.raw ?? "";
+    const options = context.parameters.options?.raw ?? "";
+    const layout = context.parameters.layout?.raw ?? "vertical";
+    const disabled = context.parameters.disabled?.raw ?? false;
 
     this._root.render(
       React.createElement(CheckboxGroupComponent, {
-        value: typeof rawValue === "string" ? rawValue : "",
+        selectedValues,
+        options,
+        layout,
+        disabled,
       })
     );
   }

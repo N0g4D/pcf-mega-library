@@ -26,11 +26,21 @@ export class DatePicker
   }
 
   public updateView(context: ComponentFramework.Context<IInputs>): void {
-    const rawValue = context.parameters.sampleProperty?.raw ?? "";
+    const selectedDate = context.parameters.selectedDate?.raw ?? "";
+    const placeholder = context.parameters.placeholder?.raw ?? "";
+    const minDate = context.parameters.minDate?.raw ?? "";
+    const maxDate = context.parameters.maxDate?.raw ?? "";
+    const firstDayOfWeek = context.parameters.firstDayOfWeek?.raw ?? "sunday";
+    const disabled = context.parameters.disabled?.raw ?? false;
 
     this._root.render(
       React.createElement(DatePickerComponent, {
-        value: typeof rawValue === "string" ? rawValue : "",
+        selectedDate,
+        placeholder,
+        minDate,
+        maxDate,
+        firstDayOfWeek,
+        disabled,
       })
     );
   }

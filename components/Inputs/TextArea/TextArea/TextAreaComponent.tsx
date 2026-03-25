@@ -19,6 +19,10 @@ import {
 
 export interface ITextAreaProps {
   value: string;
+  placeholder: string;
+  rows: number;
+  resize: "none" | "vertical" | "horizontal" | "both";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +34,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +55,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const TextAreaComponent: React.FC<ITextAreaProps> = ({ value }) => {
+export const TextAreaComponent: React.FC<ITextAreaProps> = ({ value, placeholder, rows, resize, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +74,6 @@ export const TextAreaComponent: React.FC<ITextAreaProps> = ({ value }) => {
             }
             description={<Caption1>Multi-line textarea with auto-grow and character counter</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

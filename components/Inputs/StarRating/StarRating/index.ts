@@ -1,7 +1,7 @@
 import { IInputs, IOutputs } from "./generated/ManifestTypes";
 import * as React from "react";
 import { createRoot, Root } from "react-dom/client";
-import { StarRatingComponent } from "./StarRatingComponent";
+import { StarRatingComponent, IStarRatingProps } from "./StarRatingComponent";
 
 export class StarRating
   implements ComponentFramework.StandardControl<IInputs, IOutputs>
@@ -9,6 +9,7 @@ export class StarRating
   private _container: HTMLDivElement;
   private _root: Root;
   private _notifyOutputChanged: () => void;
+  private _currentValue = 0;
 
   constructor() {
     // Empty
@@ -26,17 +27,34 @@ export class StarRating
   }
 
   public updateView(context: ComponentFramework.Context<IInputs>): void {
-    const rawValue = context.parameters.sampleProperty?.raw ?? "";
+    const value = context.parameters.value?.raw ?? 0;
+    const maxStarsRaw = context.parameters.maxStars?.raw ?? "5";
+    const maxStars = parseInt(maxStarsRaw, 10) || 5;
+    const allowHalf = context.parameters.allowHalf?.raw ?? false;
+    const size = context.parameters.size?.raw ?? "medium";
+    const disabled = context.parameters.disabled?.raw ?? false;
 
-    this._root.render(
-      React.createElement(StarRatingComponent, {
-        value: typeof rawValue === "string" ? rawValue : "",
-      })
-    );
+    this._currentValue = typeof value === "number" ? value : 0;
+
+    const props: IStarRatingProps = {
+      value: this._currentValue,
+      maxStars,
+      allowHalf,
+      size,
+      disabled,
+      onValueChange: this._handleValueChange,
+    };
+
+    this._root.render(React.createElement(StarRatingComponent, props));
   }
 
+  private _handleValueChange = (newValue: number): void => {
+    this._currentValue = newValue;
+    this._notifyOutputChanged();
+  };
+
   public getOutputs(): IOutputs {
-    return {};
+    return { value: this._currentValue };
   }
 
   public destroy(): void {

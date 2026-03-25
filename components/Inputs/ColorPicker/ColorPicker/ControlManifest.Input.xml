@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="MegaPCF" constructor="ColorPicker" version="1.0.0" display-name-key="ColorPicker" description-key="Color picker with hex, RGB, and HSL inputs" control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+    <external-service-usage enabled="false" />
 
-    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for ColorPicker." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="color" display-name-key="Color" description-key="Selected color in hex format." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <property name="format" display-name-key="Format" description-key="Color output format." of-type="Enum" usage="input" required="false">
+      <value name="hex" display-name-key="Hex (#FF0000)" default="true">hex</value>
+      <value name="rgb" display-name-key="RGB (255,0,0)">rgb</value>
+      <value name="hsl" display-name-key="HSL (0,100%,50%)">hsl</value>
+    </property>
+
+    <property name="showAlpha" display-name-key="Show Alpha" description-key="Show alpha/opacity slider." of-type="TwoOptions" usage="input" required="false" />
+
+    <property name="disabled" display-name-key="Disabled" description-key="Disable the color picker." of-type="TwoOptions" usage="input" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />

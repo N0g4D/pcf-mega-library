@@ -26,11 +26,17 @@ export class RadioGroup
   }
 
   public updateView(context: ComponentFramework.Context<IInputs>): void {
-    const rawValue = context.parameters.sampleProperty?.raw ?? "";
+    const selectedValue = context.parameters.selectedValue?.raw ?? "";
+    const options = context.parameters.options?.raw ?? "";
+    const layout = context.parameters.layout?.raw ?? "vertical";
+    const disabled = context.parameters.disabled?.raw ?? false;
 
     this._root.render(
       React.createElement(RadioGroupComponent, {
-        value: typeof rawValue === "string" ? rawValue : "",
+        selectedValue,
+        options,
+        layout,
+        disabled,
       })
     );
   }

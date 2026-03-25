@@ -18,7 +18,12 @@ import {
 // ---------------------------------------------------------------------------
 
 export interface ISliderInputProps {
-  value: string;
+  value: number;
+  min: number;
+  max: number;
+  step: number;
+  size: "small" | "medium";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +35,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +56,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const SliderInputComponent: React.FC<ISliderInputProps> = ({ value }) => {
+export const SliderInputComponent: React.FC<ISliderInputProps> = ({ value, min, max, step, size, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +75,6 @@ export const SliderInputComponent: React.FC<ISliderInputProps> = ({ value }) => 
             }
             description={<Caption1>Range slider with single thumb and labels</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

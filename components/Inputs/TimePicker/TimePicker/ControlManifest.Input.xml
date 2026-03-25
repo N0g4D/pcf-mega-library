@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="MegaPCF" constructor="TimePicker" version="1.0.0" display-name-key="TimePicker" description-key="Time picker with hour/minute/AM-PM selection" control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+    <external-service-usage enabled="false" />
 
-    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for TimePicker." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="selectedTime" display-name-key="Selected Time" description-key="Currently selected time (HH:mm format)." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <property name="increment" display-name-key="Increment" description-key="Time slot increment in minutes." of-type="Enum" usage="input" required="false">
+      <value name="15" display-name-key="15 minutes">15</value>
+      <value name="30" display-name-key="30 minutes" default="true">30</value>
+      <value name="60" display-name-key="1 hour">60</value>
+    </property>
+
+    <property name="hourCycle" display-name-key="Hour Cycle" description-key="Clock format." of-type="Enum" usage="input" required="false">
+      <value name="h12" display-name-key="12-hour" default="true">h12</value>
+      <value name="h23" display-name-key="24-hour">h23</value>
+    </property>
+
+    <property name="disabled" display-name-key="Disabled" description-key="Disable the time picker." of-type="TwoOptions" usage="input" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />

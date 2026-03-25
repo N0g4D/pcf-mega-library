@@ -18,7 +18,10 @@ import {
 // ---------------------------------------------------------------------------
 
 export interface ICheckboxGroupProps {
-  value: string;
+  selectedValues: string;
+  options: string;
+  layout: "vertical" | "horizontal";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +33,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +54,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const CheckboxGroupComponent: React.FC<ICheckboxGroupProps> = ({ value }) => {
+export const CheckboxGroupComponent: React.FC<ICheckboxGroupProps> = ({ selectedValues, options, layout, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +73,6 @@ export const CheckboxGroupComponent: React.FC<ICheckboxGroupProps> = ({ value })
             }
             description={<Caption1>Grouped checkboxes with select-all functionality</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

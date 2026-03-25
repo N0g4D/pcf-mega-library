@@ -18,7 +18,10 @@ import {
 // ---------------------------------------------------------------------------
 
 export interface ITimePickerProps {
-  value: string;
+  selectedTime: string;
+  increment: "15" | "30" | "60";
+  hourCycle: "h12" | "h23";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +33,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +54,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const TimePickerComponent: React.FC<ITimePickerProps> = ({ value }) => {
+export const TimePickerComponent: React.FC<ITimePickerProps> = ({ selectedTime, increment, hourCycle, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +73,6 @@ export const TimePickerComponent: React.FC<ITimePickerProps> = ({ value }) => {
             }
             description={<Caption1>Time picker with hour/minute/AM-PM selection</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

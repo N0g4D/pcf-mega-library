@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="MegaPCF" constructor="PasswordInput" version="1.0.0" display-name-key="PasswordInput" description-key="Password input with show/hide toggle and strength meter" control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+    <external-service-usage enabled="false" />
 
-    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for PasswordInput." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="value" display-name-key="Value" description-key="Current password value." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <property name="placeholder" display-name-key="Placeholder" description-key="Placeholder text." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="showReveal" display-name-key="Show Reveal" description-key="Show the eye icon to toggle visibility." of-type="TwoOptions" usage="input" required="false" />
+
+    <property name="strengthMeter" display-name-key="Strength Meter" description-key="Show password strength indicator." of-type="Enum" usage="input" required="false">
+      <value name="none" display-name-key="None" default="true">none</value>
+      <value name="bar" display-name-key="Bar">bar</value>
+      <value name="text" display-name-key="Text">text</value>
+    </property>
+
+    <property name="size" display-name-key="Size" description-key="Input size." of-type="Enum" usage="input" required="false">
+      <value name="small" display-name-key="Small">small</value>
+      <value name="medium" display-name-key="Medium" default="true">medium</value>
+      <value name="large" display-name-key="Large">large</value>
+    </property>
+
+    <property name="disabled" display-name-key="Disabled" description-key="Disable the input." of-type="TwoOptions" usage="input" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />

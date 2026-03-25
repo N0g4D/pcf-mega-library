@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="MegaPCF" constructor="TextInput" version="1.0.0" display-name-key="TextInput" description-key="Enhanced text input with prefix, suffix, and clear button" control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+    <external-service-usage enabled="false" />
 
-    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for TextInput." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="value" display-name-key="Value" description-key="Current text value." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <property name="placeholder" display-name-key="Placeholder" description-key="Placeholder text when empty." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="maxLength" display-name-key="Max Length" description-key="Maximum character count (0 = unlimited)." of-type="Whole.None" usage="input" required="false" />
+
+    <property name="appearance" display-name-key="Appearance" description-key="Visual style of the input." of-type="Enum" usage="input" required="false">
+      <value name="outline" display-name-key="Outline" default="true">outline</value>
+      <value name="underline" display-name-key="Underline">underline</value>
+      <value name="filledDarker" display-name-key="Filled Darker">filledDarker</value>
+      <value name="filledLighter" display-name-key="Filled Lighter">filledLighter</value>
+    </property>
+
+    <property name="size" display-name-key="Size" description-key="Input size." of-type="Enum" usage="input" required="false">
+      <value name="small" display-name-key="Small">small</value>
+      <value name="medium" display-name-key="Medium" default="true">medium</value>
+      <value name="large" display-name-key="Large">large</value>
+    </property>
+
+    <property name="disabled" display-name-key="Disabled" description-key="Disable the input." of-type="TwoOptions" usage="input" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />

@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="MegaPCF" constructor="TextInputMasked" version="1.0.0" display-name-key="TextInputMasked" description-key="Text input with configurable mask patterns (phone, SSN, etc.)" control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+    <external-service-usage enabled="false" />
 
-    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for TextInputMasked." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="value" display-name-key="Value" description-key="Current unmasked value." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <property name="mask" display-name-key="Mask Pattern" description-key="Input mask pattern (e.g., (999) 999-9999)." of-type="SingleLine.Text" usage="input" required="true" />
+
+    <property name="maskChar" display-name-key="Mask Character" description-key="Placeholder character for unfilled positions." of-type="Enum" usage="input" required="false">
+      <value name="_" display-name-key="Underscore _" default="true">_</value>
+      <value name="#" display-name-key="Hash #">#</value>
+      <value name="*" display-name-key="Asterisk *">*</value>
+    </property>
+
+    <property name="disabled" display-name-key="Disabled" description-key="Disable the input." of-type="TwoOptions" usage="input" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />

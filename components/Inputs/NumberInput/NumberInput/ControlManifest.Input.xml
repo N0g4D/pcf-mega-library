@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="MegaPCF" constructor="NumberInput" version="1.0.0" display-name-key="NumberInput" description-key="Numeric input with increment/decrement buttons and min/max" control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+    <external-service-usage enabled="false" />
 
-    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for NumberInput." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="value" display-name-key="Value" description-key="Current numeric value." of-type="Decimal" usage="bound" required="true" />
+
+    <property name="min" display-name-key="Min" description-key="Minimum value." of-type="Decimal" usage="input" required="false" />
+
+    <property name="max" display-name-key="Max" description-key="Maximum value." of-type="Decimal" usage="input" required="false" />
+
+    <property name="step" display-name-key="Step" description-key="Increment step size." of-type="Decimal" usage="input" required="false" />
+
+    <property name="size" display-name-key="Size" description-key="Input size." of-type="Enum" usage="input" required="false">
+      <value name="small" display-name-key="Small">small</value>
+      <value name="medium" display-name-key="Medium" default="true">medium</value>
+      <value name="large" display-name-key="Large">large</value>
+    </property>
+
+    <property name="disabled" display-name-key="Disabled" description-key="Disable the input." of-type="TwoOptions" usage="input" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />

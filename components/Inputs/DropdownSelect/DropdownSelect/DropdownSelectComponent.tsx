@@ -18,7 +18,12 @@ import {
 // ---------------------------------------------------------------------------
 
 export interface IDropdownSelectProps {
-  value: string;
+  selectedValue: string;
+  options: string;
+  placeholder: string;
+  appearance: "outline" | "underline" | "filledDarker" | "filledLighter";
+  size: "small" | "medium" | "large";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +35,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +56,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const DropdownSelectComponent: React.FC<IDropdownSelectProps> = ({ value }) => {
+export const DropdownSelectComponent: React.FC<IDropdownSelectProps> = ({ selectedValue, options, placeholder, appearance, size, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +75,6 @@ export const DropdownSelectComponent: React.FC<IDropdownSelectProps> = ({ value 
             }
             description={<Caption1>Single-select dropdown with search and grouping</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

@@ -53,7 +53,8 @@ export class DataMatrix
     const enableFiltering = context.parameters.enableFiltering?.raw !== false;
     const enableSelection = context.parameters.enableSelection?.raw !== false;
     const enableExport = context.parameters.enableExport?.raw !== false;
-    const compactMode = context.parameters.compactMode?.raw === true;
+    const density = context.parameters.density?.raw ?? "comfortable";
+    const compactMode = density === "compact";
 
     const totalRecords = dataSet.paging?.totalResultCount ?? rows.length;
     const hasNextPage = dataSet.paging?.hasNextPage === true;

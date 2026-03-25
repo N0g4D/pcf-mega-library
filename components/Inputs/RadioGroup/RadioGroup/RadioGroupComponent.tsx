@@ -18,7 +18,10 @@ import {
 // ---------------------------------------------------------------------------
 
 export interface IRadioGroupProps {
-  value: string;
+  selectedValue: string;
+  options: string;
+  layout: "vertical" | "horizontal" | "horizontalStacked";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +33,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +54,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const RadioGroupComponent: React.FC<IRadioGroupProps> = ({ value }) => {
+export const RadioGroupComponent: React.FC<IRadioGroupProps> = ({ selectedValue, options, layout, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +73,6 @@ export const RadioGroupComponent: React.FC<IRadioGroupProps> = ({ value }) => {
             }
             description={<Caption1>Radio button group with horizontal/vertical layout</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

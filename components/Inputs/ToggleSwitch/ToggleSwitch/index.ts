@@ -26,11 +26,17 @@ export class ToggleSwitch
   }
 
   public updateView(context: ComponentFramework.Context<IInputs>): void {
-    const rawValue = context.parameters.sampleProperty?.raw ?? "";
+    const checked = context.parameters.checked?.raw ?? false;
+    const label = context.parameters.label?.raw ?? "";
+    const labelPosition = context.parameters.labelPosition?.raw ?? "after";
+    const disabled = context.parameters.disabled?.raw ?? false;
 
     this._root.render(
       React.createElement(ToggleSwitchComponent, {
-        value: typeof rawValue === "string" ? rawValue : "",
+        checked,
+        label,
+        labelPosition,
+        disabled,
       })
     );
   }

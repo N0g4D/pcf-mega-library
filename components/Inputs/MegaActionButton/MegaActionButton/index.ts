@@ -29,9 +29,6 @@ export class MegaActionButton
   public updateView(context: ComponentFramework.Context<IInputs>): void {
     const label = context.parameters.label?.raw ?? "Action";
     const buttonState = (context.parameters.buttonState?.raw ?? "idle") as ButtonState;
-    const progressValue = context.parameters.progressValue?.raw ?? 0;
-    const totalSteps = context.parameters.totalSteps?.raw ?? 0;
-    const currentStep = context.parameters.currentStep?.raw ?? 0;
     const iconName = context.parameters.iconName?.raw ?? "send";
     const appearance = context.parameters.appearance?.raw ?? "primary";
     const size = context.parameters.size?.raw ?? "medium";
@@ -40,9 +37,6 @@ export class MegaActionButton
     const props: IMegaActionButtonProps = {
       label: typeof label === "string" ? label : "Action",
       buttonState,
-      progressValue: typeof progressValue === "number" ? progressValue : 0,
-      totalSteps: typeof totalSteps === "number" ? totalSteps : 0,
-      currentStep: typeof currentStep === "number" ? currentStep : 0,
       iconName: typeof iconName === "string" ? iconName : "send",
       appearance: typeof appearance === "string" ? appearance : "primary",
       size: typeof size === "string" ? size : "medium",

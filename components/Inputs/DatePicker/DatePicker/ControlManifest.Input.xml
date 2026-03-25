@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="MegaPCF" constructor="DatePicker" version="1.0.0" display-name-key="DatePicker" description-key="Date picker with calendar popup and keyboard navigation" control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+    <external-service-usage enabled="false" />
 
-    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for DatePicker." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="selectedDate" display-name-key="Selected Date" description-key="Currently selected date as ISO string." of-type="SingleLine.Text" usage="bound" required="true" />
+
+    <property name="placeholder" display-name-key="Placeholder" description-key="Placeholder text." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="minDate" display-name-key="Min Date" description-key="Earliest selectable date (ISO format)." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="maxDate" display-name-key="Max Date" description-key="Latest selectable date (ISO format)." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="firstDayOfWeek" display-name-key="First Day of Week" description-key="First day of the week in calendar." of-type="Enum" usage="input" required="false">
+      <value name="sunday" display-name-key="Sunday" default="true">sunday</value>
+      <value name="monday" display-name-key="Monday">monday</value>
+      <value name="saturday" display-name-key="Saturday">saturday</value>
+    </property>
+
+    <property name="disabled" display-name-key="Disabled" description-key="Disable the date picker." of-type="TwoOptions" usage="input" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />

@@ -18,7 +18,10 @@ import {
 // ---------------------------------------------------------------------------
 
 export interface IToggleSwitchProps {
-  value: string;
+  checked: boolean;
+  label: string;
+  labelPosition: "before" | "after" | "above";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +33,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +54,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const ToggleSwitchComponent: React.FC<IToggleSwitchProps> = ({ value }) => {
+export const ToggleSwitchComponent: React.FC<IToggleSwitchProps> = ({ checked, label, labelPosition, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +73,6 @@ export const ToggleSwitchComponent: React.FC<IToggleSwitchProps> = ({ value }) =
             }
             description={<Caption1>On/off toggle switch with custom labels</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

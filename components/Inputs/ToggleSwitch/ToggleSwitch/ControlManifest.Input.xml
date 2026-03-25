@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="MegaPCF" constructor="ToggleSwitch" version="1.0.0" display-name-key="ToggleSwitch" description-key="On/off toggle switch with custom labels" control-type="standard">
-    <external-service-usage enabled="false">
-    </external-service-usage>
+    <external-service-usage enabled="false" />
 
-    <property name="sampleProperty" display-name-key="Sample Property" description-key="A sample input property for ToggleSwitch." of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="checked" display-name-key="Checked" description-key="Toggle state." of-type="TwoOptions" usage="bound" required="true" />
+
+    <property name="label" display-name-key="Label" description-key="Toggle label text." of-type="SingleLine.Text" usage="input" required="false" />
+
+    <property name="labelPosition" display-name-key="Label Position" description-key="Position of the label." of-type="Enum" usage="input" required="false">
+      <value name="before" display-name-key="Before">before</value>
+      <value name="after" display-name-key="After" default="true">after</value>
+      <value name="above" display-name-key="Above">above</value>
+    </property>
+
+    <property name="disabled" display-name-key="Disabled" description-key="Disable the toggle." of-type="TwoOptions" usage="input" required="false" />
 
     <resources>
       <code path="index.ts" order="1" />

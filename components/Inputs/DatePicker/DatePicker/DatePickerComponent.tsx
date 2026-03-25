@@ -18,7 +18,12 @@ import {
 // ---------------------------------------------------------------------------
 
 export interface IDatePickerProps {
-  value: string;
+  selectedDate: string;
+  placeholder: string;
+  minDate: string;
+  maxDate: string;
+  firstDayOfWeek: "sunday" | "monday" | "saturday";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +35,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +56,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const DatePickerComponent: React.FC<IDatePickerProps> = ({ value }) => {
+export const DatePickerComponent: React.FC<IDatePickerProps> = ({ selectedDate, placeholder, minDate, maxDate, firstDayOfWeek, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +75,6 @@ export const DatePickerComponent: React.FC<IDatePickerProps> = ({ value }) => {
             }
             description={<Caption1>Date picker with calendar popup and keyboard navigation</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

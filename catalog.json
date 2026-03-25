@@ -1456,7 +1456,93 @@
       "input",
       "text"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "value",
+        "displayName": "Value",
+        "description": "Current text value.",
+        "type": "SingleLine.Text",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "placeholder",
+        "displayName": "Placeholder",
+        "description": "Placeholder text when empty.",
+        "type": "SingleLine.Text",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "maxLength",
+        "displayName": "Max Length",
+        "description": "Maximum character count (0 = unlimited).",
+        "type": "Whole.None",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "appearance",
+        "displayName": "Appearance",
+        "description": "Visual style of the input.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "outline",
+        "enum": [
+          {
+            "value": "outline",
+            "displayName": "Outline"
+          },
+          {
+            "value": "underline",
+            "displayName": "Underline"
+          },
+          {
+            "value": "filledDarker",
+            "displayName": "Filled Darker"
+          },
+          {
+            "value": "filledLighter",
+            "displayName": "Filled Lighter"
+          }
+        ]
+      },
+      {
+        "name": "size",
+        "displayName": "Size",
+        "description": "Input size.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "medium",
+        "enum": [
+          {
+            "value": "small",
+            "displayName": "Small"
+          },
+          {
+            "value": "medium",
+            "displayName": "Medium"
+          },
+          {
+            "value": "large",
+            "displayName": "Large"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the input.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0112",
@@ -1470,7 +1556,58 @@
       "text",
       "mask"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "value",
+        "displayName": "Value",
+        "description": "Current unmasked value.",
+        "type": "SingleLine.Text",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "mask",
+        "displayName": "Mask Pattern",
+        "description": "Input mask pattern (e.g., (999) 999-9999).",
+        "type": "SingleLine.Text",
+        "usage": "input",
+        "required": true
+      },
+      {
+        "name": "maskChar",
+        "displayName": "Mask Character",
+        "description": "Placeholder character for unfilled positions.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "_",
+        "enum": [
+          {
+            "value": "_",
+            "displayName": "Underscore _"
+          },
+          {
+            "value": "#",
+            "displayName": "Hash #"
+          },
+          {
+            "value": "*",
+            "displayName": "Asterisk *"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the input.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0113",
@@ -1483,7 +1620,70 @@
       "input",
       "text"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "value",
+        "displayName": "Value",
+        "description": "Current text value.",
+        "type": "Multiple",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "placeholder",
+        "displayName": "Placeholder",
+        "description": "Placeholder text.",
+        "type": "SingleLine.Text",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "rows",
+        "displayName": "Rows",
+        "description": "Number of visible rows.",
+        "type": "Whole.None",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "resize",
+        "displayName": "Resize",
+        "description": "Resize behavior.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "vertical",
+        "enum": [
+          {
+            "value": "none",
+            "displayName": "None"
+          },
+          {
+            "value": "vertical",
+            "displayName": "Vertical"
+          },
+          {
+            "value": "horizontal",
+            "displayName": "Horizontal"
+          },
+          {
+            "value": "both",
+            "displayName": "Both"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the input.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0114",
@@ -1510,7 +1710,74 @@
       "input",
       "number"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "value",
+        "displayName": "Value",
+        "description": "Current numeric value.",
+        "type": "Decimal",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "min",
+        "displayName": "Min",
+        "description": "Minimum value.",
+        "type": "Decimal",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "max",
+        "displayName": "Max",
+        "description": "Maximum value.",
+        "type": "Decimal",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "step",
+        "displayName": "Step",
+        "description": "Increment step size.",
+        "type": "Decimal",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "size",
+        "displayName": "Size",
+        "description": "Input size.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "medium",
+        "enum": [
+          {
+            "value": "small",
+            "displayName": "Small"
+          },
+          {
+            "value": "medium",
+            "displayName": "Medium"
+          },
+          {
+            "value": "large",
+            "displayName": "Large"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the input.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0116",
@@ -1550,7 +1817,70 @@
       "input",
       "slider"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "value",
+        "displayName": "Value",
+        "description": "Current slider value.",
+        "type": "Decimal",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "min",
+        "displayName": "Min",
+        "description": "Minimum value.",
+        "type": "Decimal",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "max",
+        "displayName": "Max",
+        "description": "Maximum value.",
+        "type": "Decimal",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "step",
+        "displayName": "Step",
+        "description": "Step increment.",
+        "type": "Decimal",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "size",
+        "displayName": "Size",
+        "description": "Slider size.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "medium",
+        "enum": [
+          {
+            "value": "small",
+            "displayName": "Small"
+          },
+          {
+            "value": "medium",
+            "displayName": "Medium"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the slider.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0119",
@@ -1589,7 +1919,58 @@
       "input",
       "toggle"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "checked",
+        "displayName": "Checked",
+        "description": "Toggle state.",
+        "type": "TwoOptions",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "label",
+        "displayName": "Label",
+        "description": "Toggle label text.",
+        "type": "SingleLine.Text",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "labelPosition",
+        "displayName": "Label Position",
+        "description": "Position of the label.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "after",
+        "enum": [
+          {
+            "value": "before",
+            "displayName": "Before"
+          },
+          {
+            "value": "after",
+            "displayName": "After"
+          },
+          {
+            "value": "above",
+            "displayName": "Above"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the toggle.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0122",
@@ -1628,7 +2009,54 @@
       "input",
       "checkbox"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "selectedValues",
+        "displayName": "Selected Values",
+        "description": "Comma-separated selected values.",
+        "type": "SingleLine.Text",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "options",
+        "displayName": "Options",
+        "description": "JSON array of options: [{value, label}].",
+        "type": "Multiple",
+        "usage": "input",
+        "required": true
+      },
+      {
+        "name": "layout",
+        "displayName": "Layout",
+        "description": "Arrangement of checkboxes.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "vertical",
+        "enum": [
+          {
+            "value": "vertical",
+            "displayName": "Vertical"
+          },
+          {
+            "value": "horizontal",
+            "displayName": "Horizontal"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the checkbox group.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0125",
@@ -1655,7 +2083,58 @@
       "input",
       "radio"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "selectedValue",
+        "displayName": "Selected Value",
+        "description": "Currently selected option value.",
+        "type": "SingleLine.Text",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "options",
+        "displayName": "Options",
+        "description": "JSON array of options: [{value, label}].",
+        "type": "Multiple",
+        "usage": "input",
+        "required": true
+      },
+      {
+        "name": "layout",
+        "displayName": "Layout",
+        "description": "Arrangement of radio items.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "vertical",
+        "enum": [
+          {
+            "value": "vertical",
+            "displayName": "Vertical"
+          },
+          {
+            "value": "horizontal",
+            "displayName": "Horizontal"
+          },
+          {
+            "value": "horizontalStacked",
+            "displayName": "Horizontal Stacked"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the radio group.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0127",
@@ -1682,7 +2161,93 @@
       "input",
       "select"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "selectedValue",
+        "displayName": "Selected Value",
+        "description": "Currently selected option value.",
+        "type": "SingleLine.Text",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "options",
+        "displayName": "Options",
+        "description": "JSON array of options: [{value, label}].",
+        "type": "Multiple",
+        "usage": "input",
+        "required": true
+      },
+      {
+        "name": "placeholder",
+        "displayName": "Placeholder",
+        "description": "Placeholder text.",
+        "type": "SingleLine.Text",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "appearance",
+        "displayName": "Appearance",
+        "description": "Visual style.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "outline",
+        "enum": [
+          {
+            "value": "outline",
+            "displayName": "Outline"
+          },
+          {
+            "value": "underline",
+            "displayName": "Underline"
+          },
+          {
+            "value": "filledDarker",
+            "displayName": "Filled Darker"
+          },
+          {
+            "value": "filledLighter",
+            "displayName": "Filled Lighter"
+          }
+        ]
+      },
+      {
+        "name": "size",
+        "displayName": "Size",
+        "description": "Dropdown size.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "medium",
+        "enum": [
+          {
+            "value": "small",
+            "displayName": "Small"
+          },
+          {
+            "value": "medium",
+            "displayName": "Medium"
+          },
+          {
+            "value": "large",
+            "displayName": "Large"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the dropdown.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0129",
@@ -1722,7 +2287,78 @@
       "input",
       "combobox"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "selectedValue",
+        "displayName": "Selected Value",
+        "description": "Currently selected value.",
+        "type": "SingleLine.Text",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "options",
+        "displayName": "Options",
+        "description": "JSON array of options: [{value, label}].",
+        "type": "Multiple",
+        "usage": "input",
+        "required": true
+      },
+      {
+        "name": "placeholder",
+        "displayName": "Placeholder",
+        "description": "Placeholder text when no selection.",
+        "type": "SingleLine.Text",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "freeform",
+        "displayName": "Freeform",
+        "description": "Allow typing values not in the options list.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "appearance",
+        "displayName": "Appearance",
+        "description": "Visual style.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "outline",
+        "enum": [
+          {
+            "value": "outline",
+            "displayName": "Outline"
+          },
+          {
+            "value": "underline",
+            "displayName": "Underline"
+          },
+          {
+            "value": "filledDarker",
+            "displayName": "Filled Darker"
+          },
+          {
+            "value": "filledLighter",
+            "displayName": "Filled Lighter"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the combo box.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0132",
@@ -1749,7 +2385,89 @@
       "input",
       "tags"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "tags",
+        "displayName": "Tags",
+        "description": "Comma-separated list of current tags.",
+        "type": "SingleLine.Text",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "placeholder",
+        "displayName": "Placeholder",
+        "description": "Placeholder text.",
+        "type": "SingleLine.Text",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "maxTags",
+        "displayName": "Max Tags",
+        "description": "Maximum number of tags (0 = unlimited).",
+        "type": "Whole.None",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "appearance",
+        "displayName": "Appearance",
+        "description": "Tag visual style.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "brand",
+        "enum": [
+          {
+            "value": "brand",
+            "displayName": "Brand"
+          },
+          {
+            "value": "outline",
+            "displayName": "Outline"
+          },
+          {
+            "value": "subtle",
+            "displayName": "Subtle"
+          }
+        ]
+      },
+      {
+        "name": "size",
+        "displayName": "Size",
+        "description": "Tag size.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "medium",
+        "enum": [
+          {
+            "value": "small",
+            "displayName": "Small"
+          },
+          {
+            "value": "medium",
+            "displayName": "Medium"
+          },
+          {
+            "value": "large",
+            "displayName": "Large"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the tag input.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0134",
@@ -1776,7 +2494,74 @@
       "input",
       "date"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "selectedDate",
+        "displayName": "Selected Date",
+        "description": "Currently selected date as ISO string.",
+        "type": "SingleLine.Text",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "placeholder",
+        "displayName": "Placeholder",
+        "description": "Placeholder text.",
+        "type": "SingleLine.Text",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "minDate",
+        "displayName": "Min Date",
+        "description": "Earliest selectable date (ISO format).",
+        "type": "SingleLine.Text",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "maxDate",
+        "displayName": "Max Date",
+        "description": "Latest selectable date (ISO format).",
+        "type": "SingleLine.Text",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "firstDayOfWeek",
+        "displayName": "First Day of Week",
+        "description": "First day of the week in calendar.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "sunday",
+        "enum": [
+          {
+            "value": "sunday",
+            "displayName": "Sunday"
+          },
+          {
+            "value": "monday",
+            "displayName": "Monday"
+          },
+          {
+            "value": "saturday",
+            "displayName": "Saturday"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the date picker.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0136",
@@ -1802,7 +2587,69 @@
       "input",
       "time"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "selectedTime",
+        "displayName": "Selected Time",
+        "description": "Currently selected time (HH:mm format).",
+        "type": "SingleLine.Text",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "increment",
+        "displayName": "Increment",
+        "description": "Time slot increment in minutes.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "30",
+        "enum": [
+          {
+            "value": "15",
+            "displayName": "15 minutes"
+          },
+          {
+            "value": "30",
+            "displayName": "30 minutes"
+          },
+          {
+            "value": "60",
+            "displayName": "1 hour"
+          }
+        ]
+      },
+      {
+        "name": "hourCycle",
+        "displayName": "Hour Cycle",
+        "description": "Clock format.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "h12",
+        "enum": [
+          {
+            "value": "h12",
+            "displayName": "12-hour"
+          },
+          {
+            "value": "h23",
+            "displayName": "24-hour"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the time picker.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0138",
@@ -1829,7 +2676,58 @@
       "input",
       "color"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "color",
+        "displayName": "Color",
+        "description": "Selected color in hex format.",
+        "type": "SingleLine.Text",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "format",
+        "displayName": "Format",
+        "description": "Color output format.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "hex",
+        "enum": [
+          {
+            "value": "hex",
+            "displayName": "Hex (#FF0000)"
+          },
+          {
+            "value": "rgb",
+            "displayName": "RGB (255,0,0)"
+          },
+          {
+            "value": "hsl",
+            "displayName": "HSL (0,100%,50%)"
+          }
+        ]
+      },
+      {
+        "name": "showAlpha",
+        "displayName": "Show Alpha",
+        "description": "Show alpha/opacity slider.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the color picker.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0140",
@@ -1868,7 +2766,89 @@
       "input",
       "password"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "value",
+        "displayName": "Value",
+        "description": "Current password value.",
+        "type": "SingleLine.Text",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "placeholder",
+        "displayName": "Placeholder",
+        "description": "Placeholder text.",
+        "type": "SingleLine.Text",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "showReveal",
+        "displayName": "Show Reveal",
+        "description": "Show the eye icon to toggle visibility.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "strengthMeter",
+        "displayName": "Strength Meter",
+        "description": "Show password strength indicator.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "none",
+        "enum": [
+          {
+            "value": "none",
+            "displayName": "None"
+          },
+          {
+            "value": "bar",
+            "displayName": "Bar"
+          },
+          {
+            "value": "text",
+            "displayName": "Text"
+          }
+        ]
+      },
+      {
+        "name": "size",
+        "displayName": "Size",
+        "description": "Input size.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "medium",
+        "enum": [
+          {
+            "value": "small",
+            "displayName": "Small"
+          },
+          {
+            "value": "medium",
+            "displayName": "Medium"
+          },
+          {
+            "value": "large",
+            "displayName": "Large"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the input.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0143",
@@ -1881,7 +2861,66 @@
       "input",
       "search"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "value",
+        "displayName": "Value",
+        "description": "Current search text.",
+        "type": "SingleLine.Text",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "placeholder",
+        "displayName": "Placeholder",
+        "description": "Placeholder text.",
+        "type": "SingleLine.Text",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "debounceMs",
+        "displayName": "Debounce (ms)",
+        "description": "Delay before notifying output change.",
+        "type": "Whole.None",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "size",
+        "displayName": "Size",
+        "description": "Input size.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "medium",
+        "enum": [
+          {
+            "value": "small",
+            "displayName": "Small"
+          },
+          {
+            "value": "medium",
+            "displayName": "Medium"
+          },
+          {
+            "value": "large",
+            "displayName": "Large"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the search input.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0144",
@@ -1972,7 +3011,81 @@
       "input",
       "pin"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "value",
+        "displayName": "Value",
+        "description": "Current PIN value.",
+        "type": "SingleLine.Text",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "length",
+        "displayName": "Length",
+        "description": "Number of PIN digits.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "4",
+        "enum": [
+          {
+            "value": "4",
+            "displayName": "4 digits"
+          },
+          {
+            "value": "6",
+            "displayName": "6 digits"
+          },
+          {
+            "value": "8",
+            "displayName": "8 digits"
+          }
+        ]
+      },
+      {
+        "name": "masked",
+        "displayName": "Masked",
+        "description": "Hide digits (password-style).",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "size",
+        "displayName": "Size",
+        "description": "Input size.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "medium",
+        "enum": [
+          {
+            "value": "small",
+            "displayName": "Small"
+          },
+          {
+            "value": "medium",
+            "displayName": "Medium"
+          },
+          {
+            "value": "large",
+            "displayName": "Large"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the PIN input.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0151",
@@ -1985,7 +3098,81 @@
       "input",
       "rating"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "value",
+        "displayName": "Value",
+        "description": "Current rating value.",
+        "type": "Decimal",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "maxStars",
+        "displayName": "Max Stars",
+        "description": "Total number of stars.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "5",
+        "enum": [
+          {
+            "value": "3",
+            "displayName": "3 stars"
+          },
+          {
+            "value": "5",
+            "displayName": "5 stars"
+          },
+          {
+            "value": "10",
+            "displayName": "10 stars"
+          }
+        ]
+      },
+      {
+        "name": "allowHalf",
+        "displayName": "Allow Half",
+        "description": "Allow half-star ratings.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "size",
+        "displayName": "Size",
+        "description": "Star size.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "medium",
+        "enum": [
+          {
+            "value": "small",
+            "displayName": "Small"
+          },
+          {
+            "value": "medium",
+            "displayName": "Medium"
+          },
+          {
+            "value": "large",
+            "displayName": "Large"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable rating interaction.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0152",
@@ -2077,7 +3264,96 @@
       "input",
       "signature"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "signatureData",
+        "displayName": "Signature Data",
+        "description": "Base64-encoded signature image data.",
+        "type": "Multiple",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "penColor",
+        "displayName": "Pen Color",
+        "description": "Pen stroke color.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "black",
+        "enum": [
+          {
+            "value": "black",
+            "displayName": "Black"
+          },
+          {
+            "value": "blue",
+            "displayName": "Blue"
+          },
+          {
+            "value": "red",
+            "displayName": "Red"
+          }
+        ]
+      },
+      {
+        "name": "penWidth",
+        "displayName": "Pen Width",
+        "description": "Pen stroke width.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "medium",
+        "enum": [
+          {
+            "value": "thin",
+            "displayName": "Thin (1px)"
+          },
+          {
+            "value": "medium",
+            "displayName": "Medium (2px)"
+          },
+          {
+            "value": "thick",
+            "displayName": "Thick (4px)"
+          }
+        ]
+      },
+      {
+        "name": "outputFormat",
+        "displayName": "Output Format",
+        "description": "Signature output image format.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "png",
+        "enum": [
+          {
+            "value": "png",
+            "displayName": "PNG"
+          },
+          {
+            "value": "svg",
+            "displayName": "SVG"
+          },
+          {
+            "value": "jpeg",
+            "displayName": "JPEG"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the signature pad.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0159",
@@ -2103,7 +3379,74 @@
       "input",
       "number"
     ],
-    "status": "planned"
+    "status": "planned",
+    "tier": "A",
+    "properties": [
+      {
+        "name": "value",
+        "displayName": "Value",
+        "description": "Current quantity.",
+        "type": "Whole.None",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "min",
+        "displayName": "Min",
+        "description": "Minimum quantity.",
+        "type": "Whole.None",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "max",
+        "displayName": "Max",
+        "description": "Maximum quantity.",
+        "type": "Whole.None",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "step",
+        "displayName": "Step",
+        "description": "Increment/decrement step.",
+        "type": "Whole.None",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "size",
+        "displayName": "Size",
+        "description": "Stepper size.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "medium",
+        "enum": [
+          {
+            "value": "small",
+            "displayName": "Small"
+          },
+          {
+            "value": "medium",
+            "displayName": "Medium"
+          },
+          {
+            "value": "large",
+            "displayName": "Large"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Disable the stepper.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      }
+    ],
+    "dataset": false
   },
   {
     "id": "PCF0161",
@@ -4032,7 +5375,105 @@
       "panel",
       "animation"
     ],
-    "status": "planned"
+    "status": "complete",
+    "tier": "S",
+    "dataset": false,
+    "properties": [
+      {
+        "name": "isOpen",
+        "displayName": "Is Open",
+        "description": "Bind to a Two Options field to control panel open/close state.",
+        "type": "TwoOptions",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "panelTitle",
+        "displayName": "Panel Title",
+        "description": "Title displayed at the top of the slide-out panel.",
+        "type": "SingleLine.Text",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "slideDirection",
+        "displayName": "Slide Direction",
+        "description": "Direction the panel slides from.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "right",
+        "enum": [
+          {
+            "value": "left",
+            "displayName": "Left"
+          },
+          {
+            "value": "right",
+            "displayName": "Right"
+          },
+          {
+            "value": "top",
+            "displayName": "Top"
+          },
+          {
+            "value": "bottom",
+            "displayName": "Bottom"
+          }
+        ]
+      },
+      {
+        "name": "blurIntensity",
+        "displayName": "Blur Intensity",
+        "description": "Backdrop blur in pixels (default: 20).",
+        "type": "Whole.None",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "tintColor",
+        "displayName": "Tint Color",
+        "description": "Background tint color in rgba format.",
+        "type": "SingleLine.Text",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "panelSize",
+        "displayName": "Panel Size",
+        "description": "Panel size preset.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "medium",
+        "enum": [
+          {
+            "value": "small",
+            "displayName": "Small (320px)"
+          },
+          {
+            "value": "medium",
+            "displayName": "Medium (400px)"
+          },
+          {
+            "value": "large",
+            "displayName": "Large (600px)"
+          },
+          {
+            "value": "full",
+            "displayName": "Full Width"
+          }
+        ]
+      },
+      {
+        "name": "contentZones",
+        "displayName": "Content Zones",
+        "description": "JSON array defining dynamic content zones: [{title, body, icon}].",
+        "type": "Multiple",
+        "usage": "input",
+        "required": false
+      }
+    ]
   },
   {
     "id": "PCF0309",
@@ -4737,7 +6178,101 @@
       "grid",
       "matrix"
     ],
-    "status": "planned"
+    "status": "complete",
+    "tier": "S",
+    "dataset": true,
+    "properties": [
+      {
+        "name": "pageSize",
+        "displayName": "Page Size",
+        "description": "Number of rows per page.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "25",
+        "enum": [
+          {
+            "value": "10",
+            "displayName": "10 rows"
+          },
+          {
+            "value": "25",
+            "displayName": "25 rows"
+          },
+          {
+            "value": "50",
+            "displayName": "50 rows"
+          },
+          {
+            "value": "100",
+            "displayName": "100 rows"
+          }
+        ]
+      },
+      {
+        "name": "enableSorting",
+        "displayName": "Enable Sorting",
+        "description": "Allow column sorting.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "enableFiltering",
+        "displayName": "Enable Filtering",
+        "description": "Allow column filtering.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "enableSelection",
+        "displayName": "Enable Selection",
+        "description": "Show row selection checkboxes.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "enableExport",
+        "displayName": "Enable Export",
+        "description": "Show CSV export button.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "density",
+        "displayName": "Density",
+        "description": "Row density / spacing.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "comfortable",
+        "enum": [
+          {
+            "value": "compact",
+            "displayName": "Compact"
+          },
+          {
+            "value": "comfortable",
+            "displayName": "Comfortable"
+          },
+          {
+            "value": "spacious",
+            "displayName": "Spacious"
+          }
+        ]
+      },
+      {
+        "name": "selectedCount",
+        "displayName": "Selected Count",
+        "description": "Number of currently selected rows.",
+        "type": "Whole.None",
+        "usage": "output",
+        "required": false
+      }
+    ]
   },
   {
     "id": "PCF0363",
@@ -12335,5 +13870,164 @@
       "medication"
     ],
     "status": "planned"
+  },
+  {
+    "id": "PCF0947",
+    "name": "MegaActionButton",
+    "folder": "Inputs",
+    "namespace": "PcfMega",
+    "description": "Multi-state action button with loading spinner, progress ring, SVG icons, and Fluent UI v9 theming",
+    "complexity": "advanced",
+    "tags": [
+      "button",
+      "action",
+      "loading",
+      "progress"
+    ],
+    "status": "complete",
+    "tier": "S",
+    "dataset": false,
+    "properties": [
+      {
+        "name": "label",
+        "displayName": "Label",
+        "description": "Button label text — visible across all states.",
+        "type": "SingleLine.Text",
+        "usage": "bound",
+        "required": true
+      },
+      {
+        "name": "buttonState",
+        "displayName": "Button State",
+        "description": "Current visual state of the button.",
+        "type": "Enum",
+        "usage": "bound",
+        "required": false,
+        "defaultValue": "idle",
+        "enum": [
+          {
+            "value": "idle",
+            "displayName": "Idle"
+          },
+          {
+            "value": "loading",
+            "displayName": "Loading"
+          },
+          {
+            "value": "success",
+            "displayName": "Success"
+          },
+          {
+            "value": "error",
+            "displayName": "Error"
+          }
+        ]
+      },
+      {
+        "name": "iconName",
+        "displayName": "Icon Name",
+        "description": "Fluent UI icon to display.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "send",
+        "enum": [
+          {
+            "value": "send",
+            "displayName": "Send"
+          },
+          {
+            "value": "save",
+            "displayName": "Save"
+          },
+          {
+            "value": "delete",
+            "displayName": "Delete"
+          },
+          {
+            "value": "add",
+            "displayName": "Add"
+          },
+          {
+            "value": "check",
+            "displayName": "Check"
+          },
+          {
+            "value": "rocket",
+            "displayName": "Rocket"
+          },
+          {
+            "value": "arrow",
+            "displayName": "Arrow"
+          }
+        ]
+      },
+      {
+        "name": "appearance",
+        "displayName": "Appearance",
+        "description": "Button visual appearance.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "primary",
+        "enum": [
+          {
+            "value": "primary",
+            "displayName": "Primary"
+          },
+          {
+            "value": "outline",
+            "displayName": "Outline"
+          },
+          {
+            "value": "subtle",
+            "displayName": "Subtle"
+          },
+          {
+            "value": "transparent",
+            "displayName": "Transparent"
+          }
+        ]
+      },
+      {
+        "name": "size",
+        "displayName": "Size",
+        "description": "Button size.",
+        "type": "Enum",
+        "usage": "input",
+        "required": false,
+        "defaultValue": "medium",
+        "enum": [
+          {
+            "value": "small",
+            "displayName": "Small"
+          },
+          {
+            "value": "medium",
+            "displayName": "Medium"
+          },
+          {
+            "value": "large",
+            "displayName": "Large"
+          }
+        ]
+      },
+      {
+        "name": "disabled",
+        "displayName": "Disabled",
+        "description": "Whether the button is disabled.",
+        "type": "TwoOptions",
+        "usage": "input",
+        "required": false
+      },
+      {
+        "name": "clickCount",
+        "displayName": "Click Count",
+        "description": "Increments on each click — bind to trigger Power Fx actions.",
+        "type": "Whole.None",
+        "usage": "output",
+        "required": false
+      }
+    ]
   }
 ]

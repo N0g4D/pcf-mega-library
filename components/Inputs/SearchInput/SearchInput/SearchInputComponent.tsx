@@ -19,6 +19,10 @@ import {
 
 export interface ISearchInputProps {
   value: string;
+  placeholder: string;
+  debounceMs: number;
+  size: "small" | "medium" | "large";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +34,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +55,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const SearchInputComponent: React.FC<ISearchInputProps> = ({ value }) => {
+export const SearchInputComponent: React.FC<ISearchInputProps> = ({ value, placeholder, debounceMs, size, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +74,6 @@ export const SearchInputComponent: React.FC<ISearchInputProps> = ({ value }) => 
             }
             description={<Caption1>Search input with debounce, clear, and loading indicator</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

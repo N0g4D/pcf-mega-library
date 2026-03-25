@@ -26,11 +26,17 @@ export class TimePicker
   }
 
   public updateView(context: ComponentFramework.Context<IInputs>): void {
-    const rawValue = context.parameters.sampleProperty?.raw ?? "";
+    const selectedTime = context.parameters.selectedTime?.raw ?? "";
+    const increment = context.parameters.increment?.raw ?? "30";
+    const hourCycle = context.parameters.hourCycle?.raw ?? "h12";
+    const disabled = context.parameters.disabled?.raw ?? false;
 
     this._root.render(
       React.createElement(TimePickerComponent, {
-        value: typeof rawValue === "string" ? rawValue : "",
+        selectedTime,
+        increment,
+        hourCycle,
+        disabled,
       })
     );
   }

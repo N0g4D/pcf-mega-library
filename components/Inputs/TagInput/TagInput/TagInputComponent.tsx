@@ -18,7 +18,12 @@ import {
 // ---------------------------------------------------------------------------
 
 export interface ITagInputProps {
-  value: string;
+  tags: string;
+  placeholder: string;
+  maxTags: number;
+  appearance: "brand" | "outline" | "subtle";
+  size: "small" | "medium" | "large";
+  disabled: boolean;
 }
 
 // ---------------------------------------------------------------------------
@@ -30,6 +35,7 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     width: "100%",
+    height: "100%",
     fontFamily: tokens.fontFamilyBase,
   },
   card: {
@@ -50,7 +56,7 @@ const useStyles = makeStyles({
 // Component
 // ---------------------------------------------------------------------------
 
-export const TagInputComponent: React.FC<ITagInputProps> = ({ value }) => {
+export const TagInputComponent: React.FC<ITagInputProps> = ({ tags, placeholder, maxTags, appearance, size, disabled }) => {
   const classes = useStyles();
 
   return (
@@ -69,7 +75,6 @@ export const TagInputComponent: React.FC<ITagInputProps> = ({ value }) => {
             }
             description={<Caption1>Tag/chip input with autocomplete and validation</Caption1>}
           />
-          {value && <Body1>Current value: {value}</Body1>}
         </Card>
       </div>
     </FluentProvider>

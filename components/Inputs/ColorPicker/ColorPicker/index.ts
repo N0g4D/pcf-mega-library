@@ -26,11 +26,17 @@ export class ColorPicker
   }
 
   public updateView(context: ComponentFramework.Context<IInputs>): void {
-    const rawValue = context.parameters.sampleProperty?.raw ?? "";
+    const color = context.parameters.color?.raw ?? "";
+    const format = context.parameters.format?.raw ?? "hex";
+    const showAlpha = context.parameters.showAlpha?.raw ?? false;
+    const disabled = context.parameters.disabled?.raw ?? false;
 
     this._root.render(
       React.createElement(ColorPickerComponent, {
-        value: typeof rawValue === "string" ? rawValue : "",
+        color,
+        format,
+        showAlpha,
+        disabled,
       })
     );
   }
