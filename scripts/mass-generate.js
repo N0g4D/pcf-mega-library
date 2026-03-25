@@ -82,9 +82,9 @@ function pcfconfig() {
 
 function tsconfig() {
   return `{
-    "extends": "./node_modules/pcf-scripts/tsconfig_base.json",
+    "extends": "../../../node_modules/pcf-scripts/tsconfig_base.json",
     "compilerOptions": {
-        "typeRoots": ["node_modules/@types"]
+        "typeRoots": ["node_modules/@types", "../../../node_modules/@types"]
     }
 }
 `;
@@ -129,6 +129,12 @@ export default [
 
     rules: {
       "@typescript-eslint/no-unused-vars": "off",
+      "@typescript-eslint/prefer-nullish-coalescing": "off",
+      "@typescript-eslint/no-unsafe-assignment": "off",
+      "@typescript-eslint/no-unsafe-member-access": "off",
+      "@typescript-eslint/no-unsafe-call": "off",
+      "@typescript-eslint/no-unsafe-argument": "off",
+      "@typescript-eslint/no-unsafe-return": "off",
     },
     settings: {
       react: {

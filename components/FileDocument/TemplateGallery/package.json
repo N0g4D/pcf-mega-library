@@ -1,5 +1,5 @@
 {
-  "name": "pcf-project",
+  "name": "@pcf-mega/file-document-template-gallery",
   "version": "1.0.0",
   "description": "Project containing your PowerApps Component Framework (PCF) control.",
   "scripts": {

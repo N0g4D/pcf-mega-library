@@ -1,0 +1,137 @@
+name: Build & Release
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # ──────────────────────────────────────────────────────────────
+  # Lint & Type-check the 3 flagship components
+  # ──────────────────────────────────────────────────────────────
+  build-flagships:
+    name: Build Flagship Components
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        component:
+          - { path: "components/Glassmorphism/GlassPanelSlideOut", name: "GlassPanelSlideOut" }
+          - { path: "components/Inputs/MegaActionButton", name: "MegaActionButton" }
+          - { path: "components/DataGrids/DataMatrix", name: "DataMatrix" }
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install root dependencies
+        run: npm install
+
+      - name: Build ${{ matrix.component.name }}
+        working-directory: ${{ matrix.component.path }}
+        run: npm run build
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.component.name }}-out
+          path: ${{ matrix.component.path }}/out/
+          retention-days: 30
+
+  # ──────────────────────────────────────────────────────────────
+  # Validate catalog & scaffold integrity
+  # ──────────────────────────────────────────────────────────────
+  validate-catalog:
+    name: Validate Catalog
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate catalog.json
+        run: |
+          node -e "
+            const catalog = require('./catalog.json');
+            console.log('Catalog entries:', catalog.length);
+            const names = new Set(catalog.map(c => c.name));
+            if (names.size !== catalog.length) {
+              console.error('ERROR: Duplicate component names detected!');
+              process.exit(1);
+            }
+            const folders = new Set(catalog.map(c => c.folder));
+            console.log('Categories:', folders.size);
+            console.log('All names unique: OK');
+          "
+
+      - name: Verify scaffold completeness
+        run: |
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+            const catalog = require('./catalog.json');
+            let missing = 0;
+            for (const comp of catalog) {
+              const dir = path.join('components', comp.folder, comp.name, comp.name);
+              if (!fs.existsSync(dir)) {
+                console.error('Missing:', dir);
+                missing++;
+              }
+            }
+            console.log('Total components:', catalog.length);
+            console.log('Missing scaffolds:', missing);
+            if (missing > 0) process.exit(1);
+            console.log('All scaffolds present: OK');
+          "
+
+  # ──────────────────────────────────────────────────────────────
+  # Release (manual trigger or tag push)
+  # ──────────────────────────────────────────────────────────────
+  release:
+    name: Create Release
+    needs: [build-flagships, validate-catalog]
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: release-artifacts/
+
+      - name: Package flagship solutions
+        run: |
+          cd release-artifacts
+          for dir in */; do
+            name="${dir%/}"
+            tar -czf "${name}.tar.gz" -C "$dir" .
+          done
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
+          files: release-artifacts/*.tar.gz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

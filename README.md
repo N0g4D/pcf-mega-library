@@ -1,8 +1,10 @@
 # PCF Mega Library
 
-**The definitive open-source collection of 946 Power Apps Component Framework (PCF) controls.**
+**The definitive open-source collection of 947 Power Apps Component Framework (PCF) controls.**
 
 Built with TypeScript, React 19, and Fluent UI v9 — enterprise-grade, fully typed, and ready for Model-driven and Canvas apps.
+
+[![Build & Release](https://github.com/pcf-mega/library/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/pcf-mega/library/actions/workflows/build-and-release.yml)
 
 ---
 
@@ -15,7 +17,7 @@ Power Platform developers deserve a component library that matches the depth and
 - Fluent UI v9 theming throughout — light mode, dark mode, high contrast out of the box
 - Strict TypeScript — no `any`, full type safety, zero runtime type errors
 - Accessible by default — WCAG 2.1 AA, keyboard navigation, screen reader support
-- Tree-shakeable — import only what you need
+- Monorepo architecture with npm workspaces for shared dependency management
 
 ---
 
@@ -26,20 +28,14 @@ Power Platform developers deserve a component library that matches the depth and
 git clone https://github.com/pcf-mega/library.git
 cd pcf-mega-library
 
-# Install dependencies
+# Install all dependencies (npm workspaces hoists shared deps)
 npm install
 
-# Generate catalog (already included, but regenerate if needed)
-npm run generate:catalog
-
-# Scaffold all components from catalog
-npm run generate:scaffold
-
-# Build a specific component
-npm run build:component -- --name GlassPanelSlideOut
-
-# Start a component in the test harness
+# Build a flagship component
 cd components/Glassmorphism/GlassPanelSlideOut
+npm run build
+
+# Start the PCF test harness
 npm start
 ```
 
@@ -47,7 +43,7 @@ npm start
 
 ## Component Catalog
 
-**946 components** across **25 categories**:
+**947 components** across **25 categories**:
 
 | Category | Count | Highlights |
 |----------|------:|------------|
@@ -86,13 +82,13 @@ npm start
 Three fully coded, production-ready components ship with this repo:
 
 ### 1. GlassPanelSlideOut
-Advanced slide-out glassmorphism panel with fluid CSS animations, dynamic content zones, and configurable blur/tint/direction.
+Advanced slide-out glassmorphism panel with fluid CSS animations, dynamic content zones, and configurable blur/tint/direction. Properties: `isOpen`, `panelTitle`, `slideDirection`, `blurIntensity`, `tintColor`, `panelSize`, `contentZones` (JSON).
 
 ### 2. MegaActionButton
-Multi-state action button with built-in loading spinner, multi-step progress ring, customizable SVG icons, and Fluent UI v9 theming.
+Multi-state action button with built-in loading spinner, multi-step progress ring, customizable SVG icons, and Fluent UI v9 theming. Properties: `label`, `buttonState`, `progressValue`, `totalSteps`, `currentStep`, `iconName`, `appearance`, `size`.
 
 ### 3. DataMatrix
-Dynamic data matrix that accepts a PCF dataset and renders a fully sortable, filterable, paginated grid with column resize, selection, and export — all powered by Fluent UI v9.
+Dynamic data matrix accepting a PCF dataset — fully sortable, filterable, paginated grid with column resize, checkbox selection, and CSV export. Properties: `dataSet`, `pageSize`, `enableSorting`, `enableFiltering`, `enableSelection`, `enableExport`, `compactMode`.
 
 ---
 
@@ -100,56 +96,78 @@ Dynamic data matrix that accepts a PCF dataset and renders a fully sortable, fil
 
 ```
 pcf-mega-library/
-  catalog.json              # Full component catalog (946 entries)
-  package.json              # Root dependencies and scripts
-  tsconfig.json             # TypeScript configuration
-  INSTALL.md                # Deployment instructions
+  package.json                  # Monorepo root with npm workspaces
+  catalog.json                  # Full component catalog (946 entries)
+  INSTALL.md                    # Deployment & Power Platform instructions
+  LICENSE                       # MIT
+  .github/
+    workflows/
+      build-and-release.yml     # CI/CD: build flagships, validate catalog, release
   scripts/
-    generate-catalog.js     # Catalog generator
-    generate-pcf-scaffold.js # Bulk component scaffolding via pac pcf init
+    generate-catalog.js         # Catalog generator (946 components, 25 categories)
+    generate-pcf-scaffold.js    # Individual scaffold via pac pcf init
+    mass-generate.js            # Blazing-fast pure Node.js mass scaffolder
   components/
-    Navigation/             # 55 navigation controls
-    Layout/                 # 55 layout controls
-    Inputs/                 # 81 input controls
-    DataViz/                # 70 data visualization controls
-    Feedback/               # 45 feedback controls
-    Glassmorphism/          # 40 glassmorphism controls
-      GlassPanelSlideOut/   # FLAGSHIP - fully coded
-    DataGrids/              # 40 data grid controls
-      DataMatrix/           # FLAGSHIP - fully coded
-    AIComponents/           # 40 AI/Copilot controls
-    Animation/              # 30 animation controls
-    Media/                  # 35 media controls
-    Social/                 # 30 social controls
-    Commerce/               # 30 commerce controls
-    Communication/          # 30 communication controls
-    Calendar/               # 30 calendar/scheduling controls
-    FileDocument/           # 30 file/document controls
-    Authentication/         # 25 auth controls
-    Dashboard/              # 40 dashboard controls
-    Forms/                  # 40 form controls
-    Utility/                # 40 utility controls
-    MapsGeo/                # 30 maps/geo controls
-    Theming/                # 25 theming controls
-    Accessibility/          # 25 accessibility controls
-    Connectors/             # 30 connector/API controls
-    Gaming/                 # 25 gamification controls
-    Biometrics/             # 25 biometric controls
-  docs/                     # Additional documentation
+    <Category>/
+      <ComponentName>/          # Each component is a standalone PCF project
+        package.json            # Scoped name: @pcf-mega/<category>-<name>
+        tsconfig.json           # Extends pcf-scripts base config
+        eslint.config.mjs       # Flat ESLint config with Fluent UI rules
+        <ComponentName>.pcfproj # MSBuild project file
+        <ComponentName>/        # Source directory
+          ControlManifest.Input.xml
+          index.ts              # PCF StandardControl entry point
+          <ComponentName>Component.tsx  # React + Fluent UI v9 component
+          generated/
+            ManifestTypes.d.ts  # Auto-generated type definitions
 ```
+
+---
+
+## Monorepo Architecture
+
+This repository uses **npm workspaces** to manage 947 individual PCF projects under a single root:
+
+```json
+{
+  "workspaces": ["components/*/*"]
+}
+```
+
+Shared dependencies (React, Fluent UI, TypeScript) are hoisted to the root `node_modules/`, reducing disk usage and ensuring version consistency across all components.
+
+Each component retains its own `package.json` with a unique scoped name (e.g., `@pcf-mega/glassmorphism-glass-panel-slide-out`), making it independently publishable to npm if desired.
+
+---
+
+## CI/CD Pipeline
+
+The GitHub Actions workflow (`.github/workflows/build-and-release.yml`) runs on every push and PR:
+
+1. **Build Flagships** — Compiles all 3 flagship components in parallel via a matrix strategy
+2. **Validate Catalog** — Ensures `catalog.json` has no duplicate names and all 946 scaffolds exist on disk
+3. **Release** — On manual trigger or tag push, packages flagship build artifacts and creates a GitHub Release
 
 ---
 
 ## How Scaffolding Works
 
-The `generate-pcf-scaffold.js` script reads `catalog.json` and for each component:
+The `mass-generate.js` script reads `catalog.json` and generates a complete PCF project for each component using pure Node.js file I/O:
 
-1. Creates the directory under `components/<Category>/<ComponentName>/`
-2. Runs `pac pcf init --namespace PcfMega --name <ComponentName> --template field --framework react`
-3. Injects a standard React + Fluent UI v9 template into `index.ts` and the main `.tsx` file
-4. Configures the `ControlManifest.Input.xml` with the component's properties
+1. Creates the directory structure under `components/<Category>/<ComponentName>/`
+2. Writes project files: `.pcfproj` (with unique GUID), `package.json`, `tsconfig.json`, `eslint.config.mjs`, `pcfconfig.json`
+3. Writes source files: `ControlManifest.Input.xml`, `index.ts` (PCF lifecycle), `<Name>Component.tsx` (React + Fluent UI v9)
+4. Writes type stubs: `generated/ManifestTypes.d.ts`
 
-This means you can go from zero to 946 scaffolded components with a single `npm run generate:scaffold`.
+This approach generates all 944 remaining components in under 5 seconds — no `pac pcf init` subprocess overhead.
+
+```bash
+# Generate all scaffolds
+npm run mass:generate
+
+# Dry run (no files written)
+npm run mass:generate -- --dry-run
+```
 
 ---
 
@@ -158,12 +176,26 @@ This means you can go from zero to 946 scaffolded components with a single `npm 
 | Layer | Technology |
 |-------|-----------|
 | Runtime | React 19.2, TypeScript 5.8 |
-| UI Framework | Fluent UI v9 (`@fluentui/react-components`) |
-| Icons | `@fluentui/react-icons` |
-| Charting | `@fluentui/react-charting` |
+| UI Framework | Fluent UI v9 (`@fluentui/react-components` ^9.73) |
+| Icons | `@fluentui/react-icons` ^2.0 |
+| CSS-in-JS | Griffel (via Fluent UI `makeStyles`) |
 | Build | `pcf-scripts`, Webpack 5, ts-loader |
+| Monorepo | npm workspaces |
+| CI/CD | GitHub Actions |
 | CLI | Power Platform CLI (`pac`) 2.4+ |
 | Target | Model-driven apps, Canvas apps, Power Pages |
+
+---
+
+## Deploying to Power Platform
+
+See [INSTALL.md](./INSTALL.md) for detailed instructions on:
+
+- Pushing individual controls with `pac pcf push`
+- Building solution packages with MSBuild
+- Importing into Model-driven and Canvas apps
+- Environment variable configuration
+- CI/CD pipeline integration
 
 ---
 
@@ -177,7 +209,7 @@ We welcome contributions! Each component should:
 4. Use Fluent UI v9 for all styling (no raw CSS unless absolutely necessary)
 5. Support light/dark theme via `FluentProvider`
 6. Include proper TypeScript types (no `any`)
-7. Pass `npm run lint` with zero errors
+7. Pass `npm run build` with zero errors
 
 ---
 

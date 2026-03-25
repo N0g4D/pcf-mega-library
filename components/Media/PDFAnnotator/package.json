@@ -1,5 +1,5 @@
 {
-  "name": "pcf-project",
+  "name": "@pcf-mega/media-p-d-f-annotator",
   "version": "1.0.0",
   "description": "Project containing your PowerApps Component Framework (PCF) control.",
   "scripts": {
