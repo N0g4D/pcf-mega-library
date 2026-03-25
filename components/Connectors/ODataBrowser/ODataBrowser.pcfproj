@@ -11,6 +11,7 @@
     <Name>ODataBrowser</Name>
     <ProjectGuid>99f8e7d0-03c5-4011-9484-e06e1263dee5</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

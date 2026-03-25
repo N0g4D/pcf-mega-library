@@ -11,6 +11,7 @@
     <Name>StickyColumns</Name>
     <ProjectGuid>cfaf3847-6a4d-4ff4-a9ea-67dfa0a42203</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

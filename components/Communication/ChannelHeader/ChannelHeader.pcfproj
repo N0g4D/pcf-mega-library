@@ -11,6 +11,7 @@
     <Name>ChannelHeader</Name>
     <ProjectGuid>06695b4d-540b-4011-9c64-c4795d51105c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>AlertFeed</Name>
     <ProjectGuid>9dc76e7f-4081-41f1-8dc2-63b073fd7810</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

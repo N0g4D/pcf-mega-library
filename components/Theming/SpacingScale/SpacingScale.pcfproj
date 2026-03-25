@@ -11,6 +11,7 @@
     <Name>SpacingScale</Name>
     <ProjectGuid>06f14c74-91b0-4642-b4eb-8de9ec644c55</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

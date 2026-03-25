@@ -11,6 +11,7 @@
     <Name>ImageGallery</Name>
     <ProjectGuid>92b69e54-479c-49f4-83a0-9ae06ee3924a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

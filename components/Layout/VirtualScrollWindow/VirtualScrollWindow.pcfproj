@@ -11,6 +11,7 @@
     <Name>VirtualScrollWindow</Name>
     <ProjectGuid>27c58433-5cbe-45d7-8e93-033ce866d63e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>ZStack</Name>
     <ProjectGuid>548908ba-21ed-42d4-a31b-abf2b89df6ee</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

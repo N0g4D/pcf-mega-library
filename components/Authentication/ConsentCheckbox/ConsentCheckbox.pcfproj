@@ -11,6 +11,7 @@
     <Name>ConsentCheckbox</Name>
     <ProjectGuid>1f7e2c1b-8504-4b35-a74d-0d98852fb8f8</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>EmailInput</Name>
     <ProjectGuid>a4df2c9d-2ef4-4ba7-aa48-24a89f0865d9</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

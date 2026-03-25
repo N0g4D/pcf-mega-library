@@ -11,6 +11,7 @@
     <Name>RadioGroupCards</Name>
     <ProjectGuid>f9a7b8b3-4f4a-4f5c-a0b8-4f4ffe1ab5a6</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

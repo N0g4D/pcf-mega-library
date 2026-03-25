@@ -11,6 +11,7 @@
     <Name>MatrixGrid</Name>
     <ProjectGuid>054564b2-afda-4eed-9efc-f9ba69401220</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

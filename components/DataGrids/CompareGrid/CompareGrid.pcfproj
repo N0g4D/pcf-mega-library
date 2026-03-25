@@ -11,6 +11,7 @@
     <Name>CompareGrid</Name>
     <ProjectGuid>2cbf0227-ef70-4329-8063-57f979082955</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

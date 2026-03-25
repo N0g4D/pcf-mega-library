@@ -11,6 +11,7 @@
     <Name>GlassAccordion</Name>
     <ProjectGuid>dd5d8b8c-e37e-42dd-a96d-cb41a7fcc32a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

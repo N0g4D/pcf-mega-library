@@ -11,6 +11,7 @@
     <Name>SpringAnimation</Name>
     <ProjectGuid>ddaf794b-2f50-46f5-bb23-88a102e1cbfc</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

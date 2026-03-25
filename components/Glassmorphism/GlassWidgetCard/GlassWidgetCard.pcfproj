@@ -11,6 +11,7 @@
     <Name>GlassWidgetCard</Name>
     <ProjectGuid>b3ddc960-e472-48fb-a8d5-21c6aa7d667f</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

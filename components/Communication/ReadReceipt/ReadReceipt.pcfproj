@@ -11,6 +11,7 @@
     <Name>ReadReceipt</Name>
     <ProjectGuid>9c92b8e5-e520-488c-8cec-9bd3498faee3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

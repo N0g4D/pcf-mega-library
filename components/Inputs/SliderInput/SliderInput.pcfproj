@@ -11,6 +11,7 @@
     <Name>SliderInput</Name>
     <ProjectGuid>3b74fbc4-10fb-45d9-89ae-9b2c5f31cc9b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

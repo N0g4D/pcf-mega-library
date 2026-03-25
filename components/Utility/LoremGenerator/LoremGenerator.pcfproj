@@ -11,6 +11,7 @@
     <Name>LoremGenerator</Name>
     <ProjectGuid>bf624ac9-602b-403c-95c8-9aa737d713ad</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

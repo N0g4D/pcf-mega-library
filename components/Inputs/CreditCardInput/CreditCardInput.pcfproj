@@ -11,6 +11,7 @@
     <Name>CreditCardInput</Name>
     <ProjectGuid>35cac243-8c86-46d9-a425-412b05d40996</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

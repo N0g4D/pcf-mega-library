@@ -11,6 +11,7 @@
     <Name>GlassBreadcrumb</Name>
     <ProjectGuid>584ba5dc-357b-4ccc-9146-98d9f6ddd362</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

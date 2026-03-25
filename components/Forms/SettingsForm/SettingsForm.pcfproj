@@ -11,6 +11,7 @@
     <Name>SettingsForm</Name>
     <ProjectGuid>8483e36b-589f-43b9-8e22-99cfc32d2ed0</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

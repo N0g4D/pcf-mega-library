@@ -11,6 +11,7 @@
     <Name>GlassSlider</Name>
     <ProjectGuid>399f30ce-b46a-4d31-bde5-f462fcc0f73d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

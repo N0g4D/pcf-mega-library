@@ -11,6 +11,7 @@
     <Name>WeightInput</Name>
     <ProjectGuid>bf2770f0-eb9d-45b2-a032-e941361095df</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

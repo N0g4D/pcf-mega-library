@@ -11,6 +11,7 @@
     <Name>DyslexiaFont</Name>
     <ProjectGuid>f280794d-aa92-4dc0-ad3d-ae5d668d40a0</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

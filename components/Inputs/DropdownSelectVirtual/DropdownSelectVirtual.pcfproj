@@ -11,6 +11,7 @@
     <Name>DropdownSelectVirtual</Name>
     <ProjectGuid>e6402ece-e372-48fd-8695-c723586bf92e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

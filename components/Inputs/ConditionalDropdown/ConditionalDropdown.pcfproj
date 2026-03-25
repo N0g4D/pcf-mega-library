@@ -11,6 +11,7 @@
     <Name>ConditionalDropdown</Name>
     <ProjectGuid>4db19559-4627-4923-8558-9dbd548f7af2</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

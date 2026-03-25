@@ -11,6 +11,7 @@
     <Name>CoachMark</Name>
     <ProjectGuid>d36578d9-3e20-403d-9c97-c9ea01bec5fc</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

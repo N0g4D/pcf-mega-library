@@ -11,6 +11,7 @@
     <Name>PopulationPyramid</Name>
     <ProjectGuid>c5e44a37-d08c-41dd-8aa4-b646d1b77826</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

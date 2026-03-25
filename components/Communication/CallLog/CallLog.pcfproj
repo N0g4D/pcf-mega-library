@@ -11,6 +11,7 @@
     <Name>CallLog</Name>
     <ProjectGuid>1a7b8db1-24f7-4a10-9eeb-f2e7f1c2b98b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

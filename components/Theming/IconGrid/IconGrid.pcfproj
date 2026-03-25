@@ -11,6 +11,7 @@
     <Name>IconGrid</Name>
     <ProjectGuid>a4d03349-5474-4a01-8a68-2857b4805e10</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

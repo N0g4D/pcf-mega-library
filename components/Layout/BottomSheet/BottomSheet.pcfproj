@@ -11,6 +11,7 @@
     <Name>BottomSheet</Name>
     <ProjectGuid>26a76dfd-a04b-4886-a478-6b809cd9b339</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

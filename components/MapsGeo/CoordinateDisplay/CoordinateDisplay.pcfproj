@@ -11,6 +11,7 @@
     <Name>CoordinateDisplay</Name>
     <ProjectGuid>164bc1c0-49a1-49df-9a76-12911743473d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

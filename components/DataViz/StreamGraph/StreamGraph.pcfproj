@@ -11,6 +11,7 @@
     <Name>StreamGraph</Name>
     <ProjectGuid>45a5f297-0563-432a-9983-99095e261983</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

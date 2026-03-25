@@ -250,6 +250,7 @@ function pcfproj(name) {
     <Name>${name}</Name>
     <ProjectGuid>${guid}</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -802,6 +803,16 @@ for (let i = 0; i < catalog.length; i++) {
       fs.writeFileSync(path.join(projectDir, "eslint.config.mjs"), eslintConfig());
       fs.writeFileSync(path.join(projectDir, `${comp.name}.pcfproj`), pcfproj(comp.name));
       fs.writeFileSync(path.join(projectDir, "package.json"), packageJson(comp));
+    }
+
+    // Symlink local node_modules → root node_modules (workspace hoisting)
+    const localNm = path.join(projectDir, "node_modules");
+    try {
+      if (!fs.existsSync(localNm)) {
+        fs.symlinkSync(path.join(ROOT, "node_modules"), localNm, "junction");
+      }
+    } catch (_) {
+      // Symlink may already exist or lack permissions — non-fatal
     }
 
     // Write/overwrite source files inside <Name>/<Name>/

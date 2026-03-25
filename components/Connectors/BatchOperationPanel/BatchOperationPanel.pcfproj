@@ -11,6 +11,7 @@
     <Name>BatchOperationPanel</Name>
     <ProjectGuid>d2628657-1e22-4472-b597-a09919539b23</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

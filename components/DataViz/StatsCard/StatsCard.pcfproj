@@ -11,6 +11,7 @@
     <Name>StatsCard</Name>
     <ProjectGuid>aa951bee-cbf8-4548-8c48-9898e6440d1c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

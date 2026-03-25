@@ -11,6 +11,7 @@
     <Name>CollapseGroup</Name>
     <ProjectGuid>643bb69b-a4f1-45b6-b57e-2a339800ec42</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

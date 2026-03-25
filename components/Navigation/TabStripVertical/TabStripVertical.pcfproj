@@ -11,6 +11,7 @@
     <Name>TabStripVertical</Name>
     <ProjectGuid>fc8c76b5-af4a-4a4f-b92f-0550e09457f0</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

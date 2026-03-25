@@ -11,6 +11,7 @@
     <Name>QueryBuilder</Name>
     <ProjectGuid>20fcb4de-5bc1-4476-89f2-17690f1b95f2</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>PolarChart</Name>
     <ProjectGuid>cc4d17d9-704f-4d43-a02e-be6639d054fc</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

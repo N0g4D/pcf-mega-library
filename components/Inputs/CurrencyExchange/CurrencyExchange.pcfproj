@@ -11,6 +11,7 @@
     <Name>CurrencyExchange</Name>
     <ProjectGuid>86df93a1-d6ac-41eb-b2a4-20c332c99acf</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

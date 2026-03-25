@@ -11,6 +11,7 @@
     <Name>LikeDislike</Name>
     <ProjectGuid>9da7900d-e865-47a9-aa09-5a0970fc6abd</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

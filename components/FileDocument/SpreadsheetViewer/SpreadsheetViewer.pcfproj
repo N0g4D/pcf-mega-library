@@ -11,6 +11,7 @@
     <Name>SpreadsheetViewer</Name>
     <ProjectGuid>0a712bde-e181-45e1-9f16-6d7c45d4f65a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

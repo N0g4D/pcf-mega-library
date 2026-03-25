@@ -11,6 +11,7 @@
     <Name>BarChartStacked</Name>
     <ProjectGuid>f87a0489-fab6-4cc3-b412-cbb1bbfe69ca</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

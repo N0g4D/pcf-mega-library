@@ -11,6 +11,7 @@
     <Name>FormValidation</Name>
     <ProjectGuid>ac2106f8-b3dc-4f48-91bf-abe8a9905ede</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

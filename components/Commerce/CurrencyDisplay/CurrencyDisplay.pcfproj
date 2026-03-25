@@ -11,6 +11,7 @@
     <Name>CurrencyDisplay</Name>
     <ProjectGuid>00c08cdf-2da5-4fd2-9156-26b2e0131965</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

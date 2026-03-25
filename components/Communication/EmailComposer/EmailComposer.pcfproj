@@ -11,6 +11,7 @@
     <Name>EmailComposer</Name>
     <ProjectGuid>4a3845c1-078a-4829-9548-77dd52831a39</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

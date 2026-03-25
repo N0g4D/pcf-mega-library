@@ -11,6 +11,7 @@
     <Name>StorageQuota</Name>
     <ProjectGuid>83cde082-8836-4860-bbd9-0e9fee989564</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

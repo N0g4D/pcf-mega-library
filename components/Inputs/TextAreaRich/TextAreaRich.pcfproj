@@ -11,6 +11,7 @@
     <Name>TextAreaRich</Name>
     <ProjectGuid>544c3b14-a84e-4523-8e9b-0ce44191fa93</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

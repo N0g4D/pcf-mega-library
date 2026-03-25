@@ -11,6 +11,7 @@
     <Name>ToggleSwitchGroup</Name>
     <ProjectGuid>69e4eb6f-4585-42d8-8f38-ea3ac76b2c46</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>TemplateGallery</Name>
     <ProjectGuid>302c6ae3-1cdc-4d3c-b5fc-a14a122ab7fc</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

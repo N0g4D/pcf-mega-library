@@ -11,6 +11,7 @@
     <Name>VideoPlayer</Name>
     <ProjectGuid>adfaba5f-dfc8-4a47-a5da-aa41fb1ef390</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

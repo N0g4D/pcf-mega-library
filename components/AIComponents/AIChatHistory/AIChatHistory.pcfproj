@@ -11,6 +11,7 @@
     <Name>AIChatHistory</Name>
     <ProjectGuid>9c75da15-b373-4eb4-bd47-bd6f8ea1b89f</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

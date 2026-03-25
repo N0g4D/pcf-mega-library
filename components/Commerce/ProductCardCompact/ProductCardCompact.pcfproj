@@ -11,6 +11,7 @@
     <Name>ProductCardCompact</Name>
     <ProjectGuid>86bd2bfd-f518-47be-a8c3-60d1f986e0d7</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

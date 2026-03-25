@@ -11,6 +11,7 @@
     <Name>WaterfallLayout</Name>
     <ProjectGuid>87727e5e-2b78-4e51-b40e-76f1447302c3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

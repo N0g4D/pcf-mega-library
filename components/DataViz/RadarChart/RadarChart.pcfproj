@@ -11,6 +11,7 @@
     <Name>RadarChart</Name>
     <ProjectGuid>e4785ae6-3654-47a4-bc5b-3c02c0ff622a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

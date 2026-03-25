@@ -11,6 +11,7 @@
     <Name>DataGridEditable</Name>
     <ProjectGuid>bca69db5-11db-40cc-9b7e-f928b1d986d7</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

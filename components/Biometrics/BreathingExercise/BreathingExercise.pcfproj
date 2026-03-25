@@ -11,6 +11,7 @@
     <Name>BreathingExercise</Name>
     <ProjectGuid>eaa0f9b7-ecdd-48f5-abe2-c9cab43fb2f7</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

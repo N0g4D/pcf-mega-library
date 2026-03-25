@@ -11,6 +11,7 @@
     <Name>AvatarGroup</Name>
     <ProjectGuid>979d5e4d-529e-496d-b922-4c1622ed8929</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

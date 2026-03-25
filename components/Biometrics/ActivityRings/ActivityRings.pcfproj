@@ -11,6 +11,7 @@
     <Name>ActivityRings</Name>
     <ProjectGuid>77443383-202c-4447-84de-e592f1b9e07c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>ProgressIndicator</Name>
     <ProjectGuid>205a0445-03be-483f-9a7d-7fcb239597f9</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

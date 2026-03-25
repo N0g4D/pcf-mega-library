@@ -11,6 +11,7 @@
     <Name>CartSummaryMini</Name>
     <ProjectGuid>b250c46a-7e94-4f87-93d3-237fc4fb9845</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

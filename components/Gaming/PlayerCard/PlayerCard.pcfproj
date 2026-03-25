@@ -11,6 +11,7 @@
     <Name>PlayerCard</Name>
     <ProjectGuid>0ed7fb49-b1b7-4933-8910-71c407e4f490</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

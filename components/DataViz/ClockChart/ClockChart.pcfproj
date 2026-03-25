@@ -11,6 +11,7 @@
     <Name>ClockChart</Name>
     <ProjectGuid>06fdc7e5-5704-42ea-834e-b8e46634a483</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>VoiceCommand</Name>
     <ProjectGuid>f83a51fe-9246-42b3-b6e1-0c30fe2aec62</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>ConnectionMap</Name>
     <ProjectGuid>20c98d9a-3c2a-416d-9298-4945f77a77f6</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

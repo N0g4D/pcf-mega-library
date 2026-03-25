@@ -11,6 +11,7 @@
     <Name>AppSwitcher</Name>
     <ProjectGuid>9a4c67ae-9600-4cf0-9406-8044c9b68580</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

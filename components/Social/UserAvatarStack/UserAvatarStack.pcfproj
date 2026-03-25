@@ -11,6 +11,7 @@
     <Name>UserAvatarStack</Name>
     <ProjectGuid>d2de2740-c6f3-4076-9321-d2a89d801ac5</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

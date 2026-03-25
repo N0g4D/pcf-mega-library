@@ -11,6 +11,7 @@
     <Name>StepWizard</Name>
     <ProjectGuid>8fb5635c-a70c-4472-85aa-01e4611da7cf</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

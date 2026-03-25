@@ -11,6 +11,7 @@
     <Name>CheckboxTree</Name>
     <ProjectGuid>695b119b-3f27-445a-bd6b-7592732213da</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

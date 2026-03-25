@@ -11,6 +11,7 @@
     <Name>PipelineWidget</Name>
     <ProjectGuid>a01aac5d-9964-454d-a816-25c63474d321</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

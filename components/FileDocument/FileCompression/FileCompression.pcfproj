@@ -11,6 +11,7 @@
     <Name>FileCompression</Name>
     <ProjectGuid>3b47b282-e427-4ed5-986d-750745c27eba</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

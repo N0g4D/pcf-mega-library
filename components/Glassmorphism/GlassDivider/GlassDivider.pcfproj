@@ -11,6 +11,7 @@
     <Name>GlassDivider</Name>
     <ProjectGuid>2725cc74-efb9-42f9-b06f-fedb5b49c315</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

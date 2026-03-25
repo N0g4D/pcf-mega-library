@@ -11,6 +11,7 @@
     <Name>AvatarCustomizer</Name>
     <ProjectGuid>08357ba1-d6e1-4e41-97c8-6772806e07c5</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

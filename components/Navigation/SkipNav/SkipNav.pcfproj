@@ -11,6 +11,7 @@
     <Name>SkipNav</Name>
     <ProjectGuid>ad3a6a70-91f7-41b9-b2c3-2e661d6effe3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

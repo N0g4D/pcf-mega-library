@@ -11,6 +11,7 @@
     <Name>SVGEditor</Name>
     <ProjectGuid>2377d69e-68bf-43a0-9a3c-c107ac0f2a52</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

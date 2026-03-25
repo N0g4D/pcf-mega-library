@@ -11,6 +11,7 @@
     <Name>Knob</Name>
     <ProjectGuid>78e811b9-370a-4585-9682-9d5f73b11d05</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>LocaleDisplay</Name>
     <ProjectGuid>704c8308-2834-4f25-888d-d9be56b2ffdc</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

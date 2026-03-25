@@ -11,6 +11,7 @@
     <Name>ToggleSwitch</Name>
     <ProjectGuid>7f0d42a9-ff5b-45d0-b481-05f85a2685f2</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>AIEvaluation</Name>
     <ProjectGuid>98268e5d-eca1-4ea0-b7ad-38386429f3a3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>TreeMap</Name>
     <ProjectGuid>b73f367e-1a3a-4530-879d-9bd3288135e7</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

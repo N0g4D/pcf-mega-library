@@ -11,6 +11,7 @@
     <Name>RecycleBin</Name>
     <ProjectGuid>20acd765-3d32-40ca-9f6c-65c2341dbbc0</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

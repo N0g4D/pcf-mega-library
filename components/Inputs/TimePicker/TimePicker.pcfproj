@@ -11,6 +11,7 @@
     <Name>TimePicker</Name>
     <ProjectGuid>22d9fad3-cf00-4184-9190-ea4d7aa3130c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

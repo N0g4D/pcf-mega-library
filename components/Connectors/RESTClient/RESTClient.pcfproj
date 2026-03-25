@@ -11,6 +11,7 @@
     <Name>RESTClient</Name>
     <ProjectGuid>f913fa54-81af-44ab-b965-593619d870ad</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

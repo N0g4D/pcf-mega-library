@@ -11,6 +11,7 @@
     <Name>BackToTop</Name>
     <ProjectGuid>68ca52e7-aaba-4411-b70e-a098fef48286</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

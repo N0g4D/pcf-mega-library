@@ -11,6 +11,7 @@
     <Name>TeamsChannel</Name>
     <ProjectGuid>00e561e7-8091-4ffb-922b-15fa6e2c6599</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

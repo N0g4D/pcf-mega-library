@@ -11,6 +11,7 @@
     <Name>OutlookInbox</Name>
     <ProjectGuid>b921e4ea-4de3-4c2b-afc8-15ada13df732</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

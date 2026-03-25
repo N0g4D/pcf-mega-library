@@ -11,6 +11,7 @@
     <Name>CalendarMonth</Name>
     <ProjectGuid>c3ac63c9-db51-4f65-bf49-8a1517b84b01</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

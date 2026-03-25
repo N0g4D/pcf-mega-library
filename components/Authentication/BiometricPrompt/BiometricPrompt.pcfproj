@@ -11,6 +11,7 @@
     <Name>BiometricPrompt</Name>
     <ProjectGuid>3137aefb-cd53-43a2-ae18-ce2e5a388d90</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

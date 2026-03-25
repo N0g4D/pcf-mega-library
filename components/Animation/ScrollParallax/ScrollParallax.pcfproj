@@ -11,6 +11,7 @@
     <Name>ScrollParallax</Name>
     <ProjectGuid>cf2dc633-e4fb-4470-b7a5-fe6380a36fb1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

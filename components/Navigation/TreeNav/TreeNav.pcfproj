@@ -11,6 +11,7 @@
     <Name>TreeNav</Name>
     <ProjectGuid>8c3de863-ee09-4822-8d40-1f79c109db35</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

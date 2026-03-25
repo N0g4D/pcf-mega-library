@@ -11,6 +11,7 @@
     <Name>GlassProfile</Name>
     <ProjectGuid>33c616b0-3aaf-4821-a08f-0c038ba6af4e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

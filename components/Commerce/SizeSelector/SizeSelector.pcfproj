@@ -11,6 +11,7 @@
     <Name>SizeSelector</Name>
     <ProjectGuid>0b6242b0-9401-4fc4-9043-284a01f4455c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

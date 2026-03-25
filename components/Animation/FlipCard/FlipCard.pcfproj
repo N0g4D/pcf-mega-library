@@ -11,6 +11,7 @@
     <Name>FlipCard</Name>
     <ProjectGuid>46a2df2f-3908-4ed6-b96a-44de3f4e6def</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

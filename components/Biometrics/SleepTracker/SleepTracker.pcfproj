@@ -11,6 +11,7 @@
     <Name>SleepTracker</Name>
     <ProjectGuid>0978aaf3-6e02-416d-baeb-41dcf29d3a24</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

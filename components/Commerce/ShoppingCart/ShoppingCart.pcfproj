@@ -11,6 +11,7 @@
     <Name>ShoppingCart</Name>
     <ProjectGuid>47b690d1-84ae-4239-8ff6-06b9617598d9</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

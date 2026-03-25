@@ -11,6 +11,7 @@
     <Name>GlassCommandBar</Name>
     <ProjectGuid>0349e426-419f-46cf-855b-ccac5ab4895e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

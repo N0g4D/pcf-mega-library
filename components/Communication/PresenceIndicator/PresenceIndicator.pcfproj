@@ -11,6 +11,7 @@
     <Name>PresenceIndicator</Name>
     <ProjectGuid>3edd0ce8-69e1-4282-a1c9-bdcb1512a8e1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

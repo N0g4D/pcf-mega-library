@@ -11,6 +11,7 @@
     <Name>FunnelChart</Name>
     <ProjectGuid>f1d2242a-543d-41d9-bd94-73dddfb4f47b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

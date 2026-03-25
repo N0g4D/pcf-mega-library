@@ -11,6 +11,7 @@
     <Name>CalendarYear</Name>
     <ProjectGuid>3f23c6f9-da44-4a2a-9cdf-cd3452b3023e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

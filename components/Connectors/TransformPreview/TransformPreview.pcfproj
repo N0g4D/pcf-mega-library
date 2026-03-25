@@ -11,6 +11,7 @@
     <Name>TransformPreview</Name>
     <ProjectGuid>fc355bf2-fc90-40fa-9c41-5604ef3572cd</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

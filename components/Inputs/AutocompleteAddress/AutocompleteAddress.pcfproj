@@ -11,6 +11,7 @@
     <Name>AutocompleteAddress</Name>
     <ProjectGuid>f0876154-06c5-41b5-a9e4-8732a9dba40a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

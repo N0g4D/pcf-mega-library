@@ -11,6 +11,7 @@
     <Name>DataGridVirtual</Name>
     <ProjectGuid>0c5c5333-2f50-4d09-b420-8a3dbafefa5d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>FileUploader</Name>
     <ProjectGuid>36e71489-c21c-4ae8-a185-a780a1619e8b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

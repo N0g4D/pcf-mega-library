@@ -11,6 +11,7 @@
     <Name>GlassSidebar</Name>
     <ProjectGuid>5c38567d-1ec4-41c4-991a-26c4c10a6492</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

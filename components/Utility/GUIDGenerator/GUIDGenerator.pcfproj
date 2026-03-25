@@ -11,6 +11,7 @@
     <Name>GUIDGenerator</Name>
     <ProjectGuid>b556fb7f-5ba5-444e-87f0-f655cdc50a3b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

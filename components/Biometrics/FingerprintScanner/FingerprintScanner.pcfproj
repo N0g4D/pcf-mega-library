@@ -11,6 +11,7 @@
     <Name>FingerprintScanner</Name>
     <ProjectGuid>8b162b23-a721-42a1-96fa-88787e272cd4</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

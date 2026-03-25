@@ -11,6 +11,7 @@
     <Name>GlassFooter</Name>
     <ProjectGuid>57eec126-d914-41bf-b873-30999db6d9ca</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

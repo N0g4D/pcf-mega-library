@@ -11,6 +11,7 @@
     <Name>FontSizeAdjuster</Name>
     <ProjectGuid>fd308e69-c8f5-44b1-b49d-4af691c2325b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

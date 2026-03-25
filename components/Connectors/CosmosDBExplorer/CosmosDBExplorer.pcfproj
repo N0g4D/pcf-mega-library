@@ -11,6 +11,7 @@
     <Name>CosmosDBExplorer</Name>
     <ProjectGuid>657d9503-3c96-481a-ba7e-98779d6a4405</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

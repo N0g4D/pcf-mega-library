@@ -11,6 +11,7 @@
     <Name>LiveIndicator</Name>
     <ProjectGuid>995e42ee-78ad-4c47-b078-7610e0903e43</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

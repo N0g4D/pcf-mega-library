@@ -11,6 +11,7 @@
     <Name>ConfirmDialog</Name>
     <ProjectGuid>b1b21339-ad31-477a-a206-4f6a762a0db1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>ColorBlindFilter</Name>
     <ProjectGuid>1f03042f-62e3-48cd-b68f-99f3474da131</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

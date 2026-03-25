@@ -11,6 +11,7 @@
     <Name>QuantityStepper</Name>
     <ProjectGuid>0a781bf0-f4ac-4634-91f7-a217d2cda8e8</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

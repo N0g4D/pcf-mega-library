@@ -11,6 +11,7 @@
     <Name>MapViewIndoor</Name>
     <ProjectGuid>936f31bc-bacd-415c-b823-6ddb4cf29735</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

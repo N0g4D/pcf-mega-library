@@ -11,6 +11,7 @@
     <Name>BusinessProcessFlow</Name>
     <ProjectGuid>252729fd-f3c6-4717-a2d1-c49bb407295b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

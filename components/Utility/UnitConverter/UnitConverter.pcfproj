@@ -11,6 +11,7 @@
     <Name>UnitConverter</Name>
     <ProjectGuid>acdac08f-8d8a-4560-a848-3f95d96d689c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

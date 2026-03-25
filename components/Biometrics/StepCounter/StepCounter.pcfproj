@@ -11,6 +11,7 @@
     <Name>StepCounter</Name>
     <ProjectGuid>d2066ba8-80c9-4202-8154-bec0666ec9d4</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>AIFeedbackCollector</Name>
     <ProjectGuid>2dc20b24-7317-44f1-b1b7-d74af9de238e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

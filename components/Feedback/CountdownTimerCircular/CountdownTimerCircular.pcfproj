@@ -11,6 +11,7 @@
     <Name>CountdownTimerCircular</Name>
     <ProjectGuid>b512cfa8-ecdd-48b1-994c-3a0e23218216</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

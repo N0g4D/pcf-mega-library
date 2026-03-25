@@ -11,6 +11,7 @@
     <Name>RotateIn</Name>
     <ProjectGuid>3edaa6c5-fcf5-4875-9301-1fdac1f7dc77</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

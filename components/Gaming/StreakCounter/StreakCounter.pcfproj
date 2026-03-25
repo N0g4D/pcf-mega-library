@@ -11,6 +11,7 @@
     <Name>StreakCounter</Name>
     <ProjectGuid>bd7864a0-3572-46a0-8a91-a5b07c5b491a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

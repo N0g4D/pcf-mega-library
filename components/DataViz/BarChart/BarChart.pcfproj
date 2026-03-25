@@ -11,6 +11,7 @@
     <Name>BarChart</Name>
     <ProjectGuid>fa2ced6d-03ab-4733-849c-81c3d99db5c2</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

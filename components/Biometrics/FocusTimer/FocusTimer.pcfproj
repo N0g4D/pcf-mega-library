@@ -11,6 +11,7 @@
     <Name>FocusTimer</Name>
     <ProjectGuid>d6ec8895-668d-46e9-aaf9-b7a6ea6d09d4</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

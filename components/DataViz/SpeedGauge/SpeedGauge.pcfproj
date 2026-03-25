@@ -11,6 +11,7 @@
     <Name>SpeedGauge</Name>
     <ProjectGuid>ef847c14-d79d-4cdb-8e33-8d88d45ee5cd</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

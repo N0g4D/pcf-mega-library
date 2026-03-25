@@ -11,6 +11,7 @@
     <Name>SegmentedControl</Name>
     <ProjectGuid>15512f07-5f57-4e61-9fb7-8e96485925b5</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

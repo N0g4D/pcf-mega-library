@@ -11,6 +11,7 @@
     <Name>GridAutoFill</Name>
     <ProjectGuid>6f88abd3-5e9d-445b-957a-6e9ef2027283</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

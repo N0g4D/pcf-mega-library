@@ -11,6 +11,7 @@
     <Name>FileUploadProgress</Name>
     <ProjectGuid>b4e70ac1-78e8-442e-bdb5-43416c02a026</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>HighContrastToggle</Name>
     <ProjectGuid>5c6a91fb-f962-4ffc-a594-5c7a509b1b19</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>SplitButton</Name>
     <ProjectGuid>05d0480c-6a0f-4f47-8382-ed58d4173db7</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

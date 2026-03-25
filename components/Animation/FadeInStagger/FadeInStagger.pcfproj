@@ -11,6 +11,7 @@
     <Name>FadeInStagger</Name>
     <ProjectGuid>5060acda-eb7b-4a5c-9c07-dec4dbbe25ce</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

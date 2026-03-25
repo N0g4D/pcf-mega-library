@@ -11,6 +11,7 @@
     <Name>WidgetContainer</Name>
     <ProjectGuid>d223dbb5-6f54-441f-a52e-c5338c8c7943</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

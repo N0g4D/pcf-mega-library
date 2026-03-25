@@ -11,6 +11,7 @@
     <Name>DrawSVG</Name>
     <ProjectGuid>802bfd7b-4792-4848-9ded-5d66172ba7db</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>ResourceCalendar</Name>
     <ProjectGuid>9424e4c4-5550-4135-b455-a1eca45106f7</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

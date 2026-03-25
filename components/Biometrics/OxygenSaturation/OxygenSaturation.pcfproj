@@ -11,6 +11,7 @@
     <Name>OxygenSaturation</Name>
     <ProjectGuid>2e7dd86a-bfb9-40e3-86e8-8f0f795cb351</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

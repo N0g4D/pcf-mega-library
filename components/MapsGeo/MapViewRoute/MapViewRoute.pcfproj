@@ -11,6 +11,7 @@
     <Name>MapViewRoute</Name>
     <ProjectGuid>dcefc2d0-40b9-4c00-ad9f-c58589a333c1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

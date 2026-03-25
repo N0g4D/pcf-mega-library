@@ -11,6 +11,7 @@
     <Name>ChatBubble</Name>
     <ProjectGuid>e7a33377-ab6c-4584-af3d-f6b266f7286e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

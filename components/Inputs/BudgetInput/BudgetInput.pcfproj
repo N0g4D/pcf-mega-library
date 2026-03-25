@@ -11,6 +11,7 @@
     <Name>BudgetInput</Name>
     <ProjectGuid>656986d1-f5bb-432a-a7dd-2b6e39e08f4b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

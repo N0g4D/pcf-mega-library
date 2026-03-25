@@ -11,6 +11,7 @@
     <Name>ScreenshotTool</Name>
     <ProjectGuid>ad70fe43-2298-43dd-af83-610ee301bfe2</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

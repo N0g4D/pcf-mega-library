@@ -11,6 +11,7 @@
     <Name>ClockWidget</Name>
     <ProjectGuid>65d21837-d6dd-42f5-9aa2-d57c20c66ddf</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

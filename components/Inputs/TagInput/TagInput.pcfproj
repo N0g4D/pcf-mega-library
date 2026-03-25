@@ -11,6 +11,7 @@
     <Name>TagInput</Name>
     <ProjectGuid>e189c13f-4e4e-4875-b3c7-0bd4b7b066c6</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

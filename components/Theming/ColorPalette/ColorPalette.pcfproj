@@ -11,6 +11,7 @@
     <Name>ColorPalette</Name>
     <ProjectGuid>67e9e16d-7ddf-41f3-97bd-dd9fab1cdec1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

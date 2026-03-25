@@ -11,6 +11,7 @@
     <Name>RateLimitDisplay</Name>
     <ProjectGuid>a4fcc668-457a-40b7-8bb1-5c90d96878cc</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

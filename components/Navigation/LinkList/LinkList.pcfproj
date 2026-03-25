@@ -11,6 +11,7 @@
     <Name>LinkList</Name>
     <ProjectGuid>c168e7e0-e6e5-44b2-b00c-db9c9c226255</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>RouteOptimizer</Name>
     <ProjectGuid>f937d86d-f423-4776-8cdf-26c8b1eee7f7</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

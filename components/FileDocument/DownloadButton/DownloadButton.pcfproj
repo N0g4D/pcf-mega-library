@@ -11,6 +11,7 @@
     <Name>DownloadButton</Name>
     <ProjectGuid>709186ab-ada1-4758-9ed2-26d08a97b9fb</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

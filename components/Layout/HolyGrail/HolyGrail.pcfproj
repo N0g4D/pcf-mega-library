@@ -11,6 +11,7 @@
     <Name>HolyGrail</Name>
     <ProjectGuid>61bccfff-607c-46fc-832c-fe338efbfa18</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

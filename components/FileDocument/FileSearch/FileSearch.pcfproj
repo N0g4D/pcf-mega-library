@@ -11,6 +11,7 @@
     <Name>FileSearch</Name>
     <ProjectGuid>f59b3a55-a859-43b0-9364-7013b7162553</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

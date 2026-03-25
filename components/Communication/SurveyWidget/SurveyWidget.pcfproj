@@ -11,6 +11,7 @@
     <Name>SurveyWidget</Name>
     <ProjectGuid>5d290528-1130-4741-8529-b6bd991eded3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

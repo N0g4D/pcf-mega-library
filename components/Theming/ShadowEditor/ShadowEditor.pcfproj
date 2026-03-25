@@ -11,6 +11,7 @@
     <Name>ShadowEditor</Name>
     <ProjectGuid>15633702-49d8-4432-9123-23b3a7fd0ca4</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>FlexLayout</Name>
     <ProjectGuid>24d4909c-f473-4b68-b998-1fee39999ce4</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

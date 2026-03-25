@@ -11,6 +11,7 @@
     <Name>CopilotCommandBar</Name>
     <ProjectGuid>a658370f-964b-40cb-b68f-ff8c0d8350f0</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

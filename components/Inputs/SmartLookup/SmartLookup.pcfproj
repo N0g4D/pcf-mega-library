@@ -11,6 +11,7 @@
     <Name>SmartLookup</Name>
     <ProjectGuid>04d2f8cc-cbca-41c5-a6d9-340c8bc339c7</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

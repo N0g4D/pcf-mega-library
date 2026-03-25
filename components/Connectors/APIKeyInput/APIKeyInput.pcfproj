@@ -11,6 +11,7 @@
     <Name>APIKeyInput</Name>
     <ProjectGuid>17a1c075-ddc7-4481-9d12-ae038be34429</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

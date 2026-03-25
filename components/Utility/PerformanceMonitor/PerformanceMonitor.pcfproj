@@ -11,6 +11,7 @@
     <Name>PerformanceMonitor</Name>
     <ProjectGuid>c3ab4a5e-815d-4e6f-a1c3-7c2ecc234c5f</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

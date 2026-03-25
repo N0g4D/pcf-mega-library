@@ -11,6 +11,7 @@
     <Name>KanbanBoard</Name>
     <ProjectGuid>bccd3693-ca79-4045-ae99-6e8b5d6e6ec3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>Bleed</Name>
     <ProjectGuid>c833d0f1-b02c-4663-b5b6-7237b936440b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

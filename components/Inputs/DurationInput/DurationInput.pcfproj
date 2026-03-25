@@ -11,6 +11,7 @@
     <Name>DurationInput</Name>
     <ProjectGuid>cba5ad16-822a-4de5-9346-755654cfe5c6</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

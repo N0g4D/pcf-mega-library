@@ -11,6 +11,7 @@
     <Name>Stopwatch</Name>
     <ProjectGuid>37d9d695-cf9e-4021-9346-67be53434fde</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

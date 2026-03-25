@@ -11,6 +11,7 @@
     <Name>BulkRename</Name>
     <ProjectGuid>15bb3311-a2c6-418b-a5fa-b4abd387d432</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

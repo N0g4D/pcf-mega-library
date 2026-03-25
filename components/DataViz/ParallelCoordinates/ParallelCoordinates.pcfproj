@@ -11,6 +11,7 @@
     <Name>ParallelCoordinates</Name>
     <ProjectGuid>02dba2d3-e99a-4597-94be-75943a2b4316</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

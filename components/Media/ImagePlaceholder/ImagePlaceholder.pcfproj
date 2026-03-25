@@ -11,6 +11,7 @@
     <Name>ImagePlaceholder</Name>
     <ProjectGuid>d459772c-5eb4-4c82-8117-1a02861bc911</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

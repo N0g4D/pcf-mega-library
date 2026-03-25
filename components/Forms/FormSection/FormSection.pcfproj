@@ -11,6 +11,7 @@
     <Name>FormSection</Name>
     <ProjectGuid>4b6c8564-8b79-4340-8ae7-e4f6cd1613d0</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

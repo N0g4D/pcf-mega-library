@@ -11,6 +11,7 @@
     <Name>A11yScorecard</Name>
     <ProjectGuid>1b308130-d40b-4dbb-9b13-4ab99ab8acd5</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

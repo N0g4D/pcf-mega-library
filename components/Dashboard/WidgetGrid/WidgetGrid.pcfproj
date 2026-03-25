@@ -11,6 +11,7 @@
     <Name>WidgetGrid</Name>
     <ProjectGuid>96e6fdbb-0d06-4a2b-9c79-add7f915dcab</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>BloodPressure</Name>
     <ProjectGuid>715108bc-ca54-4722-854d-df3543d18a0c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>ImportWizard</Name>
     <ProjectGuid>33a939dd-3c3f-4513-b343-726f2c8f9982</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

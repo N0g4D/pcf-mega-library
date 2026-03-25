@@ -11,6 +11,7 @@
     <Name>EyeStrainTimer</Name>
     <ProjectGuid>36d73ee3-b933-4702-a518-ed4f7616fd0a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

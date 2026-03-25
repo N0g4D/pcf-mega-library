@@ -11,6 +11,7 @@
     <Name>PrioritySelector</Name>
     <ProjectGuid>9555181a-0542-44da-a878-0e33333ef5b6</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

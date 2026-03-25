@@ -11,6 +11,7 @@
     <Name>AIContentGenerator</Name>
     <ProjectGuid>5a33676a-d535-4de7-a57c-8717f29d457c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

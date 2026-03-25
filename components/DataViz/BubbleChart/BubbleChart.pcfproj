@@ -11,6 +11,7 @@
     <Name>BubbleChart</Name>
     <ProjectGuid>799adc53-4094-413b-9e09-07c0f2069926</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

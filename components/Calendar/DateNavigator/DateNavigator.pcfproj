@@ -11,6 +11,7 @@
     <Name>DateNavigator</Name>
     <ProjectGuid>7680adcb-03d5-4e87-bfb9-0ee2706d09a9</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

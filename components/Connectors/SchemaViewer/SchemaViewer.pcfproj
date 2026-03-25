@@ -11,6 +11,7 @@
     <Name>SchemaViewer</Name>
     <ProjectGuid>18a06991-b3b8-407a-93a3-5855efaa08b7</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

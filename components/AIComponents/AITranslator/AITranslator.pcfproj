@@ -11,6 +11,7 @@
     <Name>AITranslator</Name>
     <ProjectGuid>93c942d7-f09e-40a3-a6dc-cc1be6c9f9b5</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

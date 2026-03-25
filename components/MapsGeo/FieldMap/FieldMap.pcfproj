@@ -11,6 +11,7 @@
     <Name>FieldMap</Name>
     <ProjectGuid>22a6eb47-eabd-4b46-8003-1e4cb5e6bba5</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

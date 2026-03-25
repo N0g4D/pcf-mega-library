@@ -11,6 +11,7 @@
     <Name>VoteButtons</Name>
     <ProjectGuid>97877e8a-1afc-4969-9bd6-6e55c31d7df8</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

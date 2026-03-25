@@ -11,6 +11,7 @@
     <Name>ElevationProfile</Name>
     <ProjectGuid>45ba44cc-462c-4fb8-8550-685eb91f9648</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

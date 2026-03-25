@@ -11,6 +11,7 @@
     <Name>JSONEditor</Name>
     <ProjectGuid>04d459c4-0fe3-4e4c-9f01-af98d23760b7</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

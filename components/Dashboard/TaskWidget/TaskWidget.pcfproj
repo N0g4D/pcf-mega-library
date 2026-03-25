@@ -11,6 +11,7 @@
     <Name>TaskWidget</Name>
     <ProjectGuid>561f92a8-1141-45eb-88ec-8a21db124459</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

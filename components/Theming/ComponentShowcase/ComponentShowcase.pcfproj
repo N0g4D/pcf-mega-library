@@ -11,6 +11,7 @@
     <Name>ComponentShowcase</Name>
     <ProjectGuid>ff9f3a5e-d407-44b8-af02-9759527f9eff</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

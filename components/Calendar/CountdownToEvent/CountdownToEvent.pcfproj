@@ -11,6 +11,7 @@
     <Name>CountdownToEvent</Name>
     <ProjectGuid>8fb9547b-11f1-445a-bad3-e40ede29dc22</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

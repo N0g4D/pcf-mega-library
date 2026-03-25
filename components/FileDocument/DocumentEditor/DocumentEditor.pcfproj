@@ -11,6 +11,7 @@
     <Name>DocumentEditor</Name>
     <ProjectGuid>f6d1c754-bbde-4c89-b0fe-0f04b5d1e95d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

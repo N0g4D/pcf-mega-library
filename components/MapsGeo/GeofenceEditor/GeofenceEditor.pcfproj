@@ -11,6 +11,7 @@
     <Name>GeofenceEditor</Name>
     <ProjectGuid>d0b073ad-cac3-4f25-87a4-1eb88ce99764</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

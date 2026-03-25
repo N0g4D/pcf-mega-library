@@ -11,6 +11,7 @@
     <Name>EventTimeline</Name>
     <ProjectGuid>c9ac00d5-0248-4cae-8ada-c20e087114a5</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

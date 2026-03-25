@@ -11,6 +11,7 @@
     <Name>ShimmerEffect</Name>
     <ProjectGuid>4cd00914-e1fb-4fbc-a475-a43bf59d0cce</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

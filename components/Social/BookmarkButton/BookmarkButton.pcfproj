@@ -11,6 +11,7 @@
     <Name>BookmarkButton</Name>
     <ProjectGuid>5d3bd95c-800e-43da-b89e-e91055d086d1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

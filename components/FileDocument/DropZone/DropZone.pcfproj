@@ -11,6 +11,7 @@
     <Name>DropZone</Name>
     <ProjectGuid>c2067620-d12a-4879-92e2-fd9c603da91c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

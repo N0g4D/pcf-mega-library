@@ -11,6 +11,7 @@
     <Name>HashtagList</Name>
     <ProjectGuid>491c9700-dffc-47b1-88d5-4f76aee743a4</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

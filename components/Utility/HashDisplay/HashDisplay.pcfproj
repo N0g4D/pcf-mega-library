@@ -11,6 +11,7 @@
     <Name>HashDisplay</Name>
     <ProjectGuid>9594937f-8255-4087-b6a5-78f1f7aaefd2</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

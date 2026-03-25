@@ -11,6 +11,7 @@
     <Name>RippleEffect</Name>
     <ProjectGuid>2b0ed9c1-4fa9-4c50-9f10-9bf33e4faf3a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

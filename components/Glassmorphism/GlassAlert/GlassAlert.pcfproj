@@ -11,6 +11,7 @@
     <Name>GlassAlert</Name>
     <ProjectGuid>8a6be235-a5ee-4721-869f-67acdcce7a94</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

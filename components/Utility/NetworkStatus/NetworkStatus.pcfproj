@@ -11,6 +11,7 @@
     <Name>NetworkStatus</Name>
     <ProjectGuid>9e52f0af-79b2-432a-8d35-3ef86273ef3f</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>ExperienceBar</Name>
     <ProjectGuid>3ba59cfb-4eef-44cb-adea-f48b56c94267</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

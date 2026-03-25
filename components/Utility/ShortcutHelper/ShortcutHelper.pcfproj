@@ -11,6 +11,7 @@
     <Name>ShortcutHelper</Name>
     <ProjectGuid>a2aa4d06-84e9-42c9-8bad-9c2db5171627</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

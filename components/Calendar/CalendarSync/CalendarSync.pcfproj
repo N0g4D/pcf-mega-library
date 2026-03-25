@@ -11,6 +11,7 @@
     <Name>CalendarSync</Name>
     <ProjectGuid>d06771d8-f113-4d69-959b-3afe9c62b85f</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

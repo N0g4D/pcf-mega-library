@@ -11,6 +11,7 @@
     <Name>MentionInput</Name>
     <ProjectGuid>a61aaeee-19ad-427b-8613-49ffc06e9b17</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

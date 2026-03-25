@@ -11,6 +11,7 @@
     <Name>GlassTimeline</Name>
     <ProjectGuid>bc732e55-ec96-4744-87a4-ea5e5dd2705c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

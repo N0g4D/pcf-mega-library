@@ -11,6 +11,7 @@
     <Name>CommentThread</Name>
     <ProjectGuid>f78944dd-b0d4-43b3-8035-50060d6b9d4b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

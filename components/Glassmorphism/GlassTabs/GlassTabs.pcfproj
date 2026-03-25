@@ -11,6 +11,7 @@
     <Name>GlassTabs</Name>
     <ProjectGuid>dac2f97d-17be-4047-992f-63b699ab6d84</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

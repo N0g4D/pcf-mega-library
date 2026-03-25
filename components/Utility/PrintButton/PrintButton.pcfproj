@@ -11,6 +11,7 @@
     <Name>PrintButton</Name>
     <ProjectGuid>82e3c675-3e1a-45aa-ba19-6c8e4c4b020d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

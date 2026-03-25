@@ -11,6 +11,7 @@
     <Name>LoginFormSocial</Name>
     <ProjectGuid>eef20a8f-fac5-42a8-979e-6a2a881e268f</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

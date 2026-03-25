@@ -11,6 +11,7 @@
     <Name>DiscountBadge</Name>
     <ProjectGuid>fab22f9f-e6dd-45eb-9d45-465fd903e0c9</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

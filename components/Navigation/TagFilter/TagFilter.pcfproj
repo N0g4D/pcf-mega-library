@@ -11,6 +11,7 @@
     <Name>TagFilter</Name>
     <ProjectGuid>af9442d8-83fe-4a10-b67b-0fba7062f903</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

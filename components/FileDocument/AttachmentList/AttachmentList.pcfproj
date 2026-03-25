@@ -11,6 +11,7 @@
     <Name>AttachmentList</Name>
     <ProjectGuid>700593da-29fb-4241-a3d8-b47b195e5e89</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

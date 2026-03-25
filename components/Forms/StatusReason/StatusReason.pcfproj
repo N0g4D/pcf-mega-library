@@ -11,6 +11,7 @@
     <Name>StatusReason</Name>
     <ProjectGuid>b53f24eb-6b06-4aa8-8a05-20f823005645</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

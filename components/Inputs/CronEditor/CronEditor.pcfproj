@@ -11,6 +11,7 @@
     <Name>CronEditor</Name>
     <ProjectGuid>ddc96556-76a4-4132-b2fe-f11af806f164</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>FeedPost</Name>
     <ProjectGuid>60b913fb-4fff-44d8-8735-46a8c594d2b5</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>SprintBoard</Name>
     <ProjectGuid>97e0e61d-8218-46e4-9b25-23f6a5bc5219</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

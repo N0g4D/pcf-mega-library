@@ -11,6 +11,7 @@
     <Name>MeetingScheduler</Name>
     <ProjectGuid>449bdfa1-22f1-458d-a6a0-7f088d9dd768</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

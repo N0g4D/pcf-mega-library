@@ -11,6 +11,7 @@
     <Name>CodeBlock</Name>
     <ProjectGuid>9a15658e-a494-41f5-8aca-4a2fad66204d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

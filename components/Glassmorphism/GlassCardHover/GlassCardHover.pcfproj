@@ -11,6 +11,7 @@
     <Name>GlassCardHover</Name>
     <ProjectGuid>57e6d451-0c3a-44c2-bdc9-d03c0378932a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

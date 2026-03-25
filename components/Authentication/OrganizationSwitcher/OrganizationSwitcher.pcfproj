@@ -11,6 +11,7 @@
     <Name>OrganizationSwitcher</Name>
     <ProjectGuid>dfecfb08-0ffb-4520-86eb-d623d163afbb</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

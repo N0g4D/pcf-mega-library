@@ -11,6 +11,7 @@
     <Name>FollowButton</Name>
     <ProjectGuid>90132943-d3b1-4b36-894d-579eff4b8b0b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>ImageComparison</Name>
     <ProjectGuid>d899cfec-873d-4baf-91df-7da175a347ee</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

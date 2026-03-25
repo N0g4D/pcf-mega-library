@@ -11,6 +11,7 @@
     <Name>ContrastChecker</Name>
     <ProjectGuid>3fea3f1f-839e-4839-9317-7a3a24cbb59c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

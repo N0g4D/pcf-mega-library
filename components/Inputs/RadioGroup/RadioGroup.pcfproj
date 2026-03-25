@@ -11,6 +11,7 @@
     <Name>RadioGroup</Name>
     <ProjectGuid>3485edc3-3b66-4ea4-be07-8d89e7a3e227</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

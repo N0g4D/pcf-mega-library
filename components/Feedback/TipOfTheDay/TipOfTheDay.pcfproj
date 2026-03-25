@@ -11,6 +11,7 @@
     <Name>TipOfTheDay</Name>
     <ProjectGuid>86696f82-20f6-49f0-a04a-da08428abc5a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

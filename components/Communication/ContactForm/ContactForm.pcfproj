@@ -11,6 +11,7 @@
     <Name>ContactForm</Name>
     <ProjectGuid>dbdbb2fe-b3e3-4b4c-bdf0-65e56dca8bf1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

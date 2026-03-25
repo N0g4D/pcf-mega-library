@@ -11,6 +11,7 @@
     <Name>ContextMenu</Name>
     <ProjectGuid>e654f436-f993-4ae3-9189-bff0b6cfbb0a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

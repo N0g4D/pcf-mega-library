@@ -11,6 +11,7 @@
     <Name>Checkbox</Name>
     <ProjectGuid>66f46c52-a6cd-48a9-b955-3318fef7938b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

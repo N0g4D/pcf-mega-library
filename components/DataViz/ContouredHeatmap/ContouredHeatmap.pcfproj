@@ -11,6 +11,7 @@
     <Name>ContouredHeatmap</Name>
     <ProjectGuid>d3364a9f-c2ff-4a93-9b2e-cdf9fdf163ac</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

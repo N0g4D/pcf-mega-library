@@ -11,6 +11,7 @@
     <Name>GlassInput</Name>
     <ProjectGuid>7ac40ce1-75a6-43b4-8f8d-6b752bf45934</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

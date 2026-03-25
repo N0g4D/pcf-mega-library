@@ -11,6 +11,7 @@
     <Name>CaptionOverlay</Name>
     <ProjectGuid>c93ceada-8e4a-496e-b5ab-539bc20aa2c1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

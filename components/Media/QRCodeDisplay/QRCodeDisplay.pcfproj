@@ -11,6 +11,7 @@
     <Name>QRCodeDisplay</Name>
     <ProjectGuid>ceb67064-952f-4d19-9daa-c4270a52cc3a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

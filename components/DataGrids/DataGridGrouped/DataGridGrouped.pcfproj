@@ -11,6 +11,7 @@
     <Name>DataGridGrouped</Name>
     <ProjectGuid>a024c192-4cb2-4da8-93e8-d9ad14c64150</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>FaceIDPrompt</Name>
     <ProjectGuid>bdd75eab-90ae-4f08-9b5d-69ba80e2927c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

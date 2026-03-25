@@ -11,6 +11,7 @@
     <Name>TokenEditor</Name>
     <ProjectGuid>f33cfc61-91aa-47bb-892c-87ffc398968b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

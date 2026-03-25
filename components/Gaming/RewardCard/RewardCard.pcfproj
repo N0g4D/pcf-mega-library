@@ -11,6 +11,7 @@
     <Name>RewardCard</Name>
     <ProjectGuid>644b0eb4-1a92-45a5-a05e-baf4b4f60286</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

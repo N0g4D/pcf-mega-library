@@ -11,6 +11,7 @@
     <Name>ChatTypingIndicator</Name>
     <ProjectGuid>dca58587-4178-4e54-a3bc-15afa4de9645</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

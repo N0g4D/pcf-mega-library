@@ -11,6 +11,7 @@
     <Name>Overlay</Name>
     <ProjectGuid>be1b87da-8c9f-4773-bb7c-0ebe20bc5c3c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

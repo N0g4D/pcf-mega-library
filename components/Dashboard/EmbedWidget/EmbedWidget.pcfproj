@@ -11,6 +11,7 @@
     <Name>EmbedWidget</Name>
     <ProjectGuid>f0dfaa1b-3190-48f4-8575-4e9e071c06e6</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

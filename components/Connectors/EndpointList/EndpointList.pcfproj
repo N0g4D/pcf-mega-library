@@ -11,6 +11,7 @@
     <Name>EndpointList</Name>
     <ProjectGuid>0f6b7170-f61f-4e1a-9c4d-ff591211f673</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>DocumentCompare</Name>
     <ProjectGuid>c35d19be-b36d-4642-92a0-202923a7a939</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

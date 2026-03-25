@@ -11,6 +11,7 @@
     <Name>ChannelList</Name>
     <ProjectGuid>a360a700-5658-40fb-9fef-8c6cf63b7c1a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

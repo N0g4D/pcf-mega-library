@@ -11,6 +11,7 @@
     <Name>CompareProducts</Name>
     <ProjectGuid>6b2fa066-a718-4754-a450-0d45633f5b40</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

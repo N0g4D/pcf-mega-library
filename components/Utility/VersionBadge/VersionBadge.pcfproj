@@ -11,6 +11,7 @@
     <Name>VersionBadge</Name>
     <ProjectGuid>e8dc3135-5342-48ff-a67b-c4c605c36d58</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

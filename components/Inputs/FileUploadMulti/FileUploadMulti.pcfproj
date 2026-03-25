@@ -11,6 +11,7 @@
     <Name>FileUploadMulti</Name>
     <ProjectGuid>acd15438-467b-43b5-9e67-d63000e9a43c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

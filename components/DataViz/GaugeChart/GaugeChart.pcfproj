@@ -11,6 +11,7 @@
     <Name>GaugeChart</Name>
     <ProjectGuid>da914d03-f7b8-4d83-940a-7b9d8084d655</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

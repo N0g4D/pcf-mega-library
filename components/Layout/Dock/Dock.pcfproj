@@ -11,6 +11,7 @@
     <Name>Dock</Name>
     <ProjectGuid>a6c740fc-9a69-4276-8750-494b81d510b8</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

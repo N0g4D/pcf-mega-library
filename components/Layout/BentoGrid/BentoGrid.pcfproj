@@ -11,6 +11,7 @@
     <Name>BentoGrid</Name>
     <ProjectGuid>a070076b-6202-40fb-b220-b11cf4ccabe0</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

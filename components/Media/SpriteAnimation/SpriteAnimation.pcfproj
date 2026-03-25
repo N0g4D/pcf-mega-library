@@ -11,6 +11,7 @@
     <Name>SpriteAnimation</Name>
     <ProjectGuid>e16d72b2-8660-4c30-a6d6-4ef280cceb13</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

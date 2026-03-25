@@ -11,6 +11,7 @@
     <Name>FormAutoSave</Name>
     <ProjectGuid>bd7bcaad-d4dd-4ff0-bf7d-d1027d0ffab6</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

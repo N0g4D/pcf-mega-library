@@ -11,6 +11,7 @@
     <Name>GlassModal</Name>
     <ProjectGuid>d0d4337b-47d9-4a66-a7f5-5ab86fa61a82</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

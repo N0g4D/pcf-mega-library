@@ -11,6 +11,7 @@
     <Name>SystemStatus</Name>
     <ProjectGuid>ed99ac2f-9d46-4cc8-81d8-6ccd88480206</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>GlassCalendar</Name>
     <ProjectGuid>712c2095-cdc9-4770-8ea7-42eb6918c228</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

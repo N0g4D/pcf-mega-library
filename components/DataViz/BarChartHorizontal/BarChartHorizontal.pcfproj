@@ -11,6 +11,7 @@
     <Name>BarChartHorizontal</Name>
     <ProjectGuid>8f1ec86d-1f1b-45e6-b572-9122c1fb9fd9</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

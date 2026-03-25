@@ -11,6 +11,7 @@
     <Name>PhoneInput</Name>
     <ProjectGuid>e8eb0c85-5079-4aa6-8249-7ec8b53625bc</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

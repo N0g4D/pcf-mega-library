@@ -11,6 +11,7 @@
     <Name>A11yToolbar</Name>
     <ProjectGuid>9ebb3d75-1e81-4ea9-b8d0-dce2667f1988</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

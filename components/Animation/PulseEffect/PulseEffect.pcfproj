@@ -11,6 +11,7 @@
     <Name>PulseEffect</Name>
     <ProjectGuid>ae195b77-876f-44eb-9583-e118b6593e49</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

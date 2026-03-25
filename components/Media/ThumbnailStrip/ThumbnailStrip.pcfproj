@@ -11,6 +11,7 @@
     <Name>ThumbnailStrip</Name>
     <ProjectGuid>db000128-9ecc-4b99-85ed-8d984fd2a8bc</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

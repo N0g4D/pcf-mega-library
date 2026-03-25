@@ -11,6 +11,7 @@
     <Name>SQLQueryRunner</Name>
     <ProjectGuid>e8601bb5-7b52-4da0-b0a9-8972c86c0df5</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

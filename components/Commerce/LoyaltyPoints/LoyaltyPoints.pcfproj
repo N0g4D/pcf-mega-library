@@ -11,6 +11,7 @@
     <Name>LoyaltyPoints</Name>
     <ProjectGuid>a93ee401-8e8f-41f9-a0f9-a5e3a1825b9a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

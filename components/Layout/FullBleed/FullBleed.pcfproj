@@ -11,6 +11,7 @@
     <Name>FullBleed</Name>
     <ProjectGuid>de181ca7-e808-4656-8891-169c8414c273</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

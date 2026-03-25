@@ -11,6 +11,7 @@
     <Name>RESTResponseViewer</Name>
     <ProjectGuid>36c1cffe-668b-453a-abbd-fca6e791e590</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

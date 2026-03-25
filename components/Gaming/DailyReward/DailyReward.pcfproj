@@ -11,6 +11,7 @@
     <Name>DailyReward</Name>
     <ProjectGuid>8b82323d-6ee3-449a-9be0-3c9c53448d76</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

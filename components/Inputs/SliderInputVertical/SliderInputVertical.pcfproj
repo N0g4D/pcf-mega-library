@@ -11,6 +11,7 @@
     <Name>SliderInputVertical</Name>
     <ProjectGuid>2ea7615b-1281-4d5b-913b-f5060f9cfba8</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

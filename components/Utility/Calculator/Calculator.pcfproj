@@ -11,6 +11,7 @@
     <Name>Calculator</Name>
     <ProjectGuid>23715f8a-904d-4671-a9b9-d8173ae2896c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

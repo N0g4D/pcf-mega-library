@@ -11,6 +11,7 @@
     <Name>InviteForm</Name>
     <ProjectGuid>866e5b7b-790c-4ee7-ba6a-5f15fdbd6524</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>HeartRateMonitor</Name>
     <ProjectGuid>2376ca78-d303-4ca5-89a5-95d6c8af1977</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

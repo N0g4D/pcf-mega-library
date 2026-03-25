@@ -11,6 +11,7 @@
     <Name>ValidationSummary</Name>
     <ProjectGuid>6609d439-511c-462a-8481-c980560b3932</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

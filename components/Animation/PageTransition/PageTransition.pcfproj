@@ -11,6 +11,7 @@
     <Name>PageTransition</Name>
     <ProjectGuid>1a64bb3b-0a82-4b18-bffc-8ea1ba72db42</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

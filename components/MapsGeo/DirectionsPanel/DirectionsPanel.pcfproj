@@ -11,6 +11,7 @@
     <Name>DirectionsPanel</Name>
     <ProjectGuid>15d3d096-7ee6-4852-89b3-6a1ebd2567e1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

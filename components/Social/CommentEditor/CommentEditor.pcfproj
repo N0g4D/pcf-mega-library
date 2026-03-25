@@ -11,6 +11,7 @@
     <Name>CommentEditor</Name>
     <ProjectGuid>957103c2-2850-4c37-babd-a42025794475</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

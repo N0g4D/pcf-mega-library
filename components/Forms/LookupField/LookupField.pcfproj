@@ -11,6 +11,7 @@
     <Name>LookupField</Name>
     <ProjectGuid>50a30ee6-97a1-42ee-9309-1c69d193f5ec</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

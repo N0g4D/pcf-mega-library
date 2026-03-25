@@ -11,6 +11,7 @@
     <Name>BroadcastBanner</Name>
     <ProjectGuid>775470d0-5861-4423-8d6d-cb8df079f2bf</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

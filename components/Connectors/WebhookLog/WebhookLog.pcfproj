@@ -11,6 +11,7 @@
     <Name>WebhookLog</Name>
     <ProjectGuid>f14a851e-d363-4940-b140-c3673b3d29cd</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>CartBadge</Name>
     <ProjectGuid>a8f32b6d-d498-457d-883e-a6d7438f1901</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

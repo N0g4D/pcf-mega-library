@@ -11,6 +11,7 @@
     <Name>GlassToast</Name>
     <ProjectGuid>64a36b8c-92d1-4815-bd8d-6a95a9984b0b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

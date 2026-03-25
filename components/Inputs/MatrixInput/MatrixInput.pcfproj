@@ -11,6 +11,7 @@
     <Name>MatrixInput</Name>
     <ProjectGuid>1ee599c2-3537-4bdc-84a1-a1825da09779</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

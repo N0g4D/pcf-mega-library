@@ -11,6 +11,7 @@
     <Name>ProgressSteps</Name>
     <ProjectGuid>bf7b4b0e-6634-452d-afb5-e8dc079434e1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>TextInputMasked</Name>
     <ProjectGuid>7e5b8875-ce0d-45c6-a569-14d82acbe8c1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

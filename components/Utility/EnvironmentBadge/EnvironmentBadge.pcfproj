@@ -11,6 +11,7 @@
     <Name>EnvironmentBadge</Name>
     <ProjectGuid>f87fc018-167c-457c-99bf-4d65ea45f15c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

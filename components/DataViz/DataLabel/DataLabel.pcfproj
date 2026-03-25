@@ -11,6 +11,7 @@
     <Name>DataLabel</Name>
     <ProjectGuid>a6e3ff2c-4510-4cbf-9886-14cc39670b4a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

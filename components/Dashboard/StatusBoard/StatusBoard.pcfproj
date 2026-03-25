@@ -11,6 +11,7 @@
     <Name>StatusBoard</Name>
     <ProjectGuid>ee3651d7-c4e9-4987-8bfa-a531299908e0</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

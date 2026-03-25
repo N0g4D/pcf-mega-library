@@ -11,6 +11,7 @@
     <Name>InfiniteCanvas</Name>
     <ProjectGuid>1c4781a5-bf16-47e5-aba2-4ebfeac3f41b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>DataGridConditional</Name>
     <ProjectGuid>1044fae2-0b7b-4b01-9aaf-330d28f15914</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

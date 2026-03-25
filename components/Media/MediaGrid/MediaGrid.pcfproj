@@ -11,6 +11,7 @@
     <Name>MediaGrid</Name>
     <ProjectGuid>417575fa-743d-4aaf-b293-fd26a7b1668d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

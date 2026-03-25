@@ -11,6 +11,7 @@
     <Name>ShiftScheduler</Name>
     <ProjectGuid>9af1854a-0fb8-4cc4-b4ae-541007db0153</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

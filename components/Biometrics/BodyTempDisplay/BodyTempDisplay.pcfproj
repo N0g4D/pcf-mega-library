@@ -11,6 +11,7 @@
     <Name>BodyTempDisplay</Name>
     <ProjectGuid>f64e922e-82bd-497c-97c7-2dd24483786c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>TextInput</Name>
     <ProjectGuid>bf577ebd-d6c4-4de1-98e7-c3203e5d8361</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>ChallengeCard</Name>
     <ProjectGuid>ee5a8777-d03f-4e71-b4ca-4e6b023d3b33</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>Portal</Name>
     <ProjectGuid>c77b0038-a652-4a03-b011-36e6f83e1370</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

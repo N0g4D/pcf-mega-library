@@ -11,6 +11,7 @@
     <Name>ProgressCircleGroup</Name>
     <ProjectGuid>b7a4e1cd-b94f-42cf-b57f-5010fbbd3d5a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

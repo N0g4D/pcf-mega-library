@@ -11,6 +11,7 @@
     <Name>PaymentMethodSelector</Name>
     <ProjectGuid>7d0d160c-c17b-4d8d-9802-f574bc574e40</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

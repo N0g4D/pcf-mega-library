@@ -11,6 +11,7 @@
     <Name>TreeNavCheckable</Name>
     <ProjectGuid>4d31e10a-bd40-4553-b0f1-e15337fc38d0</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

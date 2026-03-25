@@ -11,6 +11,7 @@
     <Name>FloatingPanel</Name>
     <ProjectGuid>abaad823-1d89-4f8c-96b9-09015d82a511</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>RoleSelector</Name>
     <ProjectGuid>e1572fa1-fc83-4ab3-a28c-2641f5ce4a7f</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

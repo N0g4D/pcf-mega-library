@@ -11,6 +11,7 @@
     <Name>SpiderWeb</Name>
     <ProjectGuid>c5113741-0e11-4fc4-84bb-026d6ce78218</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

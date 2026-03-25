@@ -11,6 +11,7 @@
     <Name>IconDisplay</Name>
     <ProjectGuid>b333867e-3342-4709-bb33-414cf4fbfa82</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

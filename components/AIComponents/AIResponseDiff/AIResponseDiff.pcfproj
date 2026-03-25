@@ -11,6 +11,7 @@
     <Name>AIResponseDiff</Name>
     <ProjectGuid>bf051b23-92d3-473d-9d3b-f24a8c79a1f4</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

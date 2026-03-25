@@ -11,6 +11,7 @@
     <Name>MultiSelectOptionSet</Name>
     <ProjectGuid>14765fcd-c6ab-4d18-b08f-4d327a36ffb8</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

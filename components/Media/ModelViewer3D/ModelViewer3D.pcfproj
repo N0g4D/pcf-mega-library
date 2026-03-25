@@ -11,6 +11,7 @@
     <Name>ModelViewer3D</Name>
     <ProjectGuid>701f2e0c-fe27-426f-a7f6-2c281fa3bac3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

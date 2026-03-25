@@ -11,6 +11,7 @@
     <Name>SkeletonPulse</Name>
     <ProjectGuid>a5f7b131-ec75-4495-b8e4-57c698ad70d4</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

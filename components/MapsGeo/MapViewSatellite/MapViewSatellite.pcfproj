@@ -11,6 +11,7 @@
     <Name>MapViewSatellite</Name>
     <ProjectGuid>6c21437d-92a3-4460-a3d9-c66e062f82d7</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

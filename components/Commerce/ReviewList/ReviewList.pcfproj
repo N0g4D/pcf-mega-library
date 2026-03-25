@@ -11,6 +11,7 @@
     <Name>ReviewList</Name>
     <ProjectGuid>684b4eac-1718-4e6f-961c-14a7e4b0c81f</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

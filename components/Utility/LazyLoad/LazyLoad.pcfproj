@@ -11,6 +11,7 @@
     <Name>LazyLoad</Name>
     <ProjectGuid>0d0bdb76-0f9f-42b5-a4a5-869efff2d9a1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

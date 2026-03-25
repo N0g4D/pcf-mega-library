@@ -11,6 +11,7 @@
     <Name>GestureGuide</Name>
     <ProjectGuid>7e565ea0-4b04-418a-a05d-a4428f62ee72</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>DatePickerRange</Name>
     <ProjectGuid>2a323a16-5a73-466d-a44e-5ab55f5578a4</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

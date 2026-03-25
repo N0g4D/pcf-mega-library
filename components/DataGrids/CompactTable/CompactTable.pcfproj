@@ -11,6 +11,7 @@
     <Name>CompactTable</Name>
     <ProjectGuid>ba92fa67-86fb-41d9-aa5b-91ee94aac172</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

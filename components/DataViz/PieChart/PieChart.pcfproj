@@ -11,6 +11,7 @@
     <Name>PieChart</Name>
     <ProjectGuid>44ad7c6f-be12-40a9-83b4-1615492f77ed</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

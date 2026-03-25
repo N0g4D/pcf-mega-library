@@ -11,6 +11,7 @@
     <Name>DataGridTree</Name>
     <ProjectGuid>b0067ab1-8f55-4bdc-a1ba-773681d2fbc2</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

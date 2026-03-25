@@ -11,6 +11,7 @@
     <Name>AddressInput</Name>
     <ProjectGuid>7a3a59db-6ef7-40b3-b453-f2ba4765947b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>SocialProof</Name>
     <ProjectGuid>ccf6b2c2-f8fc-4d66-88e1-fcebd1d2e9f9</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

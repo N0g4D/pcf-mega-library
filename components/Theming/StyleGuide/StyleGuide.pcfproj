@@ -11,6 +11,7 @@
     <Name>StyleGuide</Name>
     <ProjectGuid>16e20d13-6d79-4806-a040-aeee08fa3d96</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

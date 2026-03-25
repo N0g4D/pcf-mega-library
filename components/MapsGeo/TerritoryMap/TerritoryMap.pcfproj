@@ -11,6 +11,7 @@
     <Name>TerritoryMap</Name>
     <ProjectGuid>66de229b-a721-4409-9da8-08a382c2b128</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

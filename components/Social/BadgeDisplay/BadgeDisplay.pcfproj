@@ -11,6 +11,7 @@
     <Name>BadgeDisplay</Name>
     <ProjectGuid>51431364-dfa9-4924-ba9f-49af1e7d7794</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

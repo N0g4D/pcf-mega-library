@@ -11,6 +11,7 @@
     <Name>AITokenCounter</Name>
     <ProjectGuid>8eb3e585-14ee-402e-b218-2954cdd0c898</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

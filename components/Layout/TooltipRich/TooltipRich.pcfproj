@@ -11,6 +11,7 @@
     <Name>TooltipRich</Name>
     <ProjectGuid>9303bcde-8f91-4900-99fd-e11b41bc4483</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

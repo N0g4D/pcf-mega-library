@@ -11,6 +11,7 @@
     <Name>MilestoneTimeline</Name>
     <ProjectGuid>ccc5ff9a-f173-45d6-b854-9c0140c6c8d2</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

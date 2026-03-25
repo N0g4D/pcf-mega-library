@@ -11,6 +11,7 @@
     <Name>BottomNav</Name>
     <ProjectGuid>4ed29ade-af35-4bc0-86fc-a55b7c389e81</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>StepWizardVertical</Name>
     <ProjectGuid>874f3cdf-28b2-4df0-9df5-d33adbd555f1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

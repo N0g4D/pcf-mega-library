@@ -11,6 +11,7 @@
     <Name>PowerAutomateFlow</Name>
     <ProjectGuid>a253408f-23d2-4661-b5f7-cce37b6a64e1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

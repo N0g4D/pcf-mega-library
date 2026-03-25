@@ -11,6 +11,7 @@
     <Name>CalendarChart</Name>
     <ProjectGuid>a5417c36-a512-4681-a412-22683274bd4a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

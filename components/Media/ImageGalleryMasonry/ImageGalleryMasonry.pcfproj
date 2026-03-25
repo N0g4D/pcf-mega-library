@@ -11,6 +11,7 @@
     <Name>ImageGalleryMasonry</Name>
     <ProjectGuid>17d2db22-9821-487c-87e8-86c3bf4d4ac3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

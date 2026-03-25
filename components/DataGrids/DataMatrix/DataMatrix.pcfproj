@@ -11,6 +11,7 @@
     <Name>DataMatrix</Name>
     <ProjectGuid>72c11351-1611-4a4e-8861-64526d27cb7e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

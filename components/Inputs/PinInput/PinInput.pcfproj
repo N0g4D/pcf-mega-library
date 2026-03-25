@@ -11,6 +11,7 @@
     <Name>PinInput</Name>
     <ProjectGuid>75111d5f-2439-47bd-9f6a-87ef89c85412</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

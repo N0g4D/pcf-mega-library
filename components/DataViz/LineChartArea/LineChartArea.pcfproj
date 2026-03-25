@@ -11,6 +11,7 @@
     <Name>LineChartArea</Name>
     <ProjectGuid>c97c666e-87a2-4512-b890-697a02edc501</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

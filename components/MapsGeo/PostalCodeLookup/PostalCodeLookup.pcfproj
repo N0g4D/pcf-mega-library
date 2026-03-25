@@ -11,6 +11,7 @@
     <Name>PostalCodeLookup</Name>
     <ProjectGuid>6b68d315-b0e7-4103-835d-1b46ca6d7c61</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

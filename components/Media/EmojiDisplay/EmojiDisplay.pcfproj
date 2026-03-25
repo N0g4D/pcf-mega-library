@@ -11,6 +11,7 @@
     <Name>EmojiDisplay</Name>
     <ProjectGuid>09863fdc-088f-4736-84b9-e14ccd0e4d07</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

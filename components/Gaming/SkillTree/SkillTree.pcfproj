@@ -11,6 +11,7 @@
     <Name>SkillTree</Name>
     <ProjectGuid>c5375147-8994-4924-87bd-9e67f1eeb533</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

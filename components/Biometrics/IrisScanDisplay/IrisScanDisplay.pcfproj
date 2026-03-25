@@ -11,6 +11,7 @@
     <Name>IrisScanDisplay</Name>
     <ProjectGuid>ef4c5426-0937-4441-8ddd-37893f9dcda7</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

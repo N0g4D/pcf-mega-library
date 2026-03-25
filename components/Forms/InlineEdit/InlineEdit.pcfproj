@@ -11,6 +11,7 @@
     <Name>InlineEdit</Name>
     <ProjectGuid>70afddba-1c6b-4727-9cd8-483ddf5df021</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

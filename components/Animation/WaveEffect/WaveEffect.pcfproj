@@ -11,6 +11,7 @@
     <Name>WaveEffect</Name>
     <ProjectGuid>677cead0-407c-44a4-a73d-9fd73449d209</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

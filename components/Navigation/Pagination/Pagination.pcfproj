@@ -11,6 +11,7 @@
     <Name>Pagination</Name>
     <ProjectGuid>ac7d7f01-431a-4434-8394-f744646626f3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

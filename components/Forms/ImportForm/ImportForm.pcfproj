@@ -11,6 +11,7 @@
     <Name>ImportForm</Name>
     <ProjectGuid>53c09d82-e4fc-450f-8702-00b61a57f359</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

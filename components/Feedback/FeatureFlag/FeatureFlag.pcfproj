@@ -11,6 +11,7 @@
     <Name>FeatureFlag</Name>
     <ProjectGuid>ebcc84d2-1df6-45b3-94c8-c2c3905a0ffd</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

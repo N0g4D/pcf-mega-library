@@ -11,6 +11,7 @@
     <Name>WrapLayout</Name>
     <ProjectGuid>febb8e08-4ec3-48e5-a719-cf86f3b5bec8</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

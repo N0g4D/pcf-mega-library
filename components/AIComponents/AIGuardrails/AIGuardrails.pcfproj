@@ -11,6 +11,7 @@
     <Name>AIGuardrails</Name>
     <ProjectGuid>1e4f89c1-fde2-4e3c-b5e7-147e655467e5</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

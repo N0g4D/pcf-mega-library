@@ -11,6 +11,7 @@
     <Name>DeadlineTracker</Name>
     <ProjectGuid>734fc32c-0fd7-4ece-a613-fc603a760275</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

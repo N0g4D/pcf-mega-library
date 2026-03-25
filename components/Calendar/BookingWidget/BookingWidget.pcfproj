@@ -11,6 +11,7 @@
     <Name>BookingWidget</Name>
     <ProjectGuid>ab100d1f-abe1-4a5c-a4bf-1f6edc5ad782</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

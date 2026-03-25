@@ -11,6 +11,7 @@
     <Name>DeploymentTracker</Name>
     <ProjectGuid>3055dc6a-9937-4274-825f-67f46696ef76</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

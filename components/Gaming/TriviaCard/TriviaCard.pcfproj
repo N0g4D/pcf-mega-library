@@ -11,6 +11,7 @@
     <Name>TriviaCard</Name>
     <ProjectGuid>384d56e5-5bb8-4dc4-ad63-d45286807c86</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

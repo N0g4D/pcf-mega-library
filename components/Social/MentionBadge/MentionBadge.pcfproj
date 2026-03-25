@@ -11,6 +11,7 @@
     <Name>MentionBadge</Name>
     <ProjectGuid>cf60ef02-6281-4913-bf64-4b529a57a483</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

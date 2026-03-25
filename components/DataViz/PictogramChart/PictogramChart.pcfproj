@@ -11,6 +11,7 @@
     <Name>PictogramChart</Name>
     <ProjectGuid>0f25c404-daab-4d76-9f61-895f3c944204</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

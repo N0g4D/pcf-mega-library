@@ -11,6 +11,7 @@
     <Name>EventConflict</Name>
     <ProjectGuid>bc82f58f-0d2b-45c4-8c8e-960163104aff</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

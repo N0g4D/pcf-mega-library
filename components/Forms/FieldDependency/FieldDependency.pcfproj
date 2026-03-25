@@ -11,6 +11,7 @@
     <Name>FieldDependency</Name>
     <ProjectGuid>142705f3-e9b2-4030-bd43-5a8b146a677a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>ResultSummary</Name>
     <ProjectGuid>651a6602-ae33-4d2d-ab64-2b953c07c449</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

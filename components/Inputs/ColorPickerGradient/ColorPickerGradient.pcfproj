@@ -11,6 +11,7 @@
     <Name>ColorPickerGradient</Name>
     <ProjectGuid>4f519b64-f7ed-47d4-aced-f6d1f5263831</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

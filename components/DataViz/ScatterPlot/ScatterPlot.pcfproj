@@ -11,6 +11,7 @@
     <Name>ScatterPlot</Name>
     <ProjectGuid>be1ba854-2b0a-43db-ad46-1d6cbb931ab0</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

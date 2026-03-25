@@ -11,6 +11,7 @@
     <Name>MarkdownEditor</Name>
     <ProjectGuid>97d20186-cff4-4372-a71e-0fcf9d2dadd0</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

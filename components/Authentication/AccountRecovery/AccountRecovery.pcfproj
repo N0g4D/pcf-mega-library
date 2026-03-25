@@ -11,6 +11,7 @@
     <Name>AccountRecovery</Name>
     <ProjectGuid>86f88585-e33e-4da5-b1b2-71f0836fbfd2</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

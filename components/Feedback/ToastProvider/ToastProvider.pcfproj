@@ -11,6 +11,7 @@
     <Name>ToastProvider</Name>
     <ProjectGuid>2e3566ad-581e-4ac1-9ff6-b40070efb7a1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

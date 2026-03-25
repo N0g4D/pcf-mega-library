@@ -11,6 +11,7 @@
     <Name>AIVectorSearch</Name>
     <ProjectGuid>3869b3d4-df85-4a4f-aae5-e700c4321a3b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>GlassBadge</Name>
     <ProjectGuid>0d7a7192-9a2a-4708-95d5-6a753001557c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

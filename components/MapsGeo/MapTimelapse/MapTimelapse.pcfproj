@@ -11,6 +11,7 @@
     <Name>MapTimelapse</Name>
     <ProjectGuid>fcf5fa37-7886-4389-b897-cc5e1d9c4867</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

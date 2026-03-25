@@ -11,6 +11,7 @@
     <Name>DiffViewer</Name>
     <ProjectGuid>4adda6cc-3816-48bf-a249-afad1bafb8b6</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

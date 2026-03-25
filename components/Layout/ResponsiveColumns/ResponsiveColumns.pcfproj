@@ -11,6 +11,7 @@
     <Name>ResponsiveColumns</Name>
     <ProjectGuid>a0fa96e6-dae8-4656-a345-389092cf4a1a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

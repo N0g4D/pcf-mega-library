@@ -11,6 +11,7 @@
     <Name>FormLikert</Name>
     <ProjectGuid>071c67c3-3862-4593-9ba4-b716dfbe973f</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

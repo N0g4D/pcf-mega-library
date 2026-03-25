@@ -11,6 +11,7 @@
     <Name>VirtualList</Name>
     <ProjectGuid>cbd4899b-8dfa-4553-9e91-969e2e0103a8</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

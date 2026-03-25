@@ -11,6 +11,7 @@
     <Name>StickyHeader</Name>
     <ProjectGuid>4445fdb0-194c-4a19-96ac-555039b244dc</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

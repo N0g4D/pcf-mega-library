@@ -11,6 +11,7 @@
     <Name>NotificationBell</Name>
     <ProjectGuid>1e56e0d1-d9ed-4ab0-9e12-1df094116c50</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>NPS</Name>
     <ProjectGuid>3677ca34-c97f-49be-bd19-ec44038b658a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

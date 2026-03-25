@@ -11,6 +11,7 @@
     <Name>FormDirtyGuard</Name>
     <ProjectGuid>fe895eff-2b0b-4f14-8d50-7a9e28b936c3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

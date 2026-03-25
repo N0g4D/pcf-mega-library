@@ -11,6 +11,7 @@
     <Name>MasonryGrid</Name>
     <ProjectGuid>524caec6-ae53-47cc-a667-2fb3071ee364</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

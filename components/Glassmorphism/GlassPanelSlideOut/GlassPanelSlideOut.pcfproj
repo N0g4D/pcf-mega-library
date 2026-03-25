@@ -11,6 +11,7 @@
     <Name>GlassPanelSlideOut</Name>
     <ProjectGuid>81e4a603-0283-4679-8257-3cf3b9b8f44d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

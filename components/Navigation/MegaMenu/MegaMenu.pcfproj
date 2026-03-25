@@ -11,6 +11,7 @@
     <Name>MegaMenu</Name>
     <ProjectGuid>93a706f7-b4db-4442-bb21-47474aa0ad34</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

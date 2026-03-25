@@ -11,6 +11,7 @@
     <Name>UserProfileFull</Name>
     <ProjectGuid>cf5cff66-6cfe-42dc-b435-08be145ac50e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

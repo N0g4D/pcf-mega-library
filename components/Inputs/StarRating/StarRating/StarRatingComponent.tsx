@@ -116,7 +116,6 @@ export const StarRatingComponent: React.FC<IStarRatingProps> = (props) => {
   const handleClick = useCallback(
     (starValue: number) => {
       if (disabled) return;
-      // Toggle off if clicking the same value
       const newValue = starValue === value ? 0 : starValue;
       onValueChange(newValue);
     },
@@ -152,7 +151,6 @@ export const StarRatingComponent: React.FC<IStarRatingProps> = (props) => {
         : classes.starEmpty;
 
       if (allowHalf) {
-        // Two click zones per star: left half = i-0.5, right half = i
         elements.push(
           React.createElement(
             "div",
@@ -162,19 +160,16 @@ export const StarRatingComponent: React.FC<IStarRatingProps> = (props) => {
               onMouseLeave: handleMouseLeave,
               style: { fontSize: iconSize },
             },
-            // Left half zone
             React.createElement("div", {
               className: classes.halfStarLeft,
               onMouseEnter: () => handleMouseEnter(i - 0.5),
               onClick: () => handleClick(i - 0.5),
             }),
-            // Right half zone
             React.createElement("div", {
               className: classes.halfStarRight,
               onMouseEnter: () => handleMouseEnter(i),
               onClick: () => handleClick(i),
             }),
-            // Visual star
             isHalf
               ? React.createElement(StarHalfFilled, { className: colorClass, style: { fontSize: iconSize } })
               : isFull
@@ -183,7 +178,6 @@ export const StarRatingComponent: React.FC<IStarRatingProps> = (props) => {
           )
         );
       } else {
-        // Simple: one click zone per star
         elements.push(
           React.createElement(
             "div",

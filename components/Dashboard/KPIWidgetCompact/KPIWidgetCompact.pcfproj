@@ -11,6 +11,7 @@
     <Name>KPIWidgetCompact</Name>
     <ProjectGuid>a82e2fd9-b01a-413e-8db3-2889cf5f9b29</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

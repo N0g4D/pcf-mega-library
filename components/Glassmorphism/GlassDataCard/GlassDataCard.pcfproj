@@ -11,6 +11,7 @@
     <Name>GlassDataCard</Name>
     <ProjectGuid>24d9ed9f-c207-4e55-9565-fe7c40e170a9</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

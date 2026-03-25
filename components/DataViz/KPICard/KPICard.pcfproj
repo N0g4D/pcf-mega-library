@@ -11,6 +11,7 @@
     <Name>KPICard</Name>
     <ProjectGuid>f52ec514-8688-44e0-8e37-6945fdca558d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>DotPlot</Name>
     <ProjectGuid>b7d4eb3e-6f3d-4956-9105-ec11c706359c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

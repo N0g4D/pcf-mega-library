@@ -11,6 +11,7 @@
     <Name>UserProfileCard</Name>
     <ProjectGuid>5f964eb6-608c-4892-901f-6630942e7ac3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

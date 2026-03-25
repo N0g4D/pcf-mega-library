@@ -11,6 +11,7 @@
     <Name>NavBreadcrumbCombo</Name>
     <ProjectGuid>4afb1145-131a-4e41-bde7-b6ad38a5e4e3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

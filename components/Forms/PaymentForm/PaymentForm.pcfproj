@@ -11,6 +11,7 @@
     <Name>PaymentForm</Name>
     <ProjectGuid>126950e9-aec0-4ce1-bf6e-96d9beaa7197</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

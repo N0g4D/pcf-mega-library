@@ -11,6 +11,7 @@
     <Name>BrandingKit</Name>
     <ProjectGuid>777cb4e3-21df-4ccf-b10a-f61c1de3a9f3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

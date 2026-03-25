@@ -11,6 +11,7 @@
     <Name>MagnifierTool</Name>
     <ProjectGuid>a51e8dc6-7f4b-4911-8961-7812ffaa552f</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

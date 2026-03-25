@@ -11,6 +11,7 @@
     <Name>FormRepeater</Name>
     <ProjectGuid>51f4a624-93b9-4285-a659-22efe80cb203</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

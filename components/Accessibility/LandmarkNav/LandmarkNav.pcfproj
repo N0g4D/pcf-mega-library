@@ -11,6 +11,7 @@
     <Name>LandmarkNav</Name>
     <ProjectGuid>bceea854-3c44-4dfb-a400-141e10d49b70</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

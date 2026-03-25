@@ -11,6 +11,7 @@
     <Name>ChangelogDisplay</Name>
     <ProjectGuid>1d611641-8c95-43d0-8a9b-d31fab8abd97</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

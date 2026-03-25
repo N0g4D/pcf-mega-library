@@ -11,6 +11,7 @@
     <Name>SitemapViewer</Name>
     <ProjectGuid>b95e4184-bca5-46cf-b366-f4b853e35fda</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

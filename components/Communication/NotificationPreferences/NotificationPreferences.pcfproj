@@ -11,6 +11,7 @@
     <Name>NotificationPreferences</Name>
     <ProjectGuid>cfcbb5e3-b68b-4d68-bb3f-2a27554ce032</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

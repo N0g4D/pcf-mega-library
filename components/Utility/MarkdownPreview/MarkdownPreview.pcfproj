@@ -11,6 +11,7 @@
     <Name>MarkdownPreview</Name>
     <ProjectGuid>c7a4a626-d0ca-4951-8f33-e5d516d02bee</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>BarcodeGenerator</Name>
     <ProjectGuid>4f3d5f8d-966a-4e24-871a-6155bcb64467</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

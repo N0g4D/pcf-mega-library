@@ -11,6 +11,7 @@
     <Name>AlertBanner</Name>
     <ProjectGuid>6d952d33-4e7b-4aac-a513-2417913bb146</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

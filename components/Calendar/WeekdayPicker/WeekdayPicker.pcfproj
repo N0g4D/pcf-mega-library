@@ -11,6 +11,7 @@
     <Name>WeekdayPicker</Name>
     <ProjectGuid>3758095b-68ca-4aa6-abd0-956713d74348</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>DataGridFilter</Name>
     <ProjectGuid>4b48f4b8-1733-4f37-9556-3d46f9f7b49d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

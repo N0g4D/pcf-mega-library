@@ -11,6 +11,7 @@
     <Name>IconPicker</Name>
     <ProjectGuid>f57f86e7-d794-4611-9d17-50436fad437c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

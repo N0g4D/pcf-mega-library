@@ -11,6 +11,7 @@
     <Name>DataGrid</Name>
     <ProjectGuid>a67960e7-560f-474c-b215-268e58c14032</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

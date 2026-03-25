@@ -11,6 +11,7 @@
     <Name>AIAutoComplete</Name>
     <ProjectGuid>2d81ede0-9cc1-4f1c-9579-f6ca7aaee5e3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>InvoiceTable</Name>
     <ProjectGuid>bb4ca436-a619-4f0a-8bf2-97ef4e286265</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

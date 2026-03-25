@@ -11,6 +11,7 @@
     <Name>SpreadsheetGrid</Name>
     <ProjectGuid>a32ae36c-fafe-42bf-9a94-d7b49d95585e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

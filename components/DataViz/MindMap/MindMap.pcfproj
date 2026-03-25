@@ -11,6 +11,7 @@
     <Name>MindMap</Name>
     <ProjectGuid>668386d0-8f17-4f79-99e0-af3f949098b0</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

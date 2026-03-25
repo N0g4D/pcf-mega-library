@@ -11,6 +11,7 @@
     <Name>PendingActions</Name>
     <ProjectGuid>e8e83873-5011-424c-90fd-7b6bc28c3478</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>StackedBarTimeline</Name>
     <ProjectGuid>6163bcc8-3629-4ac4-96db-680c3e2c023b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

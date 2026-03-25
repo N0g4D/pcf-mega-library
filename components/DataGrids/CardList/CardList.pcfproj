@@ -11,6 +11,7 @@
     <Name>CardList</Name>
     <ProjectGuid>03e1f9c3-584a-41b5-b575-1c3aa15513d2</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

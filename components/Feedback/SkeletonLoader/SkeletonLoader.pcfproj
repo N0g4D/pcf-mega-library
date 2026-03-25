@@ -11,6 +11,7 @@
     <Name>SkeletonLoader</Name>
     <ProjectGuid>41c1c5ec-4afc-4470-9f96-02d5afd9256b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

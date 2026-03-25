@@ -11,6 +11,7 @@
     <Name>TimeGrid</Name>
     <ProjectGuid>609e2b10-3b9c-4a4c-8965-39fcd69ed971</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

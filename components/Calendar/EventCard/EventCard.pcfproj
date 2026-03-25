@@ -11,6 +11,7 @@
     <Name>EventCard</Name>
     <ProjectGuid>a729240c-a63f-474c-9b2c-045215b7fb2a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

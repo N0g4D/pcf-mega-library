@@ -11,6 +11,7 @@
     <Name>FeedbackForm</Name>
     <ProjectGuid>53a55ca0-9f56-48dd-9c61-ff4b85521ea2</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

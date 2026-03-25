@@ -11,6 +11,7 @@
     <Name>TestimonialCard</Name>
     <ProjectGuid>663a4594-f99b-41c9-9715-5f1905cb2a4c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

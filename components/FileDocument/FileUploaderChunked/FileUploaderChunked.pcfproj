@@ -11,6 +11,7 @@
     <Name>FileUploaderChunked</Name>
     <ProjectGuid>7b3f1767-e8d8-4b3c-88a2-dfe6082f8d1a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

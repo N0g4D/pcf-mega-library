@@ -11,6 +11,7 @@
     <Name>PricingToggle</Name>
     <ProjectGuid>42bc879c-0496-4f60-839e-15661fddabd1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

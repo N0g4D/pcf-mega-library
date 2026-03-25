@@ -11,6 +11,7 @@
     <Name>ColorPicker</Name>
     <ProjectGuid>9f605a36-d0e4-4142-8aa4-83499cdf425b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

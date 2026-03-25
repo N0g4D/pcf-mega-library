@@ -11,6 +11,7 @@
     <Name>CopilotSuggestions</Name>
     <ProjectGuid>46a61595-d4f9-4702-bfac-9558497997b2</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

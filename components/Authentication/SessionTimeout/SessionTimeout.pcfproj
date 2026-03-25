@@ -11,6 +11,7 @@
     <Name>SessionTimeout</Name>
     <ProjectGuid>7aecdcaa-1ba4-465d-af37-1cf7d7fd0458</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

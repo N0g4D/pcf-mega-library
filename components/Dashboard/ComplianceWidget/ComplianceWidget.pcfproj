@@ -11,6 +11,7 @@
     <Name>ComplianceWidget</Name>
     <ProjectGuid>39f5c6d7-3a4b-4709-a199-e717c73109e6</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

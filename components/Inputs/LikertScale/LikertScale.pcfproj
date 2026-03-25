@@ -11,6 +11,7 @@
     <Name>LikertScale</Name>
     <ProjectGuid>c0f11f4f-6a7b-4d46-98d8-4a01b8d9a2e9</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

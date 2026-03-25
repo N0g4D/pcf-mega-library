@@ -11,6 +11,7 @@
     <Name>AIEntityExtractor</Name>
     <ProjectGuid>bc160218-62ae-4b2a-b368-c084e19fbfb3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

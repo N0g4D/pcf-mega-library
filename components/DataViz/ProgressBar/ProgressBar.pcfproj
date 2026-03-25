@@ -11,6 +11,7 @@
     <Name>ProgressBar</Name>
     <ProjectGuid>15e1bdc2-208e-4f94-b7a0-5e6cd36778bd</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

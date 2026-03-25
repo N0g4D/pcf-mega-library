@@ -11,6 +11,7 @@
     <Name>GlassAvatar</Name>
     <ProjectGuid>c3fbf4e0-f69a-4e1a-b0a4-5f9b2b23d292</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

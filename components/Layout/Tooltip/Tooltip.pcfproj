@@ -11,6 +11,7 @@
     <Name>Tooltip</Name>
     <ProjectGuid>7bb3e927-d68b-4678-bc09-2f935f7665e4</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

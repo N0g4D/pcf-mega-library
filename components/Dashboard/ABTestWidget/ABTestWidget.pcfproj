@@ -11,6 +11,7 @@
     <Name>ABTestWidget</Name>
     <ProjectGuid>9848bead-615a-4656-a149-30eafae29e6d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

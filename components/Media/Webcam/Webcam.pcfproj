@@ -11,6 +11,7 @@
     <Name>Webcam</Name>
     <ProjectGuid>d4f86d0b-7ff5-460f-a6f1-30b7ffe6c4a1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

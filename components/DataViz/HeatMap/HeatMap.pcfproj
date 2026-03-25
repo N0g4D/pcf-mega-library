@@ -11,6 +11,7 @@
     <Name>HeatMap</Name>
     <ProjectGuid>6a15a2d5-340b-4a78-b183-837fb6634efe</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>AudioPlayer</Name>
     <ProjectGuid>8c1bef6b-ae52-4cb9-a848-085113cf1e22</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

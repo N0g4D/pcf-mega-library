@@ -11,6 +11,7 @@
     <Name>GlassChip</Name>
     <ProjectGuid>a1278530-9915-49c3-8fc4-1e7552b47b17</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

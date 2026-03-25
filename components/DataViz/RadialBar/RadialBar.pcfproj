@@ -11,6 +11,7 @@
     <Name>RadialBar</Name>
     <ProjectGuid>cc2b303c-5f60-484c-9a06-fdee958d6b73</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>FloorPlan</Name>
     <ProjectGuid>2a46f646-0f6c-455e-8208-9f21bbd503ec</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

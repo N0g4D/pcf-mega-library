@@ -11,6 +11,7 @@
     <Name>ThemeSwitcherSegmented</Name>
     <ProjectGuid>17511564-0c52-42a8-a70f-9c69f7367a06</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

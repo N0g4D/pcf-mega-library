@@ -11,6 +11,7 @@
     <Name>ScrollContainerVirtual</Name>
     <ProjectGuid>5a4018e4-e3c2-457e-825e-99773bd8641d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

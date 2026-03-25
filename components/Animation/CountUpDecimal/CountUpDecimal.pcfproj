@@ -11,6 +11,7 @@
     <Name>CountUpDecimal</Name>
     <ProjectGuid>ce46224f-c492-4d2c-8271-1ba593cb4d16</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

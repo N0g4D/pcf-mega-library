@@ -11,6 +11,7 @@
     <Name>ImageZoom</Name>
     <ProjectGuid>95aca522-f100-4b21-8477-70f3a8c9130e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

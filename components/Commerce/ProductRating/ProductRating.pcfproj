@@ -11,6 +11,7 @@
     <Name>ProductRating</Name>
     <ProjectGuid>4d614bec-b2fb-4933-8c51-49816db10c45</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

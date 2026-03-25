@@ -11,6 +11,7 @@
     <Name>DocumentViewer</Name>
     <ProjectGuid>5afb267c-a323-4a03-a571-61ed6453056c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

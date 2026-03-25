@@ -11,6 +11,7 @@
     <Name>GlassChatBubble</Name>
     <ProjectGuid>c7883808-7e6b-4b03-9c80-3a866a5ffb3f</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

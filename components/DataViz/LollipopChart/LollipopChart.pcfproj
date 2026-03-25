@@ -11,6 +11,7 @@
     <Name>LollipopChart</Name>
     <ProjectGuid>ac269494-8516-4ddf-8aa4-82b0ef076a3f</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

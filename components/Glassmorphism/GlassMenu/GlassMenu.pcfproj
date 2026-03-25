@@ -11,6 +11,7 @@
     <Name>GlassMenu</Name>
     <ProjectGuid>656b84f2-0dfd-4623-be0f-b5373ee5812b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>DonutChartNested</Name>
     <ProjectGuid>eab93231-980d-4ba3-9d07-1775a9aa99f7</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>LootBox</Name>
     <ProjectGuid>fe672808-0615-4b7b-ba40-50f88849864d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

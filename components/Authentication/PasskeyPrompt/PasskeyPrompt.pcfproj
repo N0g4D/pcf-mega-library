@@ -11,6 +11,7 @@
     <Name>PasskeyPrompt</Name>
     <ProjectGuid>9d54c4ac-b983-4c39-bfed-c75ca20fce4a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

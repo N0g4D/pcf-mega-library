@@ -11,6 +11,7 @@
     <Name>FadeIn</Name>
     <ProjectGuid>9f41a2fe-139f-43c9-9872-a55f8d964ceb</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

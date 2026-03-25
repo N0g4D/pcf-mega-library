@@ -11,6 +11,7 @@
     <Name>GradientPicker</Name>
     <ProjectGuid>c2bcbe6f-f289-4718-82f4-74dd9b700a3f</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

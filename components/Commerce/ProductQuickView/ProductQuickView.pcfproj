@@ -11,6 +11,7 @@
     <Name>ProductQuickView</Name>
     <ProjectGuid>8fa5d889-1ed1-4ddc-83d4-bc77d24e4280</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

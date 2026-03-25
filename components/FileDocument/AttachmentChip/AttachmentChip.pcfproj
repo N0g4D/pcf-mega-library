@@ -11,6 +11,7 @@
     <Name>AttachmentChip</Name>
     <ProjectGuid>6f44f495-d16a-4c72-aa72-c5c3374a8281</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

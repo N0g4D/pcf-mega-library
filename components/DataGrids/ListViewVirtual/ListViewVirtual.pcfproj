@@ -11,6 +11,7 @@
     <Name>ListViewVirtual</Name>
     <ProjectGuid>8e7049c4-3806-4fa6-b14f-aa1a635072dc</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

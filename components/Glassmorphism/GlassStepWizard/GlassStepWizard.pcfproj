@@ -11,6 +11,7 @@
     <Name>GlassStepWizard</Name>
     <ProjectGuid>aa7cf08a-36cd-4d84-b3fd-19e5b82c5178</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

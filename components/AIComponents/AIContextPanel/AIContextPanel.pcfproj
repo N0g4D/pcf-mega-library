@@ -11,6 +11,7 @@
     <Name>AIContextPanel</Name>
     <ProjectGuid>f3740096-6d33-483d-b86d-821be183854e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

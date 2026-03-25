@@ -11,6 +11,7 @@
     <Name>LottiePlayer</Name>
     <ProjectGuid>2bf14f88-946c-40b4-87c2-a928984deff3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>DebugPanel</Name>
     <ProjectGuid>ae8b70f3-7341-4943-b1c9-bbd8aec03192</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

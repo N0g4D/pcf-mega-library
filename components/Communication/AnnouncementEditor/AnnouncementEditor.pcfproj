@@ -11,6 +11,7 @@
     <Name>AnnouncementEditor</Name>
     <ProjectGuid>2f6a5beb-8142-4151-b3f4-abfacba391f1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>NavRail</Name>
     <ProjectGuid>abdc3a73-0a85-4c3b-a567-2126d3846ea8</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>IncidentTimeline</Name>
     <ProjectGuid>f86eb3bb-460c-43ce-8b02-ddd02b49b8eb</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

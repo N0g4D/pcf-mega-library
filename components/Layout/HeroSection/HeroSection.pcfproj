@@ -11,6 +11,7 @@
     <Name>HeroSection</Name>
     <ProjectGuid>fd47168d-8af9-4512-ad56-8167b9ab8f6a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

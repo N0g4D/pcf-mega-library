@@ -11,6 +11,7 @@
     <Name>MedicationReminder</Name>
     <ProjectGuid>dcd387a1-1548-47c2-9e3f-f6736f3e70f9</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

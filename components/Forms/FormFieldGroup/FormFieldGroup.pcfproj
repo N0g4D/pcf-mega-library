@@ -11,6 +11,7 @@
     <Name>FormFieldGroup</Name>
     <ProjectGuid>6a96db5e-4d53-45a1-be21-1e1306fa6cd7</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

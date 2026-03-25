@@ -11,6 +11,7 @@
     <Name>ScorecardWidget</Name>
     <ProjectGuid>33144358-ce1c-4b6b-8545-ea9cfcaad901</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

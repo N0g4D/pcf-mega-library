@@ -11,6 +11,7 @@
     <Name>AIFormFiller</Name>
     <ProjectGuid>6875bec6-a8eb-473c-8b02-896ab8db3106</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

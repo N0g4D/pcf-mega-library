@@ -11,6 +11,7 @@
     <Name>CardGridVirtual</Name>
     <ProjectGuid>0bad2fae-fb46-4661-8ab7-ca58eed2f565</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

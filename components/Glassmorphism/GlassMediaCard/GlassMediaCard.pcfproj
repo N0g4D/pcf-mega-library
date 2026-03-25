@@ -11,6 +11,7 @@
     <Name>GlassMediaCard</Name>
     <ProjectGuid>4c3589e8-7ca3-4f00-b54d-9bc8bb51e08a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>QuickCreateForm</Name>
     <ProjectGuid>4d429b05-a077-4bf4-b8e5-9c4026b9b6c1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

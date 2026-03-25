@@ -11,6 +11,7 @@
     <Name>ImageAnnotator</Name>
     <ProjectGuid>ef23f44c-9d8e-40b6-9a1e-ba75e860f882</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

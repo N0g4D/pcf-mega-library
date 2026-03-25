@@ -11,6 +11,7 @@
     <Name>PDFAnnotator</Name>
     <ProjectGuid>74f18da2-093d-4242-b095-a25d762958fe</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

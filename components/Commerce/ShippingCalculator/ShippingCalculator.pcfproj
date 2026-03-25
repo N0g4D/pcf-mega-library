@@ -11,6 +11,7 @@
     <Name>ShippingCalculator</Name>
     <ProjectGuid>2397b3c4-8ddc-4408-b514-3c48a1a3cb3d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

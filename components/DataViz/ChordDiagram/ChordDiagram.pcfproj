@@ -11,6 +11,7 @@
     <Name>ChordDiagram</Name>
     <ProjectGuid>7ede3ece-b1a0-4a3d-987a-22e0106cd5d6</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

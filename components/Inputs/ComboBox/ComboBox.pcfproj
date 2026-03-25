@@ -11,6 +11,7 @@
     <Name>ComboBox</Name>
     <ProjectGuid>332637c8-99a4-48ab-a9ad-ae401f3c533e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

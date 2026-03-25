@@ -11,6 +11,7 @@
     <Name>CardGrid</Name>
     <ProjectGuid>c999105f-d136-4783-9f49-df5903dbef90</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

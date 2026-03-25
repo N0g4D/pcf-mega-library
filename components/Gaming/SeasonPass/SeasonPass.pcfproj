@@ -11,6 +11,7 @@
     <Name>SeasonPass</Name>
     <ProjectGuid>4e2b964b-0447-46e0-af15-cd19857284f2</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

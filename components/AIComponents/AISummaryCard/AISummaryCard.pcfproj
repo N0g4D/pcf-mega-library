@@ -11,6 +11,7 @@
     <Name>AISummaryCard</Name>
     <ProjectGuid>2c38a8bb-2c3d-4475-8d1c-487b666df661</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

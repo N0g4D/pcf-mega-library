@@ -11,6 +11,7 @@
     <Name>GlassDropdown</Name>
     <ProjectGuid>7f8597b2-070e-4551-a990-29ddd70dcf06</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

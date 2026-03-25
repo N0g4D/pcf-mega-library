@@ -11,6 +11,7 @@
     <Name>CommandPalette</Name>
     <ProjectGuid>ad268b60-289e-42a2-aa58-a09ebc683455</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

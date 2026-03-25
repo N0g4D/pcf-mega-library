@@ -11,6 +11,7 @@
     <Name>TeamCapacity</Name>
     <ProjectGuid>c75d9bfd-52f0-4126-8a90-11e2485a6136</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

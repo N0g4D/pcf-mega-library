@@ -11,6 +11,7 @@
     <Name>AddressDisplay</Name>
     <ProjectGuid>0f624c43-50df-4424-9a12-3980b2a4d0e8</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

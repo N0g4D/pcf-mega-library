@@ -11,6 +11,7 @@
     <Name>AlertInline</Name>
     <ProjectGuid>95e2acd1-1ddb-4b91-a99a-9494158c69f3</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

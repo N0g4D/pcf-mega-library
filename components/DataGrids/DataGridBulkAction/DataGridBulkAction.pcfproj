@@ -11,6 +11,7 @@
     <Name>DataGridBulkAction</Name>
     <ProjectGuid>25814c93-bc1d-4fa5-9252-fce82f52474a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

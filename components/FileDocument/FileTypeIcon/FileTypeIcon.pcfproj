@@ -11,6 +11,7 @@
     <Name>FileTypeIcon</Name>
     <ProjectGuid>4f599c17-56f3-4085-b9a9-142d1e5f80fe</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

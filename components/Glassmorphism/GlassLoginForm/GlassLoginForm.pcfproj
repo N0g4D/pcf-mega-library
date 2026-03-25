@@ -11,6 +11,7 @@
     <Name>GlassLoginForm</Name>
     <ProjectGuid>2df0a582-c824-462f-90ba-5e31a85509ad</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

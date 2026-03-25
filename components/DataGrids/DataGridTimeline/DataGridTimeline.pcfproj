@@ -11,6 +11,7 @@
     <Name>DataGridTimeline</Name>
     <ProjectGuid>f9d9491c-d6a6-4918-a5b3-8d58a0f43c4d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

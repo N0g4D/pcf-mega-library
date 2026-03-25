@@ -11,6 +11,7 @@
     <Name>ThemeSwitcher</Name>
     <ProjectGuid>38286249-ff49-4329-9719-7dd0d295e234</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

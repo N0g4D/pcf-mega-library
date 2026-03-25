@@ -11,6 +11,7 @@
     <Name>DataGridStickyHeader</Name>
     <ProjectGuid>b36e9e63-1ae0-4e7a-b48d-d03d801f2bec</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

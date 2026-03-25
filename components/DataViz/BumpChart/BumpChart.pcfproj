@@ -11,6 +11,7 @@
     <Name>BumpChart</Name>
     <ProjectGuid>3f3b017a-c283-4bf7-a98f-41169bc55045</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

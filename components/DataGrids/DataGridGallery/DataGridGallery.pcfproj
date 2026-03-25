@@ -11,6 +11,7 @@
     <Name>DataGridGallery</Name>
     <ProjectGuid>18c1e203-4ff1-4d17-9eaa-705658c47b12</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>HeatMapCalendar</Name>
     <ProjectGuid>189d3d1a-ef50-4c1f-a555-38c95a92f3dc</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

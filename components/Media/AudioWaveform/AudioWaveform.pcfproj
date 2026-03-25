@@ -11,6 +11,7 @@
     <Name>AudioWaveform</Name>
     <ProjectGuid>a3a083c3-57d3-4840-bd27-e46bc761bdf9</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

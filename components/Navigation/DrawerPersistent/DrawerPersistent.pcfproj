@@ -11,6 +11,7 @@
     <Name>DrawerPersistent</Name>
     <ProjectGuid>d6a60d3a-fd68-473c-980c-48e38d83b471</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

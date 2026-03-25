@@ -11,6 +11,7 @@
     <Name>AccordionNested</Name>
     <ProjectGuid>dd496cd5-c020-450e-a62a-7056e219cce6</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>FunnelWidget</Name>
     <ProjectGuid>c8c1f16a-76b8-4eef-b116-d20d444b850b</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

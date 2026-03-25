@@ -11,6 +11,7 @@
     <Name>SideNavMini</Name>
     <ProjectGuid>c13cb07c-928d-4504-b5b6-2b60a62b5997</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

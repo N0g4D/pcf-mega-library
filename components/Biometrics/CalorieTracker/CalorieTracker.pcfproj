@@ -11,6 +11,7 @@
     <Name>CalorieTracker</Name>
     <ProjectGuid>117bff99-0b07-477d-98ec-3bc618054b18</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

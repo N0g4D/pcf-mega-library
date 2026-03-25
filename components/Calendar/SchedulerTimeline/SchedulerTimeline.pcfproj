@@ -11,6 +11,7 @@
     <Name>SchedulerTimeline</Name>
     <ProjectGuid>32d86069-d1fb-4848-9932-3f2db1b7951c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

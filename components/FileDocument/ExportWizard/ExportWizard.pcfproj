@@ -11,6 +11,7 @@
     <Name>ExportWizard</Name>
     <ProjectGuid>4a12a043-9af0-40cb-91b6-230528dd0f34</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

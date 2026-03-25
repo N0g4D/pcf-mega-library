@@ -11,6 +11,7 @@
     <Name>AspectRatio</Name>
     <ProjectGuid>efc9a387-dafa-4eb2-bcf2-d88e21dfa7eb</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

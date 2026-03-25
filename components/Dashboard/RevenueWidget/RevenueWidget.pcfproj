@@ -11,6 +11,7 @@
     <Name>RevenueWidget</Name>
     <ProjectGuid>6bdf676d-a8f5-4b29-a1b7-5f8df7a36f90</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

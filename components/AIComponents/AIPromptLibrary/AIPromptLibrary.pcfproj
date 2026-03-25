@@ -11,6 +11,7 @@
     <Name>AIPromptLibrary</Name>
     <ProjectGuid>c12a5752-1657-4a5a-b776-6e8687d483ba</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

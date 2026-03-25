@@ -11,6 +11,7 @@
     <Name>CommandBar</Name>
     <ProjectGuid>5f688ad7-2a55-49fd-bdc5-a6aa73dddaa0</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

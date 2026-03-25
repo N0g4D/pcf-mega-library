@@ -11,6 +11,7 @@
     <Name>SearchForm</Name>
     <ProjectGuid>8a7bb290-2650-4083-aaf2-d12a09a8a08d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

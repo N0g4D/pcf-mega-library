@@ -11,6 +11,7 @@
     <Name>TreeSelect</Name>
     <ProjectGuid>bd60647b-97b5-4226-a6aa-1126fbbaf2cc</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

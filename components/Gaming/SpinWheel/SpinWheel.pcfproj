@@ -11,6 +11,7 @@
     <Name>SpinWheel</Name>
     <ProjectGuid>255c3aaf-a2d1-4dee-a391-e00313577acd</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

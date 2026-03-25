@@ -11,6 +11,7 @@
     <Name>AIModelSelector</Name>
     <ProjectGuid>cac5f472-de5a-4dbb-8294-c35b3ff316be</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

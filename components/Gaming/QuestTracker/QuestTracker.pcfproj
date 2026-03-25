@@ -11,6 +11,7 @@
     <Name>QuestTracker</Name>
     <ProjectGuid>c356a562-0bed-4b5a-b805-6023e0510487</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

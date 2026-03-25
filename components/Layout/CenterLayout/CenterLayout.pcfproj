@@ -11,6 +11,7 @@
     <Name>CenterLayout</Name>
     <ProjectGuid>4ecd2b1f-752a-4b0f-bad4-7c6febbfa7d1</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

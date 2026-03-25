@@ -11,6 +11,7 @@
     <Name>ColorSchemeGenerator</Name>
     <ProjectGuid>6c9642f5-9bf4-46c7-9ef1-16b4be421dd4</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

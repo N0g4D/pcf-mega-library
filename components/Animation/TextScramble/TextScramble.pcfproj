@@ -11,6 +11,7 @@
     <Name>TextScramble</Name>
     <ProjectGuid>8903008b-79e5-492b-9a2a-c16e8f5eb7b2</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

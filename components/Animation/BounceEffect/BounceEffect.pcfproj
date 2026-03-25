@@ -11,6 +11,7 @@
     <Name>BounceEffect</Name>
     <ProjectGuid>914ca17a-de2e-4efb-9360-e66bc1674448</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>MessageSearch</Name>
     <ProjectGuid>fa1b6e1a-ab41-4960-b96e-aea59d74c2c8</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

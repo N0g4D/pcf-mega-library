@@ -11,6 +11,7 @@
     <Name>ColorSwatch</Name>
     <ProjectGuid>c16dc15f-68ed-427e-bca0-a9f78ec3fe37</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

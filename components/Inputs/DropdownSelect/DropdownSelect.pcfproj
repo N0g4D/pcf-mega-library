@@ -11,6 +11,7 @@
     <Name>DropdownSelect</Name>
     <ProjectGuid>fe36a50e-c4f7-4883-b7e0-766c2bea9b27</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>MiniGame</Name>
     <ProjectGuid>b64ed576-a67b-4143-ad4a-01d0d976d0cd</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

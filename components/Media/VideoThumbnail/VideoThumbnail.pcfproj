@@ -11,6 +11,7 @@
     <Name>VideoThumbnail</Name>
     <ProjectGuid>38b8841a-533f-4932-85fb-81b376f20b70</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

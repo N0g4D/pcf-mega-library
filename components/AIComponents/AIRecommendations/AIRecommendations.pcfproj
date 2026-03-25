@@ -11,6 +11,7 @@
     <Name>AIRecommendations</Name>
     <ProjectGuid>b98b93f0-5fd9-4579-bb97-1973e0ac1853</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

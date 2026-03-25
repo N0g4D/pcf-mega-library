@@ -11,6 +11,7 @@
     <Name>FileConflict</Name>
     <ProjectGuid>a5ff05c9-e1f8-40e5-8433-8d5b538a7469</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>LoginHistory</Name>
     <ProjectGuid>9425af5d-75da-4798-a2f0-12760736c881</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>QuickReply</Name>
     <ProjectGuid>faa1846a-819e-482d-91ab-293af42f70df</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

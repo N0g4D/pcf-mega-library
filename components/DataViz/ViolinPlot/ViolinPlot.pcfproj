@@ -11,6 +11,7 @@
     <Name>ViolinPlot</Name>
     <ProjectGuid>e4a95dbf-d53f-45a4-ac25-c8f2797f3652</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

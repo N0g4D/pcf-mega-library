@@ -11,6 +11,7 @@
     <Name>BoxPlot</Name>
     <ProjectGuid>5b4447b4-9f37-4f77-9556-4443dbcde01c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

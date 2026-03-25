@@ -11,6 +11,7 @@
     <Name>StickyFooter</Name>
     <ProjectGuid>26af7d1c-195e-4ea6-a9ef-fc41923e2b70</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

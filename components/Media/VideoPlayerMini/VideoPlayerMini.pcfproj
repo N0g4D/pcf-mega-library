@@ -11,6 +11,7 @@
     <Name>VideoPlayerMini</Name>
     <ProjectGuid>5bfe47d3-2817-4c6e-bf72-5b9e92990869</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

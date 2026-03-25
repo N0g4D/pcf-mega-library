@@ -11,6 +11,7 @@
     <Name>BarcodeDisplay</Name>
     <ProjectGuid>e6a0059f-7d51-4b31-bd3f-8a757d162874</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

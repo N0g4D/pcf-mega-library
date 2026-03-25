@@ -11,6 +11,7 @@
     <Name>ReactionPicker</Name>
     <ProjectGuid>1886067e-125a-4349-8ec3-bdb871ce4bbf</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

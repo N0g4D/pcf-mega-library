@@ -11,6 +11,7 @@
     <Name>FilePreview</Name>
     <ProjectGuid>63bdb7aa-251c-4f42-8b98-64f6031e965c</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

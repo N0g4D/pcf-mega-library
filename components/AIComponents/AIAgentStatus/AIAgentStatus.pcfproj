@@ -11,6 +11,7 @@
     <Name>AIAgentStatus</Name>
     <ProjectGuid>c48f0f56-07a2-4bda-861e-7c09b3d191af</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

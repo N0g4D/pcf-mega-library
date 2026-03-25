@@ -11,6 +11,7 @@
     <Name>DockMenu</Name>
     <ProjectGuid>3a94c591-acf8-40cf-9e08-df879ad76064</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

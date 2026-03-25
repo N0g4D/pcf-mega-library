@@ -11,6 +11,7 @@
     <Name>AchievementUnlock</Name>
     <ProjectGuid>af8b524c-4c21-4d19-857b-85b641cdbe00</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

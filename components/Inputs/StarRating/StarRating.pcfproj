@@ -11,6 +11,7 @@
     <Name>StarRating</Name>
     <ProjectGuid>fb628215-11bf-46f1-9473-086ff3a32d4a</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

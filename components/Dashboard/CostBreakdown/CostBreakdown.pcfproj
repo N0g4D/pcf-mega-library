@@ -11,6 +11,7 @@
     <Name>CostBreakdown</Name>
     <ProjectGuid>682005e8-6835-412f-811d-6482798306b6</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

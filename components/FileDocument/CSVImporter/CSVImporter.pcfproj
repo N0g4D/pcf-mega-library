@@ -11,6 +11,7 @@
     <Name>CSVImporter</Name>
     <ProjectGuid>5bf04e1f-bb03-4811-83db-a6c08a8e4049</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

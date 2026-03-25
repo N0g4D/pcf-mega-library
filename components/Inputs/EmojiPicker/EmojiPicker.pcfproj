@@ -11,6 +11,7 @@
     <Name>EmojiPicker</Name>
     <ProjectGuid>969929c0-7972-4664-9ae7-bcdba23bfdbc</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>DataGridColumnChooser</Name>
     <ProjectGuid>3db47f49-cf9c-473c-ac34-14bf108bb86f</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

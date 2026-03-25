@@ -11,6 +11,7 @@
     <Name>FilterBuilder</Name>
     <ProjectGuid>ca388039-676c-421e-9cd5-bcec67366160</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

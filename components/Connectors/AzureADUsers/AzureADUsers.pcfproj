@@ -11,6 +11,7 @@
     <Name>AzureADUsers</Name>
     <ProjectGuid>b0bfa75e-0273-4a8f-bdea-28a37a5a91b6</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

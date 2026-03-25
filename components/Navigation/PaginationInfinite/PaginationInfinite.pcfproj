@@ -11,6 +11,7 @@
     <Name>PaginationInfinite</Name>
     <ProjectGuid>4d768a0d-b0b1-4a91-90a1-f69ff36041e8</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

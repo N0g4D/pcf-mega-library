@@ -11,6 +11,7 @@
     <Name>PostureAlert</Name>
     <ProjectGuid>981db4ff-a360-4cf7-996c-5af7374692d0</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

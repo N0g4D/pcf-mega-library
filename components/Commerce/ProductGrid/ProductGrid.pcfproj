@@ -11,6 +11,7 @@
     <Name>ProductGrid</Name>
     <ProjectGuid>f8771f18-9894-4df5-8530-5892288fdd0e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

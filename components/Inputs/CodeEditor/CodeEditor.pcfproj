@@ -11,6 +11,7 @@
     <Name>CodeEditor</Name>
     <ProjectGuid>ce9ee411-cc47-41a8-9fcd-2f6f038f8923</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>CalendarWidget</Name>
     <ProjectGuid>2ae412d3-2d59-4807-84ba-67b3dae7fc7e</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

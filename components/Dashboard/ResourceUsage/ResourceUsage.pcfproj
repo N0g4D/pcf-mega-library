@@ -11,6 +11,7 @@
     <Name>ResourceUsage</Name>
     <ProjectGuid>a57ededa-853e-4d0b-95be-3b72a4fdcc5d</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>FileEncryption</Name>
     <ProjectGuid>e7c18474-b7f4-49ff-8e0f-bd72bef252c4</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

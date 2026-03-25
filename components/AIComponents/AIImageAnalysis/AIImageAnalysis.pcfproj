@@ -11,6 +11,7 @@
     <Name>AIImageAnalysis</Name>
     <ProjectGuid>39ef9860-5d6e-4f96-aed3-96cfe73d09a2</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

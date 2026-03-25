@@ -11,6 +11,7 @@
     <Name>MarimarekkoChart</Name>
     <ProjectGuid>6405d124-cb7e-4357-8328-62165fdb24ac</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

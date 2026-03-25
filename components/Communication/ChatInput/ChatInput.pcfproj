@@ -11,6 +11,7 @@
     <Name>ChatInput</Name>
     <ProjectGuid>1a2af508-2303-4585-9c53-59e7bde32216</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

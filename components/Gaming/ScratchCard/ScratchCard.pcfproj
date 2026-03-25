@@ -11,6 +11,7 @@
     <Name>ScratchCard</Name>
     <ProjectGuid>e3f14074-f748-4ff4-9396-1d93eb8cd3ea</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

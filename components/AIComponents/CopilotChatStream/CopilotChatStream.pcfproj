@@ -11,6 +11,7 @@
     <Name>CopilotChatStream</Name>
     <ProjectGuid>a5baea16-77ce-4dea-be7c-201dd03ce1b8</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

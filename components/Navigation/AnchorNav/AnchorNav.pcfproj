@@ -11,6 +11,7 @@
     <Name>AnchorNav</Name>
     <ProjectGuid>7cea2bda-631e-4652-9f1f-02725fbaae77</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>

@@ -11,6 +11,7 @@
     <Name>BiometricStatus</Name>
     <ProjectGuid>ef0461a2-d84b-4f91-a953-ddd8f0bd4dad</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
+    <RunNpmInstall>false</RunNpmInstall>
   </PropertyGroup>
 
   <PropertyGroup>
